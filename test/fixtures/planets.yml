@@ -1,0 +1,425 @@
+utapau:
+  name: Utapau
+  diameter: '12900'
+  rotation_period: '27'
+  orbital_period: '351'
+  gravity: 1 standard
+  population: '95000000'
+  climate: temperate, arid, windy
+  terrain: scrublands, savanna, canyons, sinkholes
+  surface_water: '0.9'
+
+mustafar:
+  name: Mustafar
+  diameter: '4200'
+  rotation_period: '36'
+  orbital_period: '412'
+  gravity: 1 standard
+  population: '20000'
+  climate: hot
+  terrain: volcanoes, lava rivers, mountains, caves
+  surface_water: '0'
+
+kashyyyk:
+  name: Kashyyyk
+  diameter: '12765'
+  rotation_period: '26'
+  orbital_period: '381'
+  gravity: 1 standard
+  population: '45000000'
+  climate: tropical
+  terrain: jungle, forests, lakes, rivers
+  surface_water: '60'
+
+polis-massa:
+  name: Polis Massa
+  diameter: '0'
+  rotation_period: '24'
+  orbital_period: '590'
+  gravity: 0.56 standard
+  population: '1000000'
+  climate: 'artificial temperate '
+  terrain: airless asteroid
+  surface_water: '0'
+
+mygeeto:
+  name: Mygeeto
+  diameter: '10088'
+  rotation_period: '12'
+  orbital_period: '167'
+  gravity: 1 standard
+  population: '19000000'
+  climate: frigid
+  terrain: glaciers, mountains, ice canyons
+
+felucia:
+  name: Felucia
+  diameter: '9100'
+  rotation_period: '34'
+  orbital_period: '231'
+  gravity: 0.75 standard
+  population: '8500000'
+  climate: hot, humid
+  terrain: fungus forests
+
+cato-neimoidia:
+  name: Cato Neimoidia
+  diameter: '0'
+  rotation_period: '25'
+  orbital_period: '278'
+  gravity: 1 standard
+  population: '10000000'
+  climate: temperate, moist
+  terrain: mountains, fields, forests, rock arches
+
+saleucami:
+  name: Saleucami
+  diameter: '14920'
+  rotation_period: '26'
+  orbital_period: '392'
+  population: '1400000000'
+  climate: hot
+  terrain: caves, desert, mountains, volcanoes
+
+stewjon:
+  name: Stewjon
+  diameter: '0'
+  gravity: 1 standard
+  climate: temperate
+  terrain: grass
+
+eriadu:
+  name: Eriadu
+  diameter: '13490'
+  rotation_period: '24'
+  orbital_period: '360'
+  gravity: 1 standard
+  population: '22000000000'
+  climate: polluted
+  terrain: cityscape
+
+corellia:
+  name: Corellia
+  diameter: '11000'
+  rotation_period: '25'
+  orbital_period: '329'
+  gravity: 1 standard
+  population: '3000000000'
+  climate: temperate
+  terrain: plains, urban, hills, forests
+  surface_water: '70'
+
+rodia:
+  name: Rodia
+  diameter: '7549'
+  rotation_period: '29'
+  orbital_period: '305'
+  gravity: 1 standard
+  population: '1300000000'
+  climate: hot
+  terrain: jungles, oceans, urban, swamps
+  surface_water: '60'
+
+nal-hutta:
+  name: Nal Hutta
+  diameter: '12150'
+  rotation_period: '87'
+  orbital_period: '413'
+  gravity: 1 standard
+  population: '7000000000'
+  climate: temperate
+  terrain: urban, oceans, swamps, bogs
+
+dantooine:
+  name: Dantooine
+  diameter: '9830'
+  rotation_period: '25'
+  orbital_period: '378'
+  gravity: 1 standard
+  population: '1000'
+  climate: temperate
+  terrain: oceans, savannas, mountains, grasslands
+
+bestine-iv:
+  name: Bestine IV
+  diameter: '6400'
+  rotation_period: '26'
+  orbital_period: '680'
+  population: '62000000'
+  climate: temperate
+  terrain: rocky islands, oceans
+  surface_water: '98'
+
+ord-mantell:
+  name: Ord Mantell
+  diameter: '14050'
+  rotation_period: '26'
+  orbital_period: '334'
+  gravity: 1 standard
+  population: '4000000000'
+  climate: temperate
+  terrain: plains, seas, mesas
+  surface_water: '10'
+
+trandosha:
+  name: Trandosha
+  diameter: '0'
+  rotation_period: '25'
+  orbital_period: '371'
+  gravity: 0.62 standard
+  population: '42000000'
+  climate: arid
+  terrain: mountains, seas, grasslands, deserts
+
+socorro:
+  name: Socorro
+  diameter: '0'
+  rotation_period: '20'
+  orbital_period: '326'
+  gravity: 1 standard
+  population: '300000000'
+  climate: arid
+  terrain: deserts, mountains
+
+mon-cala:
+  name: Mon Cala
+  diameter: '11030'
+  rotation_period: '21'
+  orbital_period: '398'
+  gravity: '1'
+  population: '27000000000'
+  climate: temperate
+  terrain: oceans, reefs, islands
+  surface_water: '100'
+
+chandrila:
+  name: Chandrila
+  diameter: '13500'
+  rotation_period: '20'
+  orbital_period: '368'
+  gravity: '1'
+  population: '1200000000'
+  climate: temperate
+  terrain: plains, forests
+  surface_water: '40'
+
+sullust:
+  name: Sullust
+  diameter: '12780'
+  rotation_period: '20'
+  orbital_period: '263'
+  gravity: '1'
+  population: '18500000000'
+  climate: superheated
+  terrain: mountains, volcanoes, rocky deserts
+  surface_water: '5'
+
+toydaria:
+  name: Toydaria
+  diameter: '7900'
+  rotation_period: '21'
+  orbital_period: '184'
+  gravity: '1'
+  population: '11000000'
+  climate: temperate
+  terrain: swamps, lakes
+
+malastare:
+  name: Malastare
+  diameter: '18880'
+  rotation_period: '26'
+  orbital_period: '201'
+  gravity: '1.56'
+  population: '2000000000'
+  climate: arid, temperate, tropical
+  terrain: swamps, deserts, jungles, mountains
+
+dathomir:
+  name: Dathomir
+  diameter: '10480'
+  rotation_period: '24'
+  orbital_period: '491'
+  gravity: '0.9'
+  population: '5200'
+  climate: temperate
+  terrain: forests, deserts, savannas
+
+ryloth:
+  name: Ryloth
+  diameter: '10600'
+  rotation_period: '30'
+  orbital_period: '305'
+  gravity: '1'
+  population: '1500000000'
+  climate: temperate, arid, subartic
+  terrain: mountains, valleys, deserts, tundra
+  surface_water: '5'
+
+aleen-minor:
+  name: Aleen Minor
+
+vulpter:
+  name: Vulpter
+  diameter: '14900'
+  rotation_period: '22'
+  orbital_period: '391'
+  gravity: '1'
+  population: '421000000'
+  climate: temperate, artic
+  terrain: urban, barren
+
+troiken:
+  name: Troiken
+  terrain: desert, tundra, rainforests, mountains
+
+tund:
+  name: Tund
+  diameter: '12190'
+  rotation_period: '48'
+  orbital_period: '1770'
+  population: '0'
+  terrain: barren, ash
+
+haruun-kal:
+  name: Haruun Kal
+  diameter: '10120'
+  rotation_period: '25'
+  orbital_period: '383'
+  gravity: '0.98'
+  population: '705300'
+  climate: temperate
+  terrain: toxic cloudsea, plateaus, volcanoes
+
+cerea:
+  name: Cerea
+  rotation_period: '27'
+  orbital_period: '386'
+  gravity: '1'
+  population: '450000000'
+  climate: temperate
+  terrain: verdant
+  surface_water: '20'
+
+glee-anselm:
+  name: Glee Anselm
+  diameter: '15600'
+  rotation_period: '33'
+  orbital_period: '206'
+  gravity: '1'
+  population: '500000000'
+  climate: tropical, temperate
+  terrain: lakes, islands, swamps, seas
+  surface_water: '80'
+
+iridonia:
+  name: Iridonia
+  rotation_period: '29'
+  orbital_period: '413'
+  terrain: rocky canyons, acid pools
+
+tholoth:
+  name: Tholoth
+
+iktotch:
+  name: Iktotch
+  rotation_period: '22'
+  orbital_period: '481'
+  gravity: '1'
+  climate: arid, rocky, windy
+  terrain: rocky
+
+quermia:
+  name: Quermia
+
+dorin:
+  name: Dorin
+  diameter: '13400'
+  rotation_period: '22'
+  orbital_period: '409'
+  gravity: '1'
+  climate: temperate
+
+champala:
+  name: Champala
+  rotation_period: '27'
+  orbital_period: '318'
+  gravity: '1'
+  population: '3500000000'
+  climate: temperate
+  terrain: oceans, rainforests, plateaus
+
+mirial:
+  name: Mirial
+  terrain: deserts
+
+serenno:
+  name: Serenno
+  terrain: rainforests, rivers, mountains
+
+concord-dawn:
+  name: Concord Dawn
+  terrain: jungles, forests, deserts
+
+zolan:
+  name: Zolan
+
+ojom:
+  name: Ojom
+  population: '500000000'
+  climate: frigid
+  terrain: oceans, glaciers
+  surface_water: '100'
+
+skako:
+  name: Skako
+  rotation_period: '27'
+  orbital_period: '384'
+  gravity: '1'
+  population: '500000000000'
+  climate: temperate
+  terrain: urban, vines
+
+muunilinst:
+  name: Muunilinst
+  diameter: '13800'
+  rotation_period: '28'
+  orbital_period: '412'
+  gravity: '1'
+  population: '5000000000'
+  climate: temperate
+  terrain: plains, forests, hills, mountains
+  surface_water: '25'
+
+shili:
+  name: Shili
+  gravity: '1'
+  climate: temperate
+  terrain: cities, savannahs, seas, plains
+
+kalee:
+  name: Kalee
+  diameter: '13850'
+  rotation_period: '23'
+  orbital_period: '378'
+  gravity: '1'
+  population: '4000000000'
+  climate: arid, temperate, tropical
+  terrain: rainforests, cliffs, canyons, seas
+
+umbara:
+  name: Umbara
+
+tatooine:
+  name: Tatooine
+  diameter: '10465'
+  rotation_period: '23'
+  orbital_period: '304'
+  gravity: 1 standard
+  population: '200000'
+  climate: arid
+  terrain: desert
+  surface_water: '1'
+
+jakku:
+  name: Jakku
+  terrain: deserts
