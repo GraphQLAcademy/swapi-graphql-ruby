@@ -8,6 +8,8 @@ utapau:
   climate: temperate, arid, windy
   terrain: scrublands, savanna, canyons, sinkholes
   surface_water: '0.9'
+  created_at: '2014-12-10T12:49:01.491000Z'
+  updated_at: '2014-12-20T20:58:18.439000Z'
 
 mustafar:
   name: Mustafar
@@ -19,6 +21,8 @@ mustafar:
   climate: hot
   terrain: volcanoes, lava rivers, mountains, caves
   surface_water: '0'
+  created_at: '2014-12-10T12:50:16.526000Z'
+  updated_at: '2014-12-20T20:58:18.440000Z'
 
 kashyyyk:
   name: Kashyyyk
@@ -30,6 +34,8 @@ kashyyyk:
   climate: tropical
   terrain: jungle, forests, lakes, rivers
   surface_water: '60'
+  created_at: '2014-12-10T13:32:00.124000Z'
+  updated_at: '2014-12-20T20:58:18.442000Z'
 
 polis-massa:
   name: Polis Massa
@@ -41,6 +47,8 @@ polis-massa:
   climate: 'artificial temperate '
   terrain: airless asteroid
   surface_water: '0'
+  created_at: '2014-12-10T13:33:46.405000Z'
+  updated_at: '2014-12-20T20:58:18.444000Z'
 
 mygeeto:
   name: Mygeeto
@@ -51,6 +59,8 @@ mygeeto:
   population: '19000000'
   climate: frigid
   terrain: glaciers, mountains, ice canyons
+  created_at: '2014-12-10T13:43:39.139000Z'
+  updated_at: '2014-12-20T20:58:18.446000Z'
 
 felucia:
   name: Felucia
@@ -61,6 +71,8 @@ felucia:
   population: '8500000'
   climate: hot, humid
   terrain: fungus forests
+  created_at: '2014-12-10T13:44:50.397000Z'
+  updated_at: '2014-12-20T20:58:18.447000Z'
 
 cato-neimoidia:
   name: Cato Neimoidia
@@ -71,6 +83,8 @@ cato-neimoidia:
   population: '10000000'
   climate: temperate, moist
   terrain: mountains, fields, forests, rock arches
+  created_at: '2014-12-10T13:46:28.704000Z'
+  updated_at: '2014-12-20T20:58:18.449000Z'
 
 saleucami:
   name: Saleucami
@@ -80,6 +94,8 @@ saleucami:
   population: '1400000000'
   climate: hot
   terrain: caves, desert, mountains, volcanoes
+  created_at: '2014-12-10T13:47:46.874000Z'
+  updated_at: '2014-12-20T20:58:18.450000Z'
 
 stewjon:
   name: Stewjon
@@ -87,6 +103,8 @@ stewjon:
   gravity: 1 standard
   climate: temperate
   terrain: grass
+  created_at: '2014-12-10T16:16:26.566000Z'
+  updated_at: '2014-12-20T20:58:18.452000Z'
 
 eriadu:
   name: Eriadu
@@ -97,6 +115,8 @@ eriadu:
   population: '22000000000'
   climate: polluted
   terrain: cityscape
+  created_at: '2014-12-10T16:26:54.384000Z'
+  updated_at: '2014-12-20T20:58:18.454000Z'
 
 corellia:
   name: Corellia
@@ -108,6 +128,8 @@ corellia:
   climate: temperate
   terrain: plains, urban, hills, forests
   surface_water: '70'
+  created_at: '2014-12-10T16:49:12.453000Z'
+  updated_at: '2014-12-20T20:58:18.456000Z'
 
 rodia:
   name: Rodia
@@ -119,6 +141,8 @@ rodia:
   climate: hot
   terrain: jungles, oceans, urban, swamps
   surface_water: '60'
+  created_at: '2014-12-10T17:03:28.110000Z'
+  updated_at: '2014-12-20T20:58:18.458000Z'
 
 nal-hutta:
   name: Nal Hutta
@@ -129,6 +153,8 @@ nal-hutta:
   population: '7000000000'
   climate: temperate
   terrain: urban, oceans, swamps, bogs
+  created_at: '2014-12-10T17:11:29.452000Z'
+  updated_at: '2014-12-20T20:58:18.460000Z'
 
 dantooine:
   name: Dantooine
@@ -139,6 +165,8 @@ dantooine:
   population: '1000'
   climate: temperate
   terrain: oceans, savannas, mountains, grasslands
+  created_at: '2014-12-10T17:23:29.896000Z'
+  updated_at: '2014-12-20T20:58:18.461000Z'
 
 bestine-iv:
   name: Bestine IV
@@ -149,6 +177,8 @@ bestine-iv:
   climate: temperate
   terrain: rocky islands, oceans
   surface_water: '98'
+  created_at: '2014-12-12T11:16:55.078000Z'
+  updated_at: '2014-12-20T20:58:18.463000Z'
 
 ord-mantell:
   name: Ord Mantell
@@ -160,6 +190,8 @@ ord-mantell:
   climate: temperate
   terrain: plains, seas, mesas
   surface_water: '10'
+  created_at: '2014-12-15T12:23:41.661000Z'
+  updated_at: '2014-12-20T20:58:18.464000Z'
 
 trandosha:
   name: Trandosha
@@ -170,6 +202,8 @@ trandosha:
   population: '42000000'
   climate: arid
   terrain: mountains, seas, grasslands, deserts
+  created_at: '2014-12-15T12:53:47.695000Z'
+  updated_at: '2014-12-20T20:58:18.468000Z'
 
 socorro:
   name: Socorro
@@ -180,6 +214,8 @@ socorro:
   population: '300000000'
   climate: arid
   terrain: deserts, mountains
+  created_at: '2014-12-15T12:56:31.121000Z'
+  updated_at: '2014-12-20T20:58:18.469000Z'
 
 mon-cala:
   name: Mon Cala
@@ -191,6 +227,8 @@ mon-cala:
   climate: temperate
   terrain: oceans, reefs, islands
   surface_water: '100'
+  created_at: '2014-12-18T11:07:01.792000Z'
+  updated_at: '2014-12-20T20:58:18.471000Z'
 
 chandrila:
   name: Chandrila
@@ -202,6 +240,8 @@ chandrila:
   climate: temperate
   terrain: plains, forests
   surface_water: '40'
+  created_at: '2014-12-18T11:11:51.872000Z'
+  updated_at: '2014-12-20T20:58:18.472000Z'
 
 sullust:
   name: Sullust
@@ -213,6 +253,8 @@ sullust:
   climate: superheated
   terrain: mountains, volcanoes, rocky deserts
   surface_water: '5'
+  created_at: '2014-12-18T11:25:40.243000Z'
+  updated_at: '2014-12-20T20:58:18.474000Z'
 
 toydaria:
   name: Toydaria
@@ -223,6 +265,8 @@ toydaria:
   population: '11000000'
   climate: temperate
   terrain: swamps, lakes
+  created_at: '2014-12-19T17:47:54.403000Z'
+  updated_at: '2014-12-20T20:58:18.476000Z'
 
 malastare:
   name: Malastare
@@ -233,6 +277,8 @@ malastare:
   population: '2000000000'
   climate: arid, temperate, tropical
   terrain: swamps, deserts, jungles, mountains
+  created_at: '2014-12-19T17:52:13.106000Z'
+  updated_at: '2014-12-20T20:58:18.478000Z'
 
 dathomir:
   name: Dathomir
@@ -243,6 +289,8 @@ dathomir:
   population: '5200'
   climate: temperate
   terrain: forests, deserts, savannas
+  created_at: '2014-12-19T18:00:40.142000Z'
+  updated_at: '2014-12-20T20:58:18.480000Z'
 
 ryloth:
   name: Ryloth
@@ -254,9 +302,13 @@ ryloth:
   climate: temperate, arid, subartic
   terrain: mountains, valleys, deserts, tundra
   surface_water: '5'
+  created_at: '2014-12-20T09:46:25.740000Z'
+  updated_at: '2014-12-20T20:58:18.481000Z'
 
 aleen-minor:
   name: Aleen Minor
+  created_at: '2014-12-20T09:52:23.452000Z'
+  updated_at: '2014-12-20T20:58:18.483000Z'
 
 vulpter:
   name: Vulpter
@@ -267,10 +319,14 @@ vulpter:
   population: '421000000'
   climate: temperate, artic
   terrain: urban, barren
+  created_at: '2014-12-20T09:56:58.874000Z'
+  updated_at: '2014-12-20T20:58:18.485000Z'
 
 troiken:
   name: Troiken
   terrain: desert, tundra, rainforests, mountains
+  created_at: '2014-12-20T10:01:37.395000Z'
+  updated_at: '2014-12-20T20:58:18.487000Z'
 
 tund:
   name: Tund
@@ -279,6 +335,8 @@ tund:
   orbital_period: '1770'
   population: '0'
   terrain: barren, ash
+  created_at: '2014-12-20T10:07:29.578000Z'
+  updated_at: '2014-12-20T20:58:18.489000Z'
 
 haruun-kal:
   name: Haruun Kal
@@ -289,6 +347,8 @@ haruun-kal:
   population: '705300'
   climate: temperate
   terrain: toxic cloudsea, plateaus, volcanoes
+  created_at: '2014-12-20T10:12:28.980000Z'
+  updated_at: '2014-12-20T20:58:18.491000Z'
 
 cerea:
   name: Cerea
@@ -299,6 +359,8 @@ cerea:
   climate: temperate
   terrain: verdant
   surface_water: '20'
+  created_at: '2014-12-20T10:14:48.178000Z'
+  updated_at: '2014-12-20T20:58:18.493000Z'
 
 glee-anselm:
   name: Glee Anselm
@@ -310,15 +372,21 @@ glee-anselm:
   climate: tropical, temperate
   terrain: lakes, islands, swamps, seas
   surface_water: '80'
+  created_at: '2014-12-20T10:18:26.110000Z'
+  updated_at: '2014-12-20T20:58:18.495000Z'
 
 iridonia:
   name: Iridonia
   rotation_period: '29'
   orbital_period: '413'
   terrain: rocky canyons, acid pools
+  created_at: '2014-12-20T10:26:05.788000Z'
+  updated_at: '2014-12-20T20:58:18.497000Z'
 
 tholoth:
   name: Tholoth
+  created_at: '2014-12-20T10:28:31.117000Z'
+  updated_at: '2014-12-20T20:58:18.498000Z'
 
 iktotch:
   name: Iktotch
@@ -327,9 +395,13 @@ iktotch:
   gravity: '1'
   climate: arid, rocky, windy
   terrain: rocky
+  created_at: '2014-12-20T10:31:32.413000Z'
+  updated_at: '2014-12-20T20:58:18.500000Z'
 
 quermia:
   name: Quermia
+  created_at: '2014-12-20T10:34:08.249000Z'
+  updated_at: '2014-12-20T20:58:18.502000Z'
 
 dorin:
   name: Dorin
@@ -338,6 +410,8 @@ dorin:
   orbital_period: '409'
   gravity: '1'
   climate: temperate
+  created_at: '2014-12-20T10:48:36.141000Z'
+  updated_at: '2014-12-20T20:58:18.504000Z'
 
 champala:
   name: Champala
@@ -347,21 +421,31 @@ champala:
   population: '3500000000'
   climate: temperate
   terrain: oceans, rainforests, plateaus
+  created_at: '2014-12-20T10:52:51.524000Z'
+  updated_at: '2014-12-20T20:58:18.506000Z'
 
 mirial:
   name: Mirial
   terrain: deserts
+  created_at: '2014-12-20T16:44:46.318000Z'
+  updated_at: '2014-12-20T20:58:18.508000Z'
 
 serenno:
   name: Serenno
   terrain: rainforests, rivers, mountains
+  created_at: '2014-12-20T16:52:13.357000Z'
+  updated_at: '2014-12-20T20:58:18.510000Z'
 
 concord-dawn:
   name: Concord Dawn
   terrain: jungles, forests, deserts
+  created_at: '2014-12-20T16:54:39.909000Z'
+  updated_at: '2014-12-20T20:58:18.512000Z'
 
 zolan:
   name: Zolan
+  created_at: '2014-12-20T16:56:37.250000Z'
+  updated_at: '2014-12-20T20:58:18.514000Z'
 
 ojom:
   name: Ojom
@@ -369,6 +453,8 @@ ojom:
   climate: frigid
   terrain: oceans, glaciers
   surface_water: '100'
+  created_at: '2014-12-20T17:27:41.286000Z'
+  updated_at: '2014-12-20T20:58:18.516000Z'
 
 skako:
   name: Skako
@@ -378,6 +464,8 @@ skako:
   population: '500000000000'
   climate: temperate
   terrain: urban, vines
+  created_at: '2014-12-20T17:50:47.864000Z'
+  updated_at: '2014-12-20T20:58:18.517000Z'
 
 muunilinst:
   name: Muunilinst
@@ -389,12 +477,16 @@ muunilinst:
   climate: temperate
   terrain: plains, forests, hills, mountains
   surface_water: '25'
+  created_at: '2014-12-20T17:57:47.420000Z'
+  updated_at: '2014-12-20T20:58:18.519000Z'
 
 shili:
   name: Shili
   gravity: '1'
   climate: temperate
   terrain: cities, savannahs, seas, plains
+  created_at: '2014-12-20T18:43:14.049000Z'
+  updated_at: '2014-12-20T20:58:18.521000Z'
 
 kalee:
   name: Kalee
@@ -405,9 +497,13 @@ kalee:
   population: '4000000000'
   climate: arid, temperate, tropical
   terrain: rainforests, cliffs, canyons, seas
+  created_at: '2014-12-20T19:43:51.278000Z'
+  updated_at: '2014-12-20T20:58:18.523000Z'
 
 umbara:
   name: Umbara
+  created_at: '2014-12-20T20:18:36.256000Z'
+  updated_at: '2014-12-20T20:58:18.525000Z'
 
 tatooine:
   name: Tatooine
@@ -419,7 +515,11 @@ tatooine:
   climate: arid
   terrain: desert
   surface_water: '1'
+  created_at: '2014-12-09T13:50:49.641000Z'
+  updated_at: '2014-12-21T20:48:04.175778Z'
 
 jakku:
   name: Jakku
   terrain: deserts
+  created_at: '2015-04-17T06:55:57.556495Z'
+  updated_at: '2015-04-17T06:55:57.556551Z'
