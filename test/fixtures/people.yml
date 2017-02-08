@@ -1,0 +1,1036 @@
+luke-skywalker:
+  name: Luke Skywalker
+  birth_year: 19BBY
+  eye_color: blue
+  gender: male
+  hair_color: blond
+  height: '172'
+  mass: '77'
+  skin_color: fair
+  homeworld: tatooine
+  created_at: '2014-12-09T13:50:51.644000Z'
+  updated_at: '2014-12-20T21:17:56.891000Z'
+
+c-3po:
+  name: C-3PO
+  birth_year: 112BBY
+  eye_color: yellow
+  gender: n/a
+  hair_color: n/a
+  height: '167'
+  mass: '75'
+  skin_color: gold
+  homeworld: tatooine
+  created_at: '2014-12-10T15:10:51.357000Z'
+  updated_at: '2014-12-20T21:17:50.309000Z'
+
+r2-d2:
+  name: R2-D2
+  birth_year: 33BBY
+  eye_color: red
+  gender: n/a
+  hair_color: n/a
+  height: '96'
+  mass: '32'
+  skin_color: white, blue
+  homeworld: naboo
+  created_at: '2014-12-10T15:11:50.376000Z'
+  updated_at: '2014-12-20T21:17:50.311000Z'
+
+darth-vader:
+  name: Darth Vader
+  birth_year: 41.9BBY
+  eye_color: yellow
+  gender: male
+  hair_color: none
+  height: '202'
+  mass: '136'
+  skin_color: white
+  homeworld: tatooine
+  created_at: '2014-12-10T15:18:20.704000Z'
+  updated_at: '2014-12-20T21:17:50.313000Z'
+
+leia-organa:
+  name: Leia Organa
+  birth_year: 19BBY
+  eye_color: brown
+  gender: female
+  hair_color: brown
+  height: '150'
+  mass: '49'
+  skin_color: light
+  homeworld: alderaan
+  created_at: '2014-12-10T15:20:09.791000Z'
+  updated_at: '2014-12-20T21:17:50.315000Z'
+
+owen-lars:
+  name: Owen Lars
+  birth_year: 52BBY
+  eye_color: blue
+  gender: male
+  hair_color: brown, grey
+  height: '178'
+  mass: '120'
+  skin_color: light
+  homeworld: tatooine
+  created_at: '2014-12-10T15:52:14.024000Z'
+  updated_at: '2014-12-20T21:17:50.317000Z'
+
+beru-whitesun-lars:
+  name: Beru Whitesun lars
+  birth_year: 47BBY
+  eye_color: blue
+  gender: female
+  hair_color: brown
+  height: '165'
+  mass: '75'
+  skin_color: light
+  homeworld: tatooine
+  created_at: '2014-12-10T15:53:41.121000Z'
+  updated_at: '2014-12-20T21:17:50.319000Z'
+
+r5-d4:
+  name: R5-D4
+  eye_color: red
+  gender: n/a
+  hair_color: n/a
+  height: '97'
+  mass: '32'
+  skin_color: white, red
+  homeworld: tatooine
+  created_at: '2014-12-10T15:57:50.959000Z'
+  updated_at: '2014-12-20T21:17:50.321000Z'
+
+biggs-darklighter:
+  name: Biggs Darklighter
+  birth_year: 24BBY
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '183'
+  mass: '84'
+  skin_color: light
+  homeworld: tatooine
+  created_at: '2014-12-10T15:59:50.509000Z'
+  updated_at: '2014-12-20T21:17:50.323000Z'
+
+obi-wan-kenobi:
+  name: Obi-Wan Kenobi
+  birth_year: 57BBY
+  eye_color: blue-gray
+  gender: male
+  hair_color: auburn, white
+  height: '182'
+  mass: '77'
+  skin_color: fair
+  homeworld: stewjon
+  created_at: '2014-12-10T16:16:29.192000Z'
+  updated_at: '2014-12-20T21:17:50.325000Z'
+
+anakin-skywalker:
+  name: Anakin Skywalker
+  birth_year: 41.9BBY
+  eye_color: blue
+  gender: male
+  hair_color: blond
+  height: '188'
+  mass: '84'
+  skin_color: fair
+  homeworld: tatooine
+  created_at: '2014-12-10T16:20:44.310000Z'
+  updated_at: '2014-12-20T21:17:50.327000Z'
+
+wilhuff-tarkin:
+  name: Wilhuff Tarkin
+  birth_year: 64BBY
+  eye_color: blue
+  gender: male
+  hair_color: auburn, grey
+  height: '180'
+  skin_color: fair
+  homeworld: eriadu
+  created_at: '2014-12-10T16:26:56.138000Z'
+  updated_at: '2014-12-20T21:17:50.330000Z'
+
+chewbacca:
+  name: Chewbacca
+  birth_year: 200BBY
+  eye_color: blue
+  gender: male
+  hair_color: brown
+  height: '228'
+  mass: '112'
+  homeworld: kashyyyk
+  created_at: '2014-12-10T16:42:45.066000Z'
+  updated_at: '2014-12-20T21:17:50.332000Z'
+
+han-solo:
+  name: Han Solo
+  birth_year: 29BBY
+  eye_color: brown
+  gender: male
+  hair_color: brown
+  height: '180'
+  mass: '80'
+  skin_color: fair
+  homeworld: corellia
+  created_at: '2014-12-10T16:49:14.582000Z'
+  updated_at: '2014-12-20T21:17:50.334000Z'
+
+greedo:
+  name: Greedo
+  birth_year: 44BBY
+  eye_color: black
+  gender: male
+  hair_color: n/a
+  height: '173'
+  mass: '74'
+  skin_color: green
+  homeworld: rodia
+  created_at: '2014-12-10T17:03:30.334000Z'
+  updated_at: '2014-12-20T21:17:50.336000Z'
+
+jabba-desilijic-tiure:
+  name: Jabba Desilijic Tiure
+  birth_year: 600BBY
+  eye_color: orange
+  gender: hermaphrodite
+  hair_color: n/a
+  height: '175'
+  mass: '1,358'
+  skin_color: green-tan, brown
+  homeworld: nal-hutta
+  created_at: '2014-12-10T17:11:31.638000Z'
+  updated_at: '2014-12-20T21:17:50.338000Z'
+
+wedge-antilles:
+  name: Wedge Antilles
+  birth_year: 21BBY
+  eye_color: hazel
+  gender: male
+  hair_color: brown
+  height: '170'
+  mass: '77'
+  skin_color: fair
+  homeworld: corellia
+  created_at: '2014-12-12T11:08:06.469000Z'
+  updated_at: '2014-12-20T21:17:50.341000Z'
+
+jek-tono-porkins:
+  name: Jek Tono Porkins
+  eye_color: blue
+  gender: male
+  hair_color: brown
+  height: '180'
+  mass: '110'
+  skin_color: fair
+  homeworld: bestine-iv
+  created_at: '2014-12-12T11:16:56.569000Z'
+  updated_at: '2014-12-20T21:17:50.343000Z'
+
+yoda:
+  name: Yoda
+  birth_year: 896BBY
+  eye_color: brown
+  gender: male
+  hair_color: white
+  height: '66'
+  mass: '17'
+  skin_color: green
+  created_at: '2014-12-15T12:26:01.042000Z'
+  updated_at: '2014-12-20T21:17:50.345000Z'
+
+palpatine:
+  name: Palpatine
+  birth_year: 82BBY
+  eye_color: yellow
+  gender: male
+  hair_color: grey
+  height: '170'
+  mass: '75'
+  skin_color: pale
+  homeworld: naboo
+  created_at: '2014-12-15T12:48:05.971000Z'
+  updated_at: '2014-12-20T21:17:50.347000Z'
+
+boba-fett:
+  name: Boba Fett
+  birth_year: 31.5BBY
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '183'
+  mass: '78.2'
+  skin_color: fair
+  homeworld: kamino
+  created_at: '2014-12-15T12:49:32.457000Z'
+  updated_at: '2014-12-20T21:17:50.349000Z'
+
+ig-88:
+  name: IG-88
+  birth_year: 15BBY
+  eye_color: red
+  gender: none
+  hair_color: none
+  height: '200'
+  mass: '140'
+  skin_color: metal
+  created_at: '2014-12-15T12:51:10.076000Z'
+  updated_at: '2014-12-20T21:17:50.351000Z'
+
+bossk:
+  name: Bossk
+  birth_year: 53BBY
+  eye_color: red
+  gender: male
+  hair_color: none
+  height: '190'
+  mass: '113'
+  skin_color: green
+  homeworld: trandosha
+  created_at: '2014-12-15T12:53:49.297000Z'
+  updated_at: '2014-12-20T21:17:50.355000Z'
+
+lando-calrissian:
+  name: Lando Calrissian
+  birth_year: 31BBY
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '177'
+  mass: '79'
+  skin_color: dark
+  homeworld: socorro
+  created_at: '2014-12-15T12:56:32.683000Z'
+  updated_at: '2014-12-20T21:17:50.357000Z'
+
+lobot:
+  name: Lobot
+  birth_year: 37BBY
+  eye_color: blue
+  gender: male
+  hair_color: none
+  height: '175'
+  mass: '79'
+  skin_color: light
+  homeworld: bespin
+  created_at: '2014-12-15T13:01:57.178000Z'
+  updated_at: '2014-12-20T21:17:50.359000Z'
+
+ackbar:
+  name: Ackbar
+  birth_year: 41BBY
+  eye_color: orange
+  gender: male
+  hair_color: none
+  height: '180'
+  mass: '83'
+  skin_color: brown mottle
+  homeworld: mon-cala
+  created_at: '2014-12-18T11:07:50.584000Z'
+  updated_at: '2014-12-20T21:17:50.362000Z'
+
+mon-mothma:
+  name: Mon Mothma
+  birth_year: 48BBY
+  eye_color: blue
+  gender: female
+  hair_color: auburn
+  height: '150'
+  skin_color: fair
+  homeworld: chandrila
+  created_at: '2014-12-18T11:12:38.895000Z'
+  updated_at: '2014-12-20T21:17:50.364000Z'
+
+arvel-crynyd:
+  name: Arvel Crynyd
+  eye_color: brown
+  gender: male
+  hair_color: brown
+  skin_color: fair
+  created_at: '2014-12-18T11:16:33.020000Z'
+  updated_at: '2014-12-20T21:17:50.367000Z'
+
+wicket-systri-warrick:
+  name: Wicket Systri Warrick
+  birth_year: 8BBY
+  eye_color: brown
+  gender: male
+  hair_color: brown
+  height: '88'
+  mass: '20'
+  skin_color: brown
+  homeworld: endor
+  created_at: '2014-12-18T11:21:58.954000Z'
+  updated_at: '2014-12-20T21:17:50.369000Z'
+
+nien-nunb:
+  name: Nien Nunb
+  eye_color: black
+  gender: male
+  hair_color: none
+  height: '160'
+  mass: '68'
+  skin_color: grey
+  homeworld: sullust
+  created_at: '2014-12-18T11:26:18.541000Z'
+  updated_at: '2014-12-20T21:17:50.371000Z'
+
+qui-gon-jinn:
+  name: Qui-Gon Jinn
+  birth_year: 92BBY
+  eye_color: blue
+  gender: male
+  hair_color: brown
+  height: '193'
+  mass: '89'
+  skin_color: fair
+  created_at: '2014-12-19T16:54:53.618000Z'
+  updated_at: '2014-12-20T21:17:50.375000Z'
+
+nute-gunray:
+  name: Nute Gunray
+  eye_color: red
+  gender: male
+  hair_color: none
+  height: '191'
+  mass: '90'
+  skin_color: mottled green
+  homeworld: cato-neimoidia
+  created_at: '2014-12-19T17:05:57.357000Z'
+  updated_at: '2014-12-20T21:17:50.377000Z'
+
+finis-valorum:
+  name: Finis Valorum
+  birth_year: 91BBY
+  eye_color: blue
+  gender: male
+  hair_color: blond
+  height: '170'
+  skin_color: fair
+  homeworld: coruscant
+  created_at: '2014-12-19T17:21:45.915000Z'
+  updated_at: '2014-12-20T21:17:50.379000Z'
+
+jar-jar-binks:
+  name: Jar Jar Binks
+  birth_year: 52BBY
+  eye_color: orange
+  gender: male
+  hair_color: none
+  height: '196'
+  mass: '66'
+  skin_color: orange
+  homeworld: naboo
+  created_at: '2014-12-19T17:29:32.489000Z'
+  updated_at: '2014-12-20T21:17:50.383000Z'
+
+roos-tarpals:
+  name: Roos Tarpals
+  eye_color: orange
+  gender: male
+  hair_color: none
+  height: '224'
+  mass: '82'
+  skin_color: grey
+  homeworld: naboo
+  created_at: '2014-12-19T17:32:56.741000Z'
+  updated_at: '2014-12-20T21:17:50.385000Z'
+
+rugor-nass:
+  name: Rugor Nass
+  eye_color: orange
+  gender: male
+  hair_color: none
+  height: '206'
+  skin_color: green
+  homeworld: naboo
+  created_at: '2014-12-19T17:33:38.909000Z'
+  updated_at: '2014-12-20T21:17:50.388000Z'
+
+ric-olie:
+  name: Ric Olié
+  eye_color: blue
+  gender: male
+  hair_color: brown
+  height: '183'
+  skin_color: fair
+  homeworld: naboo
+  created_at: '2014-12-19T17:45:01.522000Z'
+  updated_at: '2014-12-20T21:17:50.392000Z'
+
+watto:
+  name: Watto
+  eye_color: yellow
+  gender: male
+  hair_color: black
+  height: '137'
+  skin_color: blue, grey
+  homeworld: toydaria
+  created_at: '2014-12-19T17:48:54.647000Z'
+  updated_at: '2014-12-20T21:17:50.395000Z'
+
+sebulba:
+  name: Sebulba
+  eye_color: orange
+  gender: male
+  hair_color: none
+  height: '112'
+  mass: '40'
+  skin_color: grey, red
+  homeworld: malastare
+  created_at: '2014-12-19T17:53:02.586000Z'
+  updated_at: '2014-12-20T21:17:50.397000Z'
+
+quarsh-panaka:
+  name: Quarsh Panaka
+  birth_year: 62BBY
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '183'
+  skin_color: dark
+  homeworld: naboo
+  created_at: '2014-12-19T17:55:43.348000Z'
+  updated_at: '2014-12-20T21:17:50.399000Z'
+
+shmi-skywalker:
+  name: Shmi Skywalker
+  birth_year: 72BBY
+  eye_color: brown
+  gender: female
+  hair_color: black
+  height: '163'
+  skin_color: fair
+  homeworld: tatooine
+  created_at: '2014-12-19T17:57:41.191000Z'
+  updated_at: '2014-12-20T21:17:50.401000Z'
+
+darth-maul:
+  name: Darth Maul
+  birth_year: 54BBY
+  eye_color: yellow
+  gender: male
+  hair_color: none
+  height: '175'
+  mass: '80'
+  skin_color: red
+  homeworld: dathomir
+  created_at: '2014-12-19T18:00:41.929000Z'
+  updated_at: '2014-12-20T21:17:50.403000Z'
+
+bib-fortuna:
+  name: Bib Fortuna
+  eye_color: pink
+  gender: male
+  hair_color: none
+  height: '180'
+  skin_color: pale
+  homeworld: ryloth
+  created_at: '2014-12-20T09:47:02.512000Z'
+  updated_at: '2014-12-20T21:17:50.407000Z'
+
+ayla-secura:
+  name: Ayla Secura
+  birth_year: 48BBY
+  eye_color: hazel
+  gender: female
+  hair_color: none
+  height: '178'
+  mass: '55'
+  skin_color: blue
+  homeworld: ryloth
+  created_at: '2014-12-20T09:48:01.172000Z'
+  updated_at: '2014-12-20T21:17:50.409000Z'
+
+dud-bolt:
+  name: Dud Bolt
+  eye_color: yellow
+  gender: male
+  hair_color: none
+  height: '94'
+  mass: '45'
+  skin_color: blue, grey
+  homeworld: vulpter
+  created_at: '2014-12-20T09:57:31.858000Z'
+  updated_at: '2014-12-20T21:17:50.414000Z'
+
+gasgano:
+  name: Gasgano
+  eye_color: black
+  gender: male
+  hair_color: none
+  height: '122'
+  skin_color: white, blue
+  homeworld: troiken
+  created_at: '2014-12-20T10:02:12.223000Z'
+  updated_at: '2014-12-20T21:17:50.416000Z'
+
+ben-quadinaros:
+  name: Ben Quadinaros
+  eye_color: orange
+  gender: male
+  hair_color: none
+  height: '163'
+  mass: '65'
+  skin_color: grey, green, yellow
+  homeworld: tund
+  created_at: '2014-12-20T10:08:33.777000Z'
+  updated_at: '2014-12-20T21:17:50.417000Z'
+
+mace-windu:
+  name: Mace Windu
+  birth_year: 72BBY
+  eye_color: brown
+  gender: male
+  hair_color: none
+  height: '188'
+  mass: '84'
+  skin_color: dark
+  homeworld: haruun-kal
+  created_at: '2014-12-20T10:12:30.846000Z'
+  updated_at: '2014-12-20T21:17:50.420000Z'
+
+ki-adi-mundi:
+  name: Ki-Adi-Mundi
+  birth_year: 92BBY
+  eye_color: yellow
+  gender: male
+  hair_color: white
+  height: '198'
+  mass: '82'
+  skin_color: pale
+  homeworld: cerea
+  created_at: '2014-12-20T10:15:32.293000Z'
+  updated_at: '2014-12-20T21:17:50.422000Z'
+
+kit-fisto:
+  name: Kit Fisto
+  eye_color: black
+  gender: male
+  hair_color: none
+  height: '196'
+  mass: '87'
+  skin_color: green
+  homeworld: glee-anselm
+  created_at: '2014-12-20T10:18:57.202000Z'
+  updated_at: '2014-12-20T21:17:50.424000Z'
+
+eeth-koth:
+  name: Eeth Koth
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '171'
+  skin_color: brown
+  homeworld: iridonia
+  created_at: '2014-12-20T10:26:47.902000Z'
+  updated_at: '2014-12-20T21:17:50.427000Z'
+
+adi-gallia:
+  name: Adi Gallia
+  eye_color: blue
+  gender: female
+  hair_color: none
+  height: '184'
+  mass: '50'
+  skin_color: dark
+  homeworld: coruscant
+  created_at: '2014-12-20T10:29:11.661000Z'
+  updated_at: '2014-12-20T21:17:50.432000Z'
+
+saesee-tiin:
+  name: Saesee Tiin
+  eye_color: orange
+  gender: male
+  hair_color: none
+  height: '188'
+  skin_color: pale
+  homeworld: iktotch
+  created_at: '2014-12-20T10:32:11.669000Z'
+  updated_at: '2014-12-20T21:17:50.434000Z'
+
+yarael-poof:
+  name: Yarael Poof
+  eye_color: yellow
+  gender: male
+  hair_color: none
+  height: '264'
+  skin_color: white
+  homeworld: quermia
+  created_at: '2014-12-20T10:34:48.725000Z'
+  updated_at: '2014-12-20T21:17:50.437000Z'
+
+plo-koon:
+  name: Plo Koon
+  birth_year: 22BBY
+  eye_color: black
+  gender: male
+  hair_color: none
+  height: '188'
+  mass: '80'
+  skin_color: orange
+  homeworld: dorin
+  created_at: '2014-12-20T10:49:19.859000Z'
+  updated_at: '2014-12-20T21:17:50.439000Z'
+
+mas-amedda:
+  name: Mas Amedda
+  eye_color: blue
+  gender: male
+  hair_color: none
+  height: '196'
+  skin_color: blue
+  homeworld: champala
+  created_at: '2014-12-20T10:53:26.457000Z'
+  updated_at: '2014-12-20T21:17:50.442000Z'
+
+gregar-typho:
+  name: Gregar Typho
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '185'
+  mass: '85'
+  skin_color: dark
+  homeworld: naboo
+  created_at: '2014-12-20T11:10:10.381000Z'
+  updated_at: '2014-12-20T21:17:50.445000Z'
+
+corde:
+  name: Cordé
+  eye_color: brown
+  gender: female
+  hair_color: brown
+  height: '157'
+  skin_color: light
+  homeworld: naboo
+  created_at: '2014-12-20T11:11:39.630000Z'
+  updated_at: '2014-12-20T21:17:50.449000Z'
+
+cliegg-lars:
+  name: Cliegg Lars
+  birth_year: 82BBY
+  eye_color: blue
+  gender: male
+  hair_color: brown
+  height: '183'
+  skin_color: fair
+  homeworld: tatooine
+  created_at: '2014-12-20T15:59:03.958000Z'
+  updated_at: '2014-12-20T21:17:50.451000Z'
+
+poggle-the-lesser:
+  name: Poggle the Lesser
+  eye_color: yellow
+  gender: male
+  hair_color: none
+  height: '183'
+  mass: '80'
+  skin_color: green
+  homeworld: geonosis
+  created_at: '2014-12-20T16:40:43.977000Z'
+  updated_at: '2014-12-20T21:17:50.453000Z'
+
+luminara-unduli:
+  name: Luminara Unduli
+  birth_year: 58BBY
+  eye_color: blue
+  gender: female
+  hair_color: black
+  height: '170'
+  mass: '56.2'
+  skin_color: yellow
+  homeworld: mirial
+  created_at: '2014-12-20T16:45:53.668000Z'
+  updated_at: '2014-12-20T21:17:50.455000Z'
+
+barriss-offee:
+  name: Barriss Offee
+  birth_year: 40BBY
+  eye_color: blue
+  gender: female
+  hair_color: black
+  height: '166'
+  mass: '50'
+  skin_color: yellow
+  homeworld: mirial
+  created_at: '2014-12-20T16:46:40.440000Z'
+  updated_at: '2014-12-20T21:17:50.457000Z'
+
+dorme:
+  name: Dormé
+  eye_color: brown
+  gender: female
+  hair_color: brown
+  height: '165'
+  skin_color: light
+  homeworld: naboo
+  created_at: '2014-12-20T16:49:14.640000Z'
+  updated_at: '2014-12-20T21:17:50.460000Z'
+
+dooku:
+  name: Dooku
+  birth_year: 102BBY
+  eye_color: brown
+  gender: male
+  hair_color: white
+  height: '193'
+  mass: '80'
+  skin_color: fair
+  homeworld: serenno
+  created_at: '2014-12-20T16:52:14.726000Z'
+  updated_at: '2014-12-20T21:17:50.462000Z'
+
+bail-prestor-organa:
+  name: Bail Prestor Organa
+  birth_year: 67BBY
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '191'
+  skin_color: tan
+  homeworld: alderaan
+  created_at: '2014-12-20T16:53:08.575000Z'
+  updated_at: '2014-12-20T21:17:50.463000Z'
+
+jango-fett:
+  name: Jango Fett
+  birth_year: 66BBY
+  eye_color: brown
+  gender: male
+  hair_color: black
+  height: '183'
+  mass: '79'
+  skin_color: tan
+  homeworld: concord-dawn
+  created_at: '2014-12-20T16:54:41.620000Z'
+  updated_at: '2014-12-20T21:17:50.465000Z'
+
+zam-wesell:
+  name: Zam Wesell
+  eye_color: yellow
+  gender: female
+  hair_color: blonde
+  height: '168'
+  mass: '55'
+  skin_color: fair, green, yellow
+  homeworld: zolan
+  created_at: '2014-12-20T16:57:44.471000Z'
+  updated_at: '2014-12-20T21:17:50.468000Z'
+
+dexter-jettster:
+  name: Dexter Jettster
+  eye_color: yellow
+  gender: male
+  hair_color: none
+  height: '198'
+  mass: '102'
+  skin_color: brown
+  homeworld: ojom
+  created_at: '2014-12-20T17:28:27.248000Z'
+  updated_at: '2014-12-20T21:17:50.470000Z'
+
+lama-su:
+  name: Lama Su
+  eye_color: black
+  gender: male
+  hair_color: none
+  height: '229'
+  mass: '88'
+  skin_color: grey
+  homeworld: kamino
+  created_at: '2014-12-20T17:30:50.416000Z'
+  updated_at: '2014-12-20T21:17:50.473000Z'
+
+taun-we:
+  name: Taun We
+  eye_color: black
+  gender: female
+  hair_color: none
+  height: '213'
+  skin_color: grey
+  homeworld: kamino
+  created_at: '2014-12-20T17:31:21.195000Z'
+  updated_at: '2014-12-20T21:17:50.474000Z'
+
+jocasta-nu:
+  name: Jocasta Nu
+  eye_color: blue
+  gender: female
+  hair_color: white
+  height: '167'
+  skin_color: fair
+  homeworld: coruscant
+  created_at: '2014-12-20T17:32:51.996000Z'
+  updated_at: '2014-12-20T21:17:50.476000Z'
+
+ratts-tyerell:
+  name: Ratts Tyerell
+  gender: male
+  hair_color: none
+  height: '79'
+  mass: '15'
+  skin_color: grey, blue
+  homeworld: aleen-minor
+  created_at: '2014-12-20T09:53:15.086000Z'
+  updated_at: '2016-06-30T12:52:19.604868Z'
+
+r4-p17:
+  name: R4-P17
+  eye_color: red, blue
+  gender: female
+  hair_color: none
+  height: '96'
+  skin_color: silver, red
+  created_at: '2014-12-20T17:43:36.409000Z'
+  updated_at: '2014-12-20T21:17:50.478000Z'
+
+wat-tambor:
+  name: Wat Tambor
+  gender: male
+  hair_color: none
+  height: '193'
+  mass: '48'
+  skin_color: green, grey
+  homeworld: skako
+  created_at: '2014-12-20T17:53:52.607000Z'
+  updated_at: '2014-12-20T21:17:50.481000Z'
+
+san-hill:
+  name: San Hill
+  eye_color: gold
+  gender: male
+  hair_color: none
+  height: '191'
+  skin_color: grey
+  homeworld: muunilinst
+  created_at: '2014-12-20T17:58:17.049000Z'
+  updated_at: '2014-12-20T21:17:50.484000Z'
+
+shaak-ti:
+  name: Shaak Ti
+  eye_color: black
+  gender: female
+  hair_color: none
+  height: '178'
+  mass: '57'
+  skin_color: red, blue, white
+  homeworld: shili
+  created_at: '2014-12-20T18:44:01.103000Z'
+  updated_at: '2014-12-20T21:17:50.486000Z'
+
+grievous:
+  name: Grievous
+  eye_color: green, yellow
+  gender: male
+  hair_color: none
+  height: '216'
+  mass: '159'
+  skin_color: brown, white
+  homeworld: kalee
+  created_at: '2014-12-20T19:43:53.348000Z'
+  updated_at: '2014-12-20T21:17:50.488000Z'
+
+tarfful:
+  name: Tarfful
+  eye_color: blue
+  gender: male
+  hair_color: brown
+  height: '234'
+  mass: '136'
+  skin_color: brown
+  homeworld: kashyyyk
+  created_at: '2014-12-20T19:46:34.209000Z'
+  updated_at: '2014-12-20T21:17:50.491000Z'
+
+raymus-antilles:
+  name: Raymus Antilles
+  eye_color: brown
+  gender: male
+  hair_color: brown
+  height: '188'
+  mass: '79'
+  skin_color: light
+  homeworld: alderaan
+  created_at: '2014-12-20T19:49:35.583000Z'
+  updated_at: '2014-12-20T21:17:50.493000Z'
+
+sly-moore:
+  name: Sly Moore
+  eye_color: white
+  gender: female
+  hair_color: none
+  height: '178'
+  mass: '48'
+  skin_color: pale
+  homeworld: umbara
+  created_at: '2014-12-20T20:18:37.619000Z'
+  updated_at: '2014-12-20T21:17:50.496000Z'
+
+tion-medon:
+  name: Tion Medon
+  eye_color: black
+  gender: male
+  hair_color: none
+  height: '206'
+  mass: '80'
+  skin_color: grey
+  homeworld: utapau
+  created_at: '2014-12-20T20:35:04.260000Z'
+  updated_at: '2014-12-20T21:17:50.498000Z'
+
+finn:
+  name: Finn
+  eye_color: dark
+  gender: male
+  hair_color: black
+  skin_color: dark
+  created_at: '2015-04-17T06:52:40.793621Z'
+  updated_at: '2015-04-17T06:52:40.793674Z'
+
+rey:
+  name: Rey
+  eye_color: hazel
+  gender: female
+  hair_color: brown
+  skin_color: light
+  created_at: '2015-04-17T06:54:01.495077Z'
+  updated_at: '2015-04-17T06:54:01.495128Z'
+
+poe-dameron:
+  name: Poe Dameron
+  eye_color: brown
+  gender: male
+  hair_color: brown
+  skin_color: light
+  created_at: '2015-04-17T06:55:21.622786Z'
+  updated_at: '2015-04-17T06:55:21.622835Z'
+
+bb8:
+  name: BB8
+  eye_color: black
+  gender: none
+  hair_color: none
+  skin_color: none
+  created_at: '2015-04-17T06:57:38.061346Z'
+  updated_at: '2015-04-17T06:57:38.061453Z'
+
+captain-phasma:
+  name: Captain Phasma
+  gender: female
+  created_at: '2015-10-13T10:35:39.229823Z'
+  updated_at: '2015-10-13T10:35:39.229894Z'
+
+padme-amidala:
+  name: Padmé Amidala
+  birth_year: 46BBY
+  eye_color: brown
+  gender: female
+  hair_color: brown
+  height: '165'
+  mass: '45'
+  skin_color: light
+  homeworld: naboo
+  created_at: '2014-12-19T17:28:26.926000Z'
+  updated_at: '2016-04-20T17:06:31.502555Z'
