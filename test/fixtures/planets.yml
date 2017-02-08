@@ -1,10 +1,137 @@
+alderaan:
+  name: Alderaan
+  diameter: '12500'
+  rotation_period: '24'
+  orbital_period: '364'
+  gravity: 1 standard
+  population: 2000.0
+  climate: temperate
+  terrain: grasslands, mountains
+  surface_water: '40'
+  created_at: '2014-12-10T11:35:48.479000Z'
+  updated_at: '2014-12-20T20:58:18.420000Z'
+
+yavin-iv:
+  name: Yavin IV
+  diameter: '10200'
+  rotation_period: '24'
+  orbital_period: '4818'
+  gravity: 1 standard
+  population: 0.001
+  climate: temperate, tropical
+  terrain: jungle, rainforests
+  surface_water: '8'
+  created_at: '2014-12-10T11:37:19.144000Z'
+  updated_at: '2014-12-20T20:58:18.421000Z'
+
+hoth:
+  name: Hoth
+  diameter: '7200'
+  rotation_period: '23'
+  orbital_period: '549'
+  gravity: 1.1 standard
+  climate: frozen
+  terrain: tundra, ice caves, mountain ranges
+  surface_water: '100'
+  created_at: '2014-12-10T11:39:13.934000Z'
+  updated_at: '2014-12-20T20:58:18.423000Z'
+
+dagobah:
+  name: Dagobah
+  diameter: '8900'
+  rotation_period: '23'
+  orbital_period: '341'
+  gravity: N/A
+  climate: murky
+  terrain: swamp, jungles
+  surface_water: '8'
+  created_at: '2014-12-10T11:42:22.590000Z'
+  updated_at: '2014-12-20T20:58:18.425000Z'
+
+bespin:
+  name: Bespin
+  diameter: '118000'
+  rotation_period: '12'
+  orbital_period: '5110'
+  gravity: 1.5 (surface), 1 standard (Cloud City)
+  population: 6.0
+  climate: temperate
+  terrain: gas giant
+  surface_water: '0'
+  created_at: '2014-12-10T11:43:55.240000Z'
+  updated_at: '2014-12-20T20:58:18.427000Z'
+
+endor:
+  name: Endor
+  diameter: '4900'
+  rotation_period: '18'
+  orbital_period: '402'
+  gravity: 0.85 standard
+  population: 30.0
+  climate: temperate
+  terrain: forests, mountains, lakes
+  surface_water: '8'
+  created_at: '2014-12-10T11:50:29.349000Z'
+  updated_at: '2014-12-20T20:58:18.429000Z'
+
+naboo:
+  name: Naboo
+  diameter: '12120'
+  rotation_period: '26'
+  orbital_period: '312'
+  gravity: 1 standard
+  population: 4500.0
+  climate: temperate
+  terrain: grassy hills, swamps, forests, mountains
+  surface_water: '12'
+  created_at: '2014-12-10T11:52:31.066000Z'
+  updated_at: '2014-12-20T20:58:18.430000Z'
+
+coruscant:
+  name: Coruscant
+  diameter: '12240'
+  rotation_period: '24'
+  orbital_period: '368'
+  gravity: 1 standard
+  population: 1000000.0
+  climate: temperate
+  terrain: cityscape, mountains
+  created_at: '2014-12-10T11:54:13.921000Z'
+  updated_at: '2014-12-20T20:58:18.432000Z'
+
+kamino:
+  name: Kamino
+  diameter: '19720'
+  rotation_period: '27'
+  orbital_period: '463'
+  gravity: 1 standard
+  population: 1000.0
+  climate: temperate
+  terrain: ocean
+  surface_water: '100'
+  created_at: '2014-12-10T12:45:06.577000Z'
+  updated_at: '2014-12-20T20:58:18.434000Z'
+
+geonosis:
+  name: Geonosis
+  diameter: '11370'
+  rotation_period: '30'
+  orbital_period: '256'
+  gravity: 0.9 standard
+  population: 100000.0
+  climate: temperate, arid
+  terrain: rock, desert, mountain, barren
+  surface_water: '5'
+  created_at: '2014-12-10T12:47:22.350000Z'
+  updated_at: '2014-12-20T20:58:18.437000Z'
+
 utapau:
   name: Utapau
   diameter: '12900'
   rotation_period: '27'
   orbital_period: '351'
   gravity: 1 standard
-  population: '95000000'
+  population: 95.0
   climate: temperate, arid, windy
   terrain: scrublands, savanna, canyons, sinkholes
   surface_water: '0.9'
@@ -17,7 +144,7 @@ mustafar:
   rotation_period: '36'
   orbital_period: '412'
   gravity: 1 standard
-  population: '20000'
+  population: 0.02
   climate: hot
   terrain: volcanoes, lava rivers, mountains, caves
   surface_water: '0'
@@ -30,7 +157,7 @@ kashyyyk:
   rotation_period: '26'
   orbital_period: '381'
   gravity: 1 standard
-  population: '45000000'
+  population: 45.0
   climate: tropical
   terrain: jungle, forests, lakes, rivers
   surface_water: '60'
@@ -43,7 +170,7 @@ polis-massa:
   rotation_period: '24'
   orbital_period: '590'
   gravity: 0.56 standard
-  population: '1000000'
+  population: 1.0
   climate: 'artificial temperate '
   terrain: airless asteroid
   surface_water: '0'
@@ -56,7 +183,7 @@ mygeeto:
   rotation_period: '12'
   orbital_period: '167'
   gravity: 1 standard
-  population: '19000000'
+  population: 19.0
   climate: frigid
   terrain: glaciers, mountains, ice canyons
   created_at: '2014-12-10T13:43:39.139000Z'
@@ -68,7 +195,7 @@ felucia:
   rotation_period: '34'
   orbital_period: '231'
   gravity: 0.75 standard
-  population: '8500000'
+  population: 8.5
   climate: hot, humid
   terrain: fungus forests
   created_at: '2014-12-10T13:44:50.397000Z'
@@ -80,7 +207,7 @@ cato-neimoidia:
   rotation_period: '25'
   orbital_period: '278'
   gravity: 1 standard
-  population: '10000000'
+  population: 10.0
   climate: temperate, moist
   terrain: mountains, fields, forests, rock arches
   created_at: '2014-12-10T13:46:28.704000Z'
@@ -91,7 +218,7 @@ saleucami:
   diameter: '14920'
   rotation_period: '26'
   orbital_period: '392'
-  population: '1400000000'
+  population: 1400.0
   climate: hot
   terrain: caves, desert, mountains, volcanoes
   created_at: '2014-12-10T13:47:46.874000Z'
@@ -112,7 +239,7 @@ eriadu:
   rotation_period: '24'
   orbital_period: '360'
   gravity: 1 standard
-  population: '22000000000'
+  population: 22000.0
   climate: polluted
   terrain: cityscape
   created_at: '2014-12-10T16:26:54.384000Z'
@@ -124,7 +251,7 @@ corellia:
   rotation_period: '25'
   orbital_period: '329'
   gravity: 1 standard
-  population: '3000000000'
+  population: 3000.0
   climate: temperate
   terrain: plains, urban, hills, forests
   surface_water: '70'
@@ -137,7 +264,7 @@ rodia:
   rotation_period: '29'
   orbital_period: '305'
   gravity: 1 standard
-  population: '1300000000'
+  population: 1300.0
   climate: hot
   terrain: jungles, oceans, urban, swamps
   surface_water: '60'
@@ -150,7 +277,7 @@ nal-hutta:
   rotation_period: '87'
   orbital_period: '413'
   gravity: 1 standard
-  population: '7000000000'
+  population: 7000.0
   climate: temperate
   terrain: urban, oceans, swamps, bogs
   created_at: '2014-12-10T17:11:29.452000Z'
@@ -162,7 +289,7 @@ dantooine:
   rotation_period: '25'
   orbital_period: '378'
   gravity: 1 standard
-  population: '1000'
+  population: 0.001
   climate: temperate
   terrain: oceans, savannas, mountains, grasslands
   created_at: '2014-12-10T17:23:29.896000Z'
@@ -173,7 +300,7 @@ bestine-iv:
   diameter: '6400'
   rotation_period: '26'
   orbital_period: '680'
-  population: '62000000'
+  population: 62.0
   climate: temperate
   terrain: rocky islands, oceans
   surface_water: '98'
@@ -186,7 +313,7 @@ ord-mantell:
   rotation_period: '26'
   orbital_period: '334'
   gravity: 1 standard
-  population: '4000000000'
+  population: 4000.0
   climate: temperate
   terrain: plains, seas, mesas
   surface_water: '10'
@@ -199,7 +326,7 @@ trandosha:
   rotation_period: '25'
   orbital_period: '371'
   gravity: 0.62 standard
-  population: '42000000'
+  population: 42.0
   climate: arid
   terrain: mountains, seas, grasslands, deserts
   created_at: '2014-12-15T12:53:47.695000Z'
@@ -211,7 +338,7 @@ socorro:
   rotation_period: '20'
   orbital_period: '326'
   gravity: 1 standard
-  population: '300000000'
+  population: 300.0
   climate: arid
   terrain: deserts, mountains
   created_at: '2014-12-15T12:56:31.121000Z'
@@ -223,7 +350,7 @@ mon-cala:
   rotation_period: '21'
   orbital_period: '398'
   gravity: '1'
-  population: '27000000000'
+  population: 27000.0
   climate: temperate
   terrain: oceans, reefs, islands
   surface_water: '100'
@@ -236,7 +363,7 @@ chandrila:
   rotation_period: '20'
   orbital_period: '368'
   gravity: '1'
-  population: '1200000000'
+  population: 1200.0
   climate: temperate
   terrain: plains, forests
   surface_water: '40'
@@ -249,7 +376,7 @@ sullust:
   rotation_period: '20'
   orbital_period: '263'
   gravity: '1'
-  population: '18500000000'
+  population: 18500.0
   climate: superheated
   terrain: mountains, volcanoes, rocky deserts
   surface_water: '5'
@@ -262,7 +389,7 @@ toydaria:
   rotation_period: '21'
   orbital_period: '184'
   gravity: '1'
-  population: '11000000'
+  population: 11.0
   climate: temperate
   terrain: swamps, lakes
   created_at: '2014-12-19T17:47:54.403000Z'
@@ -274,7 +401,7 @@ malastare:
   rotation_period: '26'
   orbital_period: '201'
   gravity: '1.56'
-  population: '2000000000'
+  population: 2000.0
   climate: arid, temperate, tropical
   terrain: swamps, deserts, jungles, mountains
   created_at: '2014-12-19T17:52:13.106000Z'
@@ -286,7 +413,7 @@ dathomir:
   rotation_period: '24'
   orbital_period: '491'
   gravity: '0.9'
-  population: '5200'
+  population: 0.0052
   climate: temperate
   terrain: forests, deserts, savannas
   created_at: '2014-12-19T18:00:40.142000Z'
@@ -298,7 +425,7 @@ ryloth:
   rotation_period: '30'
   orbital_period: '305'
   gravity: '1'
-  population: '1500000000'
+  population: 1500.0
   climate: temperate, arid, subartic
   terrain: mountains, valleys, deserts, tundra
   surface_water: '5'
@@ -316,7 +443,7 @@ vulpter:
   rotation_period: '22'
   orbital_period: '391'
   gravity: '1'
-  population: '421000000'
+  population: 421.0
   climate: temperate, artic
   terrain: urban, barren
   created_at: '2014-12-20T09:56:58.874000Z'
@@ -333,7 +460,7 @@ tund:
   diameter: '12190'
   rotation_period: '48'
   orbital_period: '1770'
-  population: '0'
+  population: 0.0
   terrain: barren, ash
   created_at: '2014-12-20T10:07:29.578000Z'
   updated_at: '2014-12-20T20:58:18.489000Z'
@@ -344,7 +471,7 @@ haruun-kal:
   rotation_period: '25'
   orbital_period: '383'
   gravity: '0.98'
-  population: '705300'
+  population: 0.7053
   climate: temperate
   terrain: toxic cloudsea, plateaus, volcanoes
   created_at: '2014-12-20T10:12:28.980000Z'
@@ -355,7 +482,7 @@ cerea:
   rotation_period: '27'
   orbital_period: '386'
   gravity: '1'
-  population: '450000000'
+  population: 450.0
   climate: temperate
   terrain: verdant
   surface_water: '20'
@@ -368,7 +495,7 @@ glee-anselm:
   rotation_period: '33'
   orbital_period: '206'
   gravity: '1'
-  population: '500000000'
+  population: 500.0
   climate: tropical, temperate
   terrain: lakes, islands, swamps, seas
   surface_water: '80'
@@ -418,7 +545,7 @@ champala:
   rotation_period: '27'
   orbital_period: '318'
   gravity: '1'
-  population: '3500000000'
+  population: 3500.0
   climate: temperate
   terrain: oceans, rainforests, plateaus
   created_at: '2014-12-20T10:52:51.524000Z'
@@ -449,7 +576,7 @@ zolan:
 
 ojom:
   name: Ojom
-  population: '500000000'
+  population: 500.0
   climate: frigid
   terrain: oceans, glaciers
   surface_water: '100'
@@ -461,7 +588,7 @@ skako:
   rotation_period: '27'
   orbital_period: '384'
   gravity: '1'
-  population: '500000000000'
+  population: 500000.0
   climate: temperate
   terrain: urban, vines
   created_at: '2014-12-20T17:50:47.864000Z'
@@ -473,7 +600,7 @@ muunilinst:
   rotation_period: '28'
   orbital_period: '412'
   gravity: '1'
-  population: '5000000000'
+  population: 5000.0
   climate: temperate
   terrain: plains, forests, hills, mountains
   surface_water: '25'
@@ -494,7 +621,7 @@ kalee:
   rotation_period: '23'
   orbital_period: '378'
   gravity: '1'
-  population: '4000000000'
+  population: 4000.0
   climate: arid, temperate, tropical
   terrain: rainforests, cliffs, canyons, seas
   created_at: '2014-12-20T19:43:51.278000Z'
@@ -511,7 +638,7 @@ tatooine:
   rotation_period: '23'
   orbital_period: '304'
   gravity: 1 standard
-  population: '200000'
+  population: 0.2
   climate: arid
   terrain: desert
   surface_water: '1'
