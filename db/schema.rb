@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170208051339) do
+ActiveRecord::Schema.define(version: 20170208172710) do
 
   create_table "people", force: :cascade do |t|
     t.string   "name"
@@ -39,6 +39,24 @@ ActiveRecord::Schema.define(version: 20170208051339) do
     t.float    "surface_water"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+  end
+
+  create_table "starships", force: :cascade do |t|
+    t.string   "name"
+    t.string   "model"
+    t.string   "starship_class"
+    t.string   "manufacturer"
+    t.float    "cost_in_credits"
+    t.float    "length"
+    t.string   "crew"
+    t.string   "passengers"
+    t.integer  "max_atmosphering_speed"
+    t.float    "hyperdrive_rating"
+    t.integer  "mglt"
+    t.float    "cargo_capacity"
+    t.string   "consumables"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end
