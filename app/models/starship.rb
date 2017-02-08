@@ -1,0 +1,2 @@
+class Starship < ApplicationRecord
+end
