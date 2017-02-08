@@ -10,7 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170208044828) do
+ActiveRecord::Schema.define(version: 20170208051339) do
+
+  create_table "people", force: :cascade do |t|
+    t.string   "name"
+    t.string   "birth_year"
+    t.string   "eye_color"
+    t.string   "gender"
+    t.string   "hair_color"
+    t.integer  "height"
+    t.integer  "mass"
+    t.string   "skin_color"
+    t.integer  "homeworld_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["homeworld_id"], name: "index_people_on_homeworld_id"
+  end
 
   create_table "planets", force: :cascade do |t|
     t.string   "name"
