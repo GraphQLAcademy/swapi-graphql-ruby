@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170209014741) do
+ActiveRecord::Schema.define(version: 20170209173854) do
 
   create_table "people", force: :cascade do |t|
     t.string   "name"
@@ -32,6 +32,13 @@ ActiveRecord::Schema.define(version: 20170209014741) do
     t.integer "person_id",   null: false
     t.index ["person_id"], name: "index_people_starships_on_person_id"
     t.index ["starship_id"], name: "index_people_starships_on_starship_id"
+  end
+
+  create_table "people_vehicles", id: false, force: :cascade do |t|
+    t.integer "vehicle_id", null: false
+    t.integer "person_id",  null: false
+    t.index ["person_id"], name: "index_people_vehicles_on_person_id"
+    t.index ["vehicle_id"], name: "index_people_vehicles_on_vehicle_id"
   end
 
   create_table "planets", force: :cascade do |t|

@@ -67,6 +67,9 @@ snowspeeder:
   passengers: '0'
   cargo_capacity: '10'
   consumables: none
+  pilots:
+  - luke-skywalker
+  - wedge-antilles
   created_at: '2014-12-15T12:22:12Z'
   updated_at: '2014-12-22T18:21:15.623033Z'
 
@@ -108,6 +111,8 @@ at-st:
   passengers: '0'
   cargo_capacity: '200'
   consumables: none
+  pilots:
+  - chewbacca
   created_at: '2014-12-15T12:46:42.384000Z'
   updated_at: '2014-12-22T18:21:15.761584Z'
 
@@ -182,6 +187,9 @@ imperial-speeder-bike:
   passengers: '1'
   cargo_capacity: '4'
   consumables: 1 day
+  pilots:
+  - luke-skywalker
+  - leia-organa
   created_at: '2014-12-18T11:20:04.625000Z'
   updated_at: '2014-12-22T18:21:15.920537Z'
 
@@ -265,6 +273,9 @@ tribubble-bongo:
   crew: '1'
   passengers: '2'
   cargo_capacity: '1600'
+  pilots:
+  - obi-wan-kenobi
+  - qui-gon-jinn
   created_at: '2014-12-19T17:37:37.924000Z'
   updated_at: '2014-12-22T18:21:16.072083Z'
 
@@ -279,6 +290,8 @@ sith-speeder:
   crew: '1'
   passengers: '0'
   cargo_capacity: '2'
+  pilots:
+  - darth-maul
   created_at: '2014-12-20T10:09:56.095000Z'
   updated_at: '2014-12-22T18:21:16.095041Z'
 
@@ -294,6 +307,8 @@ zephyr-g-swoop-bike:
   passengers: '1'
   cargo_capacity: '200'
   consumables: none
+  pilots:
+  - anakin-skywalker
   created_at: '2014-12-20T16:24:16.026000Z'
   updated_at: '2014-12-22T18:21:16.117652Z'
 
@@ -307,6 +322,8 @@ koro-2-exodrive-airspeeder:
   crew: '1'
   passengers: '1'
   cargo_capacity: '80'
+  pilots:
+  - zam-wesell
   created_at: '2014-12-20T17:17:33.526000Z'
   updated_at: '2014-12-22T18:21:16.140018Z'
 
@@ -319,6 +336,8 @@ xj-6-airspeeder:
   max_atmosphering_speed: '720'
   crew: '1'
   passengers: '1'
+  pilots:
+  - anakin-skywalker
   created_at: '2014-12-20T17:19:19.991000Z'
   updated_at: '2014-12-22T18:21:16.150194Z'
 
@@ -360,6 +379,8 @@ tsmeu-6-personal-wheel-bike:
   passengers: '1'
   cargo_capacity: '10'
   consumables: none
+  pilots:
+  - grievous
   created_at: '2014-12-20T19:43:54.870000Z'
   updated_at: '2014-12-22T18:21:16.422662Z'
 
@@ -514,6 +535,8 @@ flitknot-speeder:
   max_atmosphering_speed: '634'
   crew: '1'
   passengers: '0'
+  pilots:
+  - dooku
   created_at: '2014-12-20T18:15:20.312000Z'
   updated_at: '2014-12-22T18:21:16.335005Z'
 
