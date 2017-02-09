@@ -1,0 +1,544 @@
+sand-crawler:
+  name: Sand Crawler
+  model: Digger Crawler
+  manufacturer: Corellia Mining Corporation
+  cost_in_credits: '150000'
+  length: '36.8'
+  vehicle_class: wheeled
+  max_atmosphering_speed: '30'
+  crew: '46'
+  passengers: '30'
+  cargo_capacity: '50000'
+  consumables: 2 months
+  created_at: '2014-12-10T15:36:25.724000Z'
+  updated_at: '2014-12-22T18:21:15.523587Z'
+
+t-16-skyhopper:
+  name: T-16 skyhopper
+  model: T-16 skyhopper
+  manufacturer: Incom Corporation
+  cost_in_credits: '14500'
+  length: '10.4'
+  vehicle_class: repulsorcraft
+  max_atmosphering_speed: '1200'
+  crew: '1'
+  passengers: '1'
+  cargo_capacity: '50'
+  consumables: '0'
+  created_at: '2014-12-10T16:01:52.434000Z'
+  updated_at: '2014-12-22T18:21:15.552614Z'
+
+x-34-landspeeder:
+  name: X-34 landspeeder
+  model: X-34 landspeeder
+  manufacturer: SoroSuub Corporation
+  cost_in_credits: '10550'
+  length: '3.4'
+  vehicle_class: repulsorcraft
+  max_atmosphering_speed: '250'
+  crew: '1'
+  passengers: '1'
+  cargo_capacity: '5'
+  created_at: '2014-12-10T16:13:52.586000Z'
+  updated_at: '2014-12-22T18:21:15.583700Z'
+
+tie-ln-starfighter:
+  name: TIE/LN starfighter
+  model: Twin Ion Engine/Ln Starfighter
+  manufacturer: Sienar Fleet Systems
+  length: '6.4'
+  vehicle_class: starfighter
+  max_atmosphering_speed: '1200'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: '65'
+  consumables: 2 days
+  created_at: '2014-12-10T16:33:52.860000Z'
+  updated_at: '2014-12-22T18:21:15.606149Z'
+
+snowspeeder:
+  name: Snowspeeder
+  model: t-47 airspeeder
+  manufacturer: Incom corporation
+  length: '4.5'
+  vehicle_class: airspeeder
+  max_atmosphering_speed: '650'
+  crew: '2'
+  passengers: '0'
+  cargo_capacity: '10'
+  consumables: none
+  created_at: '2014-12-15T12:22:12Z'
+  updated_at: '2014-12-22T18:21:15.623033Z'
+
+tie-bomber:
+  name: TIE bomber
+  model: TIE/sa bomber
+  manufacturer: Sienar Fleet Systems
+  length: '7.8'
+  vehicle_class: space/planetary bomber
+  max_atmosphering_speed: '850'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: none
+  consumables: 2 days
+  created_at: '2014-12-15T12:33:15.838000Z'
+  updated_at: '2014-12-22T18:21:15.667730Z'
+
+at-at:
+  name: AT-AT
+  model: All Terrain Armored Transport
+  manufacturer: Kuat Drive Yards, Imperial Department of Military Research
+  length: '20'
+  vehicle_class: assault walker
+  max_atmosphering_speed: '60'
+  crew: '5'
+  passengers: '40'
+  cargo_capacity: '1000'
+  created_at: '2014-12-15T12:38:25.937000Z'
+  updated_at: '2014-12-22T18:21:15.714673Z'
+
+at-st:
+  name: AT-ST
+  model: All Terrain Scout Transport
+  manufacturer: Kuat Drive Yards, Imperial Department of Military Research
+  length: '2'
+  vehicle_class: walker
+  max_atmosphering_speed: '90'
+  crew: '2'
+  passengers: '0'
+  cargo_capacity: '200'
+  consumables: none
+  created_at: '2014-12-15T12:46:42.384000Z'
+  updated_at: '2014-12-22T18:21:15.761584Z'
+
+storm-iv-twin-pod-cloud-car:
+  name: Storm IV Twin-Pod cloud car
+  model: Storm IV Twin-Pod
+  manufacturer: Bespin Motors
+  cost_in_credits: '75000'
+  length: '7'
+  vehicle_class: repulsorcraft
+  max_atmosphering_speed: '1500'
+  crew: '2'
+  passengers: '0'
+  cargo_capacity: '10'
+  consumables: 1 day
+  created_at: '2014-12-15T12:58:50.530000Z'
+  updated_at: '2014-12-22T18:21:15.783232Z'
+
+sail-barge:
+  name: Sail barge
+  model: Modified Luxury Sail Barge
+  manufacturer: Ubrikkian Industries Custom Vehicle Division
+  cost_in_credits: '285000'
+  length: '30'
+  vehicle_class: sail barge
+  max_atmosphering_speed: '100'
+  crew: '26'
+  passengers: '500'
+  cargo_capacity: '2000000'
+  consumables: Live food tanks
+  created_at: '2014-12-18T10:44:14.217000Z'
+  updated_at: '2014-12-22T18:21:15.807906Z'
+
+bantha-ii-cargo-skiff:
+  name: Bantha-II cargo skiff
+  model: Bantha-II
+  manufacturer: Ubrikkian Industries
+  cost_in_credits: '8000'
+  length: '9.5'
+  vehicle_class: repulsorcraft cargo skiff
+  max_atmosphering_speed: '250'
+  crew: '5'
+  passengers: '16'
+  cargo_capacity: '135000'
+  consumables: 1 day
+  created_at: '2014-12-18T10:48:03.208000Z'
+  updated_at: '2014-12-22T18:21:15.845988Z'
+
+tie-in-interceptor:
+  name: TIE/IN interceptor
+  model: Twin Ion Engine Interceptor
+  manufacturer: Sienar Fleet Systems
+  length: '9.6'
+  vehicle_class: starfighter
+  max_atmosphering_speed: '1250'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: '75'
+  consumables: 2 days
+  created_at: '2014-12-18T10:50:28.225000Z'
+  updated_at: '2014-12-22T18:21:15.882388Z'
+
+imperial-speeder-bike:
+  name: Imperial Speeder Bike
+  model: 74-Z speeder bike
+  manufacturer: Aratech Repulsor Company
+  cost_in_credits: '8000'
+  length: '3'
+  vehicle_class: speeder
+  max_atmosphering_speed: '360'
+  crew: '1'
+  passengers: '1'
+  cargo_capacity: '4'
+  consumables: 1 day
+  created_at: '2014-12-18T11:20:04.625000Z'
+  updated_at: '2014-12-22T18:21:15.920537Z'
+
+vulture-droid:
+  name: Vulture Droid
+  model: Vulture-class droid starfighter
+  manufacturer: Haor Chall Engineering, Baktoid Armor Workshop
+  length: '3.5'
+  vehicle_class: starfighter
+  max_atmosphering_speed: '1200'
+  crew: '0'
+  passengers: '0'
+  cargo_capacity: '0'
+  consumables: none
+  created_at: '2014-12-19T17:09:53.584000Z'
+  updated_at: '2014-12-22T18:21:15.953870Z'
+
+multi-troop-transport:
+  name: Multi-Troop Transport
+  model: Multi-Troop Transport
+  manufacturer: Baktoid Armor Workshop
+  cost_in_credits: '138000'
+  length: '31'
+  vehicle_class: repulsorcraft
+  max_atmosphering_speed: '35'
+  crew: '4'
+  passengers: '112'
+  cargo_capacity: '12000'
+  created_at: '2014-12-19T17:12:04.400000Z'
+  updated_at: '2014-12-22T18:21:15.975171Z'
+
+armored-assault-tank:
+  name: Armored Assault Tank
+  model: Armoured Assault Tank
+  manufacturer: Baktoid Armor Workshop
+  length: '9.75'
+  vehicle_class: repulsorcraft
+  max_atmosphering_speed: '55'
+  crew: '4'
+  passengers: '6'
+  created_at: '2014-12-19T17:13:29.799000Z'
+  updated_at: '2014-12-22T18:21:15.984817Z'
+
+single-trooper-aerial-platform:
+  name: Single Trooper Aerial Platform
+  model: Single Trooper Aerial Platform
+  manufacturer: Baktoid Armor Workshop
+  cost_in_credits: '2500'
+  length: '2'
+  vehicle_class: repulsorcraft
+  max_atmosphering_speed: '400'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: none
+  consumables: none
+  created_at: '2014-12-19T17:15:09.511000Z'
+  updated_at: '2014-12-22T18:21:16.008594Z'
+
+c-9979-landing-craft:
+  name: C-9979 landing craft
+  model: C-9979 landing craft
+  manufacturer: Haor Chall Engineering
+  cost_in_credits: '200000'
+  length: '210'
+  vehicle_class: landing craft
+  max_atmosphering_speed: '587'
+  crew: '140'
+  passengers: '284'
+  cargo_capacity: '1800000'
+  consumables: 1 day
+  created_at: '2014-12-19T17:20:36.373000Z'
+  updated_at: '2014-12-22T18:21:16.033738Z'
+
+tribubble-bongo:
+  name: Tribubble bongo
+  model: Tribubble bongo
+  manufacturer: Otoh Gunga Bongameken Cooperative
+  length: '15'
+  vehicle_class: submarine
+  max_atmosphering_speed: '85'
+  crew: '1'
+  passengers: '2'
+  cargo_capacity: '1600'
+  created_at: '2014-12-19T17:37:37.924000Z'
+  updated_at: '2014-12-22T18:21:16.072083Z'
+
+sith-speeder:
+  name: Sith speeder
+  model: FC-20 speeder bike
+  manufacturer: Razalon
+  cost_in_credits: '4000'
+  length: '1.5'
+  vehicle_class: speeder
+  max_atmosphering_speed: '180'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: '2'
+  created_at: '2014-12-20T10:09:56.095000Z'
+  updated_at: '2014-12-22T18:21:16.095041Z'
+
+zephyr-g-swoop-bike:
+  name: Zephyr-G swoop bike
+  model: Zephyr-G swoop bike
+  manufacturer: Mobquet Swoops and Speeders
+  cost_in_credits: '5750'
+  length: '3.68'
+  vehicle_class: repulsorcraft
+  max_atmosphering_speed: '350'
+  crew: '1'
+  passengers: '1'
+  cargo_capacity: '200'
+  consumables: none
+  created_at: '2014-12-20T16:24:16.026000Z'
+  updated_at: '2014-12-22T18:21:16.117652Z'
+
+koro-2-exodrive-airspeeder:
+  name: Koro-2 Exodrive airspeeder
+  model: Koro-2 Exodrive airspeeder
+  manufacturer: Desler Gizh Outworld Mobility Corporation
+  length: '6.6'
+  vehicle_class: airspeeder
+  max_atmosphering_speed: '800'
+  crew: '1'
+  passengers: '1'
+  cargo_capacity: '80'
+  created_at: '2014-12-20T17:17:33.526000Z'
+  updated_at: '2014-12-22T18:21:16.140018Z'
+
+xj-6-airspeeder:
+  name: XJ-6 airspeeder
+  model: XJ-6 airspeeder
+  manufacturer: Narglatch AirTech prefabricated kit
+  length: '6.23'
+  vehicle_class: airspeeder
+  max_atmosphering_speed: '720'
+  crew: '1'
+  passengers: '1'
+  created_at: '2014-12-20T17:19:19.991000Z'
+  updated_at: '2014-12-22T18:21:16.150194Z'
+
+laat-i:
+  name: LAAT/i
+  model: Low Altitude Assault Transport/infrantry
+  manufacturer: Rothana Heavy Engineering
+  length: '17.4'
+  vehicle_class: gunship
+  max_atmosphering_speed: '620'
+  crew: '6'
+  passengers: '30'
+  cargo_capacity: '170'
+  created_at: '2014-12-20T18:01:21.014000Z'
+  updated_at: '2014-12-22T18:21:16.181363Z'
+
+laat-c:
+  name: LAAT/c
+  model: Low Altitude Assault Transport/carrier
+  manufacturer: Rothana Heavy Engineering
+  length: '28.82'
+  vehicle_class: gunship
+  max_atmosphering_speed: '620'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: '40000'
+  created_at: '2014-12-20T18:02:46.802000Z'
+  updated_at: '2014-12-22T18:21:16.229733Z'
+
+tsmeu-6-personal-wheel-bike:
+  name: Tsmeu-6 personal wheel bike
+  model: Tsmeu-6 personal wheel bike
+  manufacturer: Z-Gomot Ternbuell Guppat Corporation
+  cost_in_credits: '15000'
+  length: '3.5'
+  vehicle_class: wheeled walker
+  max_atmosphering_speed: '330'
+  crew: '1'
+  passengers: '1'
+  cargo_capacity: '10'
+  consumables: none
+  created_at: '2014-12-20T19:43:54.870000Z'
+  updated_at: '2014-12-22T18:21:16.422662Z'
+
+emergency-firespeeder:
+  name: Emergency Firespeeder
+  model: Fire suppression speeder
+  vehicle_class: fire suppression ship
+  crew: '2'
+  created_at: '2014-12-20T19:50:58.559000Z'
+  updated_at: '2014-12-22T18:21:16.450655Z'
+
+droid-tri-fighter:
+  name: Droid tri-fighter
+  model: tri-fighter
+  manufacturer: Colla Designs, Phlac-Arphocc Automata Industries
+  cost_in_credits: '20000'
+  length: '5.4'
+  vehicle_class: droid starfighter
+  max_atmosphering_speed: '1180'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: '0'
+  consumables: none
+  created_at: '2014-12-20T20:05:19.992000Z'
+  updated_at: '2014-12-22T18:21:16.478901Z'
+
+oevvaor-jet-catamaran:
+  name: Oevvaor jet catamaran
+  model: Oevvaor jet catamaran
+  manufacturer: Appazanna Engineering Works
+  cost_in_credits: '12125'
+  length: '15.1'
+  vehicle_class: airspeeder
+  max_atmosphering_speed: '420'
+  crew: '2'
+  passengers: '2'
+  cargo_capacity: '50'
+  consumables: 3 days
+  created_at: '2014-12-20T20:20:53.931000Z'
+  updated_at: '2014-12-22T18:21:16.517049Z'
+
+raddaugh-gnasp-fluttercraft:
+  name: Raddaugh Gnasp fluttercraft
+  model: Raddaugh Gnasp fluttercraft
+  manufacturer: Appazanna Engineering Works
+  cost_in_credits: '14750'
+  length: '7'
+  vehicle_class: air speeder
+  max_atmosphering_speed: '310'
+  crew: '2'
+  passengers: '0'
+  cargo_capacity: '20'
+  consumables: none
+  created_at: '2014-12-20T20:21:55.648000Z'
+  updated_at: '2014-12-22T18:21:16.547708Z'
+
+clone-turbo-tank:
+  name: Clone turbo tank
+  model: HAVw A6 Juggernaut
+  manufacturer: Kuat Drive Yards
+  cost_in_credits: '350000'
+  length: '49.4'
+  vehicle_class: wheeled walker
+  max_atmosphering_speed: '160'
+  crew: '20'
+  passengers: '300'
+  cargo_capacity: '30000'
+  consumables: 20 days
+  created_at: '2014-12-20T20:24:45.587000Z'
+  updated_at: '2014-12-22T18:21:16.571079Z'
+
+corporate-alliance-tank-droid:
+  name: Corporate Alliance tank droid
+  model: NR-N99 Persuader-class droid enforcer
+  manufacturer: Techno Union
+  cost_in_credits: '49000'
+  length: '10.96'
+  vehicle_class: droid tank
+  max_atmosphering_speed: '100'
+  crew: '0'
+  passengers: '4'
+  cargo_capacity: none
+  consumables: none
+  created_at: '2014-12-20T20:26:55.522000Z'
+  updated_at: '2014-12-22T18:21:16.612902Z'
+
+droid-gunship:
+  name: Droid gunship
+  model: HMP droid gunship
+  manufacturer: Baktoid Fleet Ordnance, Haor Chall Engineering
+  cost_in_credits: '60000'
+  length: '12.3'
+  vehicle_class: airspeeder
+  max_atmosphering_speed: '820'
+  crew: '0'
+  passengers: '0'
+  cargo_capacity: '0'
+  consumables: none
+  created_at: '2014-12-20T20:32:05.687000Z'
+  updated_at: '2014-12-22T18:21:16.643329Z'
+
+at-rt:
+  name: AT-RT
+  model: All Terrain Recon Transport
+  manufacturer: Kuat Drive Yards
+  cost_in_credits: '40000'
+  length: '3.2'
+  vehicle_class: walker
+  max_atmosphering_speed: '90'
+  crew: '1'
+  passengers: '0'
+  cargo_capacity: '20'
+  consumables: 1 day
+  created_at: '2014-12-20T20:47:49.189000Z'
+  updated_at: '2014-12-22T18:21:16.672821Z'
+
+at-te:
+  name: AT-TE
+  model: All Terrain Tactical Enforcer
+  manufacturer: Rothana Heavy Engineering, Kuat Drive Yards
+  length: '13.2'
+  vehicle_class: walker
+  max_atmosphering_speed: '60'
+  crew: '6'
+  passengers: '36'
+  cargo_capacity: '10000'
+  consumables: 21 days
+  created_at: '2014-12-20T18:10:07.560000Z'
+  updated_at: '2014-12-22T18:21:16.293771Z'
+
+spha:
+  name: SPHA
+  model: Self-Propelled Heavy Artillery
+  manufacturer: Rothana Heavy Engineering
+  length: '140'
+  vehicle_class: walker
+  max_atmosphering_speed: '35'
+  crew: '25'
+  passengers: '30'
+  cargo_capacity: '500'
+  consumables: 7 days
+  created_at: '2014-12-20T18:12:32.315000Z'
+  updated_at: '2014-12-22T18:21:16.311761Z'
+
+flitknot-speeder:
+  name: Flitknot speeder
+  model: Flitknot speeder
+  manufacturer: Huppla Pasa Tisc Shipwrights Collective
+  cost_in_credits: '8000'
+  length: '2'
+  vehicle_class: speeder
+  max_atmosphering_speed: '634'
+  crew: '1'
+  passengers: '0'
+  created_at: '2014-12-20T18:15:20.312000Z'
+  updated_at: '2014-12-22T18:21:16.335005Z'
+
+neimoidian-shuttle:
+  name: Neimoidian shuttle
+  model: Sheathipede-class transport shuttle
+  manufacturer: Haor Chall Engineering
+  length: '20'
+  vehicle_class: transport
+  max_atmosphering_speed: '880'
+  crew: '2'
+  passengers: '6'
+  cargo_capacity: '1000'
+  consumables: 7 days
+  created_at: '2014-12-20T18:25:44.912000Z'
+  updated_at: '2014-12-22T18:21:16.366134Z'
+
+geonosian-starfighter:
+  name: Geonosian starfighter
+  model: Nantex-class territorial defense
+  manufacturer: Huppla Pasa Tisc Shipwrights Collective
+  length: '9.8'
+  vehicle_class: starfighter
+  max_atmosphering_speed: '20000'
+  crew: '1'
+  passengers: '0'
+  created_at: '2014-12-20T18:34:12.541000Z'
+  updated_at: '2014-12-22T18:21:16.390980Z'
