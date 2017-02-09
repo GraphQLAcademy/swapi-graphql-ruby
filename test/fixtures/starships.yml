@@ -46,6 +46,11 @@ millennium-falcon:
   hyperdrive_rating: '0.5'
   mglt: '75'
   starship_class: Light freighter
+  pilots:
+  - chewbacca
+  - han-solo
+  - lando-calrissian
+  - nien-nunb
   created_at: '2014-12-10T16:59:45.094000Z'
   updated_at: '2014-12-22T17:35:44.464156Z'
 
@@ -80,6 +85,11 @@ x-wing:
   hyperdrive_rating: '1.0'
   mglt: '100'
   starship_class: Starfighter
+  pilots:
+  - luke-skywalker
+  - biggs-darklighter
+  - wedge-antilles
+  - jek-tono-porkins
   created_at: '2014-12-12T11:19:05.340000Z'
   updated_at: '2014-12-22T17:35:44.491233Z'
 
@@ -96,6 +106,8 @@ tie-advanced-x1:
   hyperdrive_rating: '1.0'
   mglt: '105'
   starship_class: Starfighter
+  pilots:
+  - darth-vader
   created_at: '2014-12-12T11:21:32.991000Z'
   updated_at: '2014-12-22T17:35:44.549047Z'
 
@@ -129,6 +141,8 @@ slave-1:
   hyperdrive_rating: '3.0'
   mglt: '70'
   starship_class: Patrol craft
+  pilots:
+  - boba-fett
   created_at: '2014-12-15T13:00:56.332000Z'
   updated_at: '2014-12-22T17:35:44.716273Z'
 
@@ -146,6 +160,10 @@ imperial-shuttle:
   hyperdrive_rating: '1.0'
   mglt: '50'
   starship_class: Armed government transport
+  pilots:
+  - luke-skywalker
+  - chewbacca
+  - han-solo
   created_at: '2014-12-15T13:04:47.235000Z'
   updated_at: '2014-12-22T17:35:44.795405Z'
 
@@ -196,6 +214,8 @@ a-wing:
   hyperdrive_rating: '1.0'
   mglt: '120'
   starship_class: Starfighter
+  pilots:
+  - arvel-crynyd
   created_at: '2014-12-18T11:16:34.542000Z'
   updated_at: '2014-12-22T17:35:44.978754Z'
 
@@ -242,6 +262,10 @@ naboo-fighter:
   consumables: 7 days
   hyperdrive_rating: '1.0'
   starship_class: Starfighter
+  pilots:
+  - anakin-skywalker
+  - gregar-typho
+  - padme-amidala
   created_at: '2014-12-19T17:39:17.582000Z'
   updated_at: '2014-12-22T17:35:45.079452Z'
 
@@ -254,6 +278,8 @@ naboo-royal-starship:
   crew: '8'
   hyperdrive_rating: '1.8'
   starship_class: yacht
+  pilots:
+  - ric-olie
   created_at: '2014-12-19T17:45:03.506000Z'
   updated_at: '2014-12-22T17:35:45.091925Z'
 
@@ -270,6 +296,8 @@ scimitar:
   consumables: 30 days
   hyperdrive_rating: '1.5'
   starship_class: Space Transport
+  pilots:
+  - darth-maul
   created_at: '2014-12-20T09:39:56.116000Z'
   updated_at: '2014-12-22T17:35:45.105522Z'
 
@@ -311,6 +339,9 @@ jedi-starfighter:
   consumables: 7 days
   hyperdrive_rating: '1.0'
   starship_class: Starfighter
+  pilots:
+  - obi-wan-kenobi
+  - plo-koon
   created_at: '2014-12-20T17:35:23.906000Z'
   updated_at: '2014-12-22T17:35:45.147746Z'
 
@@ -323,6 +354,8 @@ h-type-nubian-yacht:
   crew: '4'
   hyperdrive_rating: '0.9'
   starship_class: yacht
+  pilots:
+  - padme-amidala
   created_at: '2014-12-20T17:46:46.847000Z'
   updated_at: '2014-12-22T17:35:45.158969Z'
 
@@ -356,6 +389,9 @@ trade-federation-cruiser:
   consumables: 4 years
   hyperdrive_rating: '1.5'
   starship_class: capital ship
+  pilots:
+  - obi-wan-kenobi
+  - anakin-skywalker
   created_at: '2014-12-20T19:40:21.902000Z'
   updated_at: '2014-12-22T17:35:45.195165Z'
 
@@ -381,6 +417,8 @@ t-70-x-wing-fighter:
   manufacturer: Incom
   crew: '1'
   starship_class: fighter
+  pilots:
+  - poe-dameron
   created_at: '2015-04-17T06:58:50.614475Z'
   updated_at: '2015-04-17T06:58:50.614528Z'
 
@@ -471,6 +509,9 @@ naboo-star-skiff:
   passengers: '3'
   hyperdrive_rating: '0.5'
   starship_class: yacht
+  pilots:
+  - obi-wan-kenobi
+  - padme-amidala
   created_at: '2014-12-20T19:55:15.396000Z'
   updated_at: '2014-12-22T17:35:45.258859Z'
 
@@ -487,6 +528,9 @@ jedi-interceptor:
   consumables: 2 days
   hyperdrive_rating: '1.0'
   starship_class: starfighter
+  pilots:
+  - obi-wan-kenobi
+  - anakin-skywalker
   created_at: '2014-12-20T19:56:57.468000Z'
   updated_at: '2014-12-22T17:35:45.272349Z'
 
@@ -534,6 +578,9 @@ belbullab-22-starfighter:
   consumables: 7 days
   hyperdrive_rating: '6'
   starship_class: starfighter
+  pilots:
+  - obi-wan-kenobi
+  - grievous
   created_at: '2014-12-20T20:38:05.031000Z'
   updated_at: '2014-12-22T17:35:45.381900Z'
 
