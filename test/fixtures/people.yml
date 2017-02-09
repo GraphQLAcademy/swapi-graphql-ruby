@@ -7,6 +7,9 @@ luke-skywalker:
   height: '172'
   mass: '77'
   skin_color: fair
+  starships:
+  - x-wing
+  - imperial-shuttle
   homeworld: tatooine
   created_at: '2014-12-09T13:50:51.644000Z'
   updated_at: '2014-12-20T21:17:56.891000Z'
@@ -46,6 +49,8 @@ darth-vader:
   height: '202'
   mass: '136'
   skin_color: white
+  starships:
+  - tie-advanced-x1
   homeworld: tatooine
   created_at: '2014-12-10T15:18:20.704000Z'
   updated_at: '2014-12-20T21:17:50.313000Z'
@@ -110,6 +115,8 @@ biggs-darklighter:
   height: '183'
   mass: '84'
   skin_color: light
+  starships:
+  - x-wing
   homeworld: tatooine
   created_at: '2014-12-10T15:59:50.509000Z'
   updated_at: '2014-12-20T21:17:50.323000Z'
@@ -123,6 +130,12 @@ obi-wan-kenobi:
   height: '182'
   mass: '77'
   skin_color: fair
+  starships:
+  - jedi-starfighter
+  - trade-federation-cruiser
+  - naboo-star-skiff
+  - jedi-interceptor
+  - belbullab-22-starfighter
   homeworld: stewjon
   created_at: '2014-12-10T16:16:29.192000Z'
   updated_at: '2014-12-20T21:17:50.325000Z'
@@ -136,6 +149,10 @@ anakin-skywalker:
   height: '188'
   mass: '84'
   skin_color: fair
+  starships:
+  - trade-federation-cruiser
+  - jedi-interceptor
+  - naboo-fighter
   homeworld: tatooine
   created_at: '2014-12-10T16:20:44.310000Z'
   updated_at: '2014-12-20T21:17:50.327000Z'
@@ -160,6 +177,9 @@ chewbacca:
   hair_color: brown
   height: '228'
   mass: '112'
+  starships:
+  - millennium-falcon
+  - imperial-shuttle
   homeworld: kashyyyk
   created_at: '2014-12-10T16:42:45.066000Z'
   updated_at: '2014-12-20T21:17:50.332000Z'
@@ -173,6 +193,9 @@ han-solo:
   height: '180'
   mass: '80'
   skin_color: fair
+  starships:
+  - millennium-falcon
+  - imperial-shuttle
   homeworld: corellia
   created_at: '2014-12-10T16:49:14.582000Z'
   updated_at: '2014-12-20T21:17:50.334000Z'
@@ -212,6 +235,8 @@ wedge-antilles:
   height: '170'
   mass: '77'
   skin_color: fair
+  starships:
+  - x-wing
   homeworld: corellia
   created_at: '2014-12-12T11:08:06.469000Z'
   updated_at: '2014-12-20T21:17:50.341000Z'
@@ -224,6 +249,8 @@ jek-tono-porkins:
   height: '180'
   mass: '110'
   skin_color: fair
+  starships:
+  - x-wing
   homeworld: bestine-iv
   created_at: '2014-12-12T11:16:56.569000Z'
   updated_at: '2014-12-20T21:17:50.343000Z'
@@ -262,6 +289,8 @@ boba-fett:
   height: '183'
   mass: '78.2'
   skin_color: fair
+  starships:
+  - slave-1
   homeworld: kamino
   created_at: '2014-12-15T12:49:32.457000Z'
   updated_at: '2014-12-20T21:17:50.349000Z'
@@ -300,6 +329,8 @@ lando-calrissian:
   height: '177'
   mass: '79'
   skin_color: dark
+  starships:
+  - millennium-falcon
   homeworld: socorro
   created_at: '2014-12-15T12:56:32.683000Z'
   updated_at: '2014-12-20T21:17:50.357000Z'
@@ -348,6 +379,8 @@ arvel-crynyd:
   gender: male
   hair_color: brown
   skin_color: fair
+  starships:
+  - a-wing
   created_at: '2014-12-18T11:16:33.020000Z'
   updated_at: '2014-12-20T21:17:50.367000Z'
 
@@ -372,6 +405,8 @@ nien-nunb:
   height: '160'
   mass: '68'
   skin_color: grey
+  starships:
+  - millennium-falcon
   homeworld: sullust
   created_at: '2014-12-18T11:26:18.541000Z'
   updated_at: '2014-12-20T21:17:50.371000Z'
@@ -455,6 +490,8 @@ ric-olie:
   hair_color: brown
   height: '183'
   skin_color: fair
+  starships:
+  - naboo-royal-starship
   homeworld: naboo
   created_at: '2014-12-19T17:45:01.522000Z'
   updated_at: '2014-12-20T21:17:50.392000Z'
@@ -515,6 +552,8 @@ darth-maul:
   height: '175'
   mass: '80'
   skin_color: red
+  starships:
+  - scimitar
   homeworld: dathomir
   created_at: '2014-12-19T18:00:41.929000Z'
   updated_at: '2014-12-20T21:17:50.403000Z'
@@ -670,6 +709,8 @@ plo-koon:
   height: '188'
   mass: '80'
   skin_color: orange
+  starships:
+  - jedi-starfighter
   homeworld: dorin
   created_at: '2014-12-20T10:49:19.859000Z'
   updated_at: '2014-12-20T21:17:50.439000Z'
@@ -693,6 +734,8 @@ gregar-typho:
   height: '185'
   mass: '85'
   skin_color: dark
+  starships:
+  - naboo-fighter
   homeworld: naboo
   created_at: '2014-12-20T11:10:10.381000Z'
   updated_at: '2014-12-20T21:17:50.445000Z'
@@ -928,6 +971,8 @@ grievous:
   height: '216'
   mass: '159'
   skin_color: brown, white
+  starships:
+  - belbullab-22-starfighter
   homeworld: kalee
   created_at: '2014-12-20T19:43:53.348000Z'
   updated_at: '2014-12-20T21:17:50.488000Z'
@@ -1004,6 +1049,8 @@ poe-dameron:
   gender: male
   hair_color: brown
   skin_color: light
+  starships:
+  - t-70-x-wing-fighter
   created_at: '2015-04-17T06:55:21.622786Z'
   updated_at: '2015-04-17T06:55:21.622835Z'
 
@@ -1031,6 +1078,10 @@ padme-amidala:
   height: '165'
   mass: '45'
   skin_color: light
+  starships:
+  - h-type-nubian-yacht
+  - naboo-star-skiff
+  - naboo-fighter
   homeworld: naboo
   created_at: '2014-12-19T17:28:26.926000Z'
   updated_at: '2016-04-20T17:06:31.502555Z'
