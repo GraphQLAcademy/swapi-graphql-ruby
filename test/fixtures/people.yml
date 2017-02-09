@@ -10,6 +10,9 @@ luke-skywalker:
   starships:
   - x-wing
   - imperial-shuttle
+  vehicles:
+  - snowspeeder
+  - imperial-speeder-bike
   homeworld: tatooine
   created_at: '2014-12-09T13:50:51.644000Z'
   updated_at: '2014-12-20T21:17:56.891000Z'
@@ -64,6 +67,8 @@ leia-organa:
   height: '150'
   mass: '49'
   skin_color: light
+  vehicles:
+  - imperial-speeder-bike
   homeworld: alderaan
   created_at: '2014-12-10T15:20:09.791000Z'
   updated_at: '2014-12-20T21:17:50.315000Z'
@@ -136,6 +141,8 @@ obi-wan-kenobi:
   - naboo-star-skiff
   - jedi-interceptor
   - belbullab-22-starfighter
+  vehicles:
+  - tribubble-bongo
   homeworld: stewjon
   created_at: '2014-12-10T16:16:29.192000Z'
   updated_at: '2014-12-20T21:17:50.325000Z'
@@ -153,6 +160,9 @@ anakin-skywalker:
   - trade-federation-cruiser
   - jedi-interceptor
   - naboo-fighter
+  vehicles:
+  - zephyr-g-swoop-bike
+  - xj-6-airspeeder
   homeworld: tatooine
   created_at: '2014-12-10T16:20:44.310000Z'
   updated_at: '2014-12-20T21:17:50.327000Z'
@@ -180,6 +190,8 @@ chewbacca:
   starships:
   - millennium-falcon
   - imperial-shuttle
+  vehicles:
+  - at-st
   homeworld: kashyyyk
   created_at: '2014-12-10T16:42:45.066000Z'
   updated_at: '2014-12-20T21:17:50.332000Z'
@@ -237,6 +249,8 @@ wedge-antilles:
   skin_color: fair
   starships:
   - x-wing
+  vehicles:
+  - snowspeeder
   homeworld: corellia
   created_at: '2014-12-12T11:08:06.469000Z'
   updated_at: '2014-12-20T21:17:50.341000Z'
@@ -420,6 +434,8 @@ qui-gon-jinn:
   height: '193'
   mass: '89'
   skin_color: fair
+  vehicles:
+  - tribubble-bongo
   created_at: '2014-12-19T16:54:53.618000Z'
   updated_at: '2014-12-20T21:17:50.375000Z'
 
@@ -554,6 +570,8 @@ darth-maul:
   skin_color: red
   starships:
   - scimitar
+  vehicles:
+  - sith-speeder
   homeworld: dathomir
   created_at: '2014-12-19T18:00:41.929000Z'
   updated_at: '2014-12-20T21:17:50.403000Z'
@@ -821,6 +839,8 @@ dooku:
   height: '193'
   mass: '80'
   skin_color: fair
+  vehicles:
+  - flitknot-speeder
   homeworld: serenno
   created_at: '2014-12-20T16:52:14.726000Z'
   updated_at: '2014-12-20T21:17:50.462000Z'
@@ -858,6 +878,8 @@ zam-wesell:
   height: '168'
   mass: '55'
   skin_color: fair, green, yellow
+  vehicles:
+  - koro-2-exodrive-airspeeder
   homeworld: zolan
   created_at: '2014-12-20T16:57:44.471000Z'
   updated_at: '2014-12-20T21:17:50.468000Z'
@@ -973,6 +995,8 @@ grievous:
   skin_color: brown, white
   starships:
   - belbullab-22-starfighter
+  vehicles:
+  - tsmeu-6-personal-wheel-bike
   homeworld: kalee
   created_at: '2014-12-20T19:43:53.348000Z'
   updated_at: '2014-12-20T21:17:50.488000Z'
