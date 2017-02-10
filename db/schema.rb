@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170209173854) do
+ActiveRecord::Schema.define(version: 20170210214836) do
 
   create_table "people", force: :cascade do |t|
     t.string   "name"
@@ -24,7 +24,9 @@ ActiveRecord::Schema.define(version: 20170209173854) do
     t.integer  "homeworld_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.integer  "species_id"
     t.index ["homeworld_id"], name: "index_people_on_homeworld_id"
+    t.index ["species_id"], name: "index_people_on_species_id"
   end
 
   create_table "people_starships", id: false, force: :cascade do |t|
@@ -53,6 +55,22 @@ ActiveRecord::Schema.define(version: 20170209173854) do
     t.float    "surface_water"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+  end
+
+  create_table "species", force: :cascade do |t|
+    t.string   "name"
+    t.string   "classification"
+    t.string   "designation"
+    t.float    "average_height"
+    t.integer  "average_lifespan"
+    t.string   "eye_colors"
+    t.string   "hair_colors"
+    t.string   "skin_colors"
+    t.string   "language"
+    t.integer  "homeworld_id"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.index ["homeworld_id"], name: "index_species_on_homeworld_id"
   end
 
   create_table "starships", force: :cascade do |t|
