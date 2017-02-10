@@ -11,6 +11,7 @@ module Graph
       field :gender, GenderEnum
       field :hairColor, types.String, property: :hair_color
       field :height, types.Int
+      field :homeworld, Planet
       field :mass, types.Int
       field :name, types.String
       field :skinColor, types.String
