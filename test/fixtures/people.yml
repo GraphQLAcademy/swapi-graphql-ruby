@@ -14,6 +14,7 @@ luke-skywalker:
   - snowspeeder
   - imperial-speeder-bike
   homeworld: tatooine
+  species: human
   created_at: '2014-12-09T13:50:51.644000Z'
   updated_at: '2014-12-20T21:17:56.891000Z'
 
@@ -27,6 +28,7 @@ c-3po:
   mass: '75'
   skin_color: gold
   homeworld: tatooine
+  species: droid
   created_at: '2014-12-10T15:10:51.357000Z'
   updated_at: '2014-12-20T21:17:50.309000Z'
 
@@ -40,6 +42,7 @@ r2-d2:
   mass: '32'
   skin_color: white, blue
   homeworld: naboo
+  species: droid
   created_at: '2014-12-10T15:11:50.376000Z'
   updated_at: '2014-12-20T21:17:50.311000Z'
 
@@ -55,6 +58,7 @@ darth-vader:
   starships:
   - tie-advanced-x1
   homeworld: tatooine
+  species: human
   created_at: '2014-12-10T15:18:20.704000Z'
   updated_at: '2014-12-20T21:17:50.313000Z'
 
@@ -70,6 +74,7 @@ leia-organa:
   vehicles:
   - imperial-speeder-bike
   homeworld: alderaan
+  species: human
   created_at: '2014-12-10T15:20:09.791000Z'
   updated_at: '2014-12-20T21:17:50.315000Z'
 
@@ -83,6 +88,7 @@ owen-lars:
   mass: '120'
   skin_color: light
   homeworld: tatooine
+  species: human
   created_at: '2014-12-10T15:52:14.024000Z'
   updated_at: '2014-12-20T21:17:50.317000Z'
 
@@ -96,6 +102,7 @@ beru-whitesun-lars:
   mass: '75'
   skin_color: light
   homeworld: tatooine
+  species: human
   created_at: '2014-12-10T15:53:41.121000Z'
   updated_at: '2014-12-20T21:17:50.319000Z'
 
@@ -108,6 +115,7 @@ r5-d4:
   mass: '32'
   skin_color: white, red
   homeworld: tatooine
+  species: droid
   created_at: '2014-12-10T15:57:50.959000Z'
   updated_at: '2014-12-20T21:17:50.321000Z'
 
@@ -123,6 +131,7 @@ biggs-darklighter:
   starships:
   - x-wing
   homeworld: tatooine
+  species: human
   created_at: '2014-12-10T15:59:50.509000Z'
   updated_at: '2014-12-20T21:17:50.323000Z'
 
@@ -144,6 +153,7 @@ obi-wan-kenobi:
   vehicles:
   - tribubble-bongo
   homeworld: stewjon
+  species: human
   created_at: '2014-12-10T16:16:29.192000Z'
   updated_at: '2014-12-20T21:17:50.325000Z'
 
@@ -164,6 +174,7 @@ anakin-skywalker:
   - zephyr-g-swoop-bike
   - xj-6-airspeeder
   homeworld: tatooine
+  species: human
   created_at: '2014-12-10T16:20:44.310000Z'
   updated_at: '2014-12-20T21:17:50.327000Z'
 
@@ -176,6 +187,7 @@ wilhuff-tarkin:
   height: '180'
   skin_color: fair
   homeworld: eriadu
+  species: human
   created_at: '2014-12-10T16:26:56.138000Z'
   updated_at: '2014-12-20T21:17:50.330000Z'
 
@@ -193,6 +205,7 @@ chewbacca:
   vehicles:
   - at-st
   homeworld: kashyyyk
+  species: wookiee
   created_at: '2014-12-10T16:42:45.066000Z'
   updated_at: '2014-12-20T21:17:50.332000Z'
 
@@ -209,6 +222,7 @@ han-solo:
   - millennium-falcon
   - imperial-shuttle
   homeworld: corellia
+  species: human
   created_at: '2014-12-10T16:49:14.582000Z'
   updated_at: '2014-12-20T21:17:50.334000Z'
 
@@ -222,6 +236,7 @@ greedo:
   mass: '74'
   skin_color: green
   homeworld: rodia
+  species: rodian
   created_at: '2014-12-10T17:03:30.334000Z'
   updated_at: '2014-12-20T21:17:50.336000Z'
 
@@ -235,6 +250,7 @@ jabba-desilijic-tiure:
   mass: '1,358'
   skin_color: green-tan, brown
   homeworld: nal-hutta
+  species: hutt
   created_at: '2014-12-10T17:11:31.638000Z'
   updated_at: '2014-12-20T21:17:50.338000Z'
 
@@ -252,6 +268,7 @@ wedge-antilles:
   vehicles:
   - snowspeeder
   homeworld: corellia
+  species: human
   created_at: '2014-12-12T11:08:06.469000Z'
   updated_at: '2014-12-20T21:17:50.341000Z'
 
@@ -266,6 +283,7 @@ jek-tono-porkins:
   starships:
   - x-wing
   homeworld: bestine-iv
+  species: human
   created_at: '2014-12-12T11:16:56.569000Z'
   updated_at: '2014-12-20T21:17:50.343000Z'
 
@@ -278,6 +296,7 @@ yoda:
   height: '66'
   mass: '17'
   skin_color: green
+  species: yoda-s-species
   created_at: '2014-12-15T12:26:01.042000Z'
   updated_at: '2014-12-20T21:17:50.345000Z'
 
@@ -291,6 +310,7 @@ palpatine:
   mass: '75'
   skin_color: pale
   homeworld: naboo
+  species: human
   created_at: '2014-12-15T12:48:05.971000Z'
   updated_at: '2014-12-20T21:17:50.347000Z'
 
@@ -306,6 +326,7 @@ boba-fett:
   starships:
   - slave-1
   homeworld: kamino
+  species: human
   created_at: '2014-12-15T12:49:32.457000Z'
   updated_at: '2014-12-20T21:17:50.349000Z'
 
@@ -318,6 +339,7 @@ ig-88:
   height: '200'
   mass: '140'
   skin_color: metal
+  species: droid
   created_at: '2014-12-15T12:51:10.076000Z'
   updated_at: '2014-12-20T21:17:50.351000Z'
 
@@ -331,6 +353,7 @@ bossk:
   mass: '113'
   skin_color: green
   homeworld: trandosha
+  species: trandoshan
   created_at: '2014-12-15T12:53:49.297000Z'
   updated_at: '2014-12-20T21:17:50.355000Z'
 
@@ -346,6 +369,7 @@ lando-calrissian:
   starships:
   - millennium-falcon
   homeworld: socorro
+  species: human
   created_at: '2014-12-15T12:56:32.683000Z'
   updated_at: '2014-12-20T21:17:50.357000Z'
 
@@ -359,6 +383,7 @@ lobot:
   mass: '79'
   skin_color: light
   homeworld: bespin
+  species: human
   created_at: '2014-12-15T13:01:57.178000Z'
   updated_at: '2014-12-20T21:17:50.359000Z'
 
@@ -372,6 +397,7 @@ ackbar:
   mass: '83'
   skin_color: brown mottle
   homeworld: mon-cala
+  species: mon-calamari
   created_at: '2014-12-18T11:07:50.584000Z'
   updated_at: '2014-12-20T21:17:50.362000Z'
 
@@ -384,6 +410,7 @@ mon-mothma:
   height: '150'
   skin_color: fair
   homeworld: chandrila
+  species: human
   created_at: '2014-12-18T11:12:38.895000Z'
   updated_at: '2014-12-20T21:17:50.364000Z'
 
@@ -395,6 +422,7 @@ arvel-crynyd:
   skin_color: fair
   starships:
   - a-wing
+  species: human
   created_at: '2014-12-18T11:16:33.020000Z'
   updated_at: '2014-12-20T21:17:50.367000Z'
 
@@ -408,6 +436,7 @@ wicket-systri-warrick:
   mass: '20'
   skin_color: brown
   homeworld: endor
+  species: ewok
   created_at: '2014-12-18T11:21:58.954000Z'
   updated_at: '2014-12-20T21:17:50.369000Z'
 
@@ -422,6 +451,7 @@ nien-nunb:
   starships:
   - millennium-falcon
   homeworld: sullust
+  species: sullustan
   created_at: '2014-12-18T11:26:18.541000Z'
   updated_at: '2014-12-20T21:17:50.371000Z'
 
@@ -436,6 +466,7 @@ qui-gon-jinn:
   skin_color: fair
   vehicles:
   - tribubble-bongo
+  species: human
   created_at: '2014-12-19T16:54:53.618000Z'
   updated_at: '2014-12-20T21:17:50.375000Z'
 
@@ -448,6 +479,7 @@ nute-gunray:
   mass: '90'
   skin_color: mottled green
   homeworld: cato-neimoidia
+  species: neimodian
   created_at: '2014-12-19T17:05:57.357000Z'
   updated_at: '2014-12-20T21:17:50.377000Z'
 
@@ -460,6 +492,7 @@ finis-valorum:
   height: '170'
   skin_color: fair
   homeworld: coruscant
+  species: human
   created_at: '2014-12-19T17:21:45.915000Z'
   updated_at: '2014-12-20T21:17:50.379000Z'
 
@@ -473,6 +506,7 @@ jar-jar-binks:
   mass: '66'
   skin_color: orange
   homeworld: naboo
+  species: gungan
   created_at: '2014-12-19T17:29:32.489000Z'
   updated_at: '2014-12-20T21:17:50.383000Z'
 
@@ -485,6 +519,7 @@ roos-tarpals:
   mass: '82'
   skin_color: grey
   homeworld: naboo
+  species: gungan
   created_at: '2014-12-19T17:32:56.741000Z'
   updated_at: '2014-12-20T21:17:50.385000Z'
 
@@ -496,6 +531,7 @@ rugor-nass:
   height: '206'
   skin_color: green
   homeworld: naboo
+  species: gungan
   created_at: '2014-12-19T17:33:38.909000Z'
   updated_at: '2014-12-20T21:17:50.388000Z'
 
@@ -520,6 +556,7 @@ watto:
   height: '137'
   skin_color: blue, grey
   homeworld: toydaria
+  species: toydarian
   created_at: '2014-12-19T17:48:54.647000Z'
   updated_at: '2014-12-20T21:17:50.395000Z'
 
@@ -532,6 +569,7 @@ sebulba:
   mass: '40'
   skin_color: grey, red
   homeworld: malastare
+  species: dug
   created_at: '2014-12-19T17:53:02.586000Z'
   updated_at: '2014-12-20T21:17:50.397000Z'
 
@@ -556,6 +594,7 @@ shmi-skywalker:
   height: '163'
   skin_color: fair
   homeworld: tatooine
+  species: human
   created_at: '2014-12-19T17:57:41.191000Z'
   updated_at: '2014-12-20T21:17:50.401000Z'
 
@@ -573,6 +612,7 @@ darth-maul:
   vehicles:
   - sith-speeder
   homeworld: dathomir
+  species: zabrak
   created_at: '2014-12-19T18:00:41.929000Z'
   updated_at: '2014-12-20T21:17:50.403000Z'
 
@@ -584,6 +624,7 @@ bib-fortuna:
   height: '180'
   skin_color: pale
   homeworld: ryloth
+  species: twi-lek
   created_at: '2014-12-20T09:47:02.512000Z'
   updated_at: '2014-12-20T21:17:50.407000Z'
 
@@ -597,6 +638,7 @@ ayla-secura:
   mass: '55'
   skin_color: blue
   homeworld: ryloth
+  species: twi-lek
   created_at: '2014-12-20T09:48:01.172000Z'
   updated_at: '2014-12-20T21:17:50.409000Z'
 
@@ -609,6 +651,7 @@ dud-bolt:
   mass: '45'
   skin_color: blue, grey
   homeworld: vulpter
+  species: vulptereen
   created_at: '2014-12-20T09:57:31.858000Z'
   updated_at: '2014-12-20T21:17:50.414000Z'
 
@@ -620,6 +663,7 @@ gasgano:
   height: '122'
   skin_color: white, blue
   homeworld: troiken
+  species: xexto
   created_at: '2014-12-20T10:02:12.223000Z'
   updated_at: '2014-12-20T21:17:50.416000Z'
 
@@ -632,6 +676,7 @@ ben-quadinaros:
   mass: '65'
   skin_color: grey, green, yellow
   homeworld: tund
+  species: toong
   created_at: '2014-12-20T10:08:33.777000Z'
   updated_at: '2014-12-20T21:17:50.417000Z'
 
@@ -645,6 +690,7 @@ mace-windu:
   mass: '84'
   skin_color: dark
   homeworld: haruun-kal
+  species: human
   created_at: '2014-12-20T10:12:30.846000Z'
   updated_at: '2014-12-20T21:17:50.420000Z'
 
@@ -658,6 +704,7 @@ ki-adi-mundi:
   mass: '82'
   skin_color: pale
   homeworld: cerea
+  species: cerean
   created_at: '2014-12-20T10:15:32.293000Z'
   updated_at: '2014-12-20T21:17:50.422000Z'
 
@@ -670,6 +717,7 @@ kit-fisto:
   mass: '87'
   skin_color: green
   homeworld: glee-anselm
+  species: nautolan
   created_at: '2014-12-20T10:18:57.202000Z'
   updated_at: '2014-12-20T21:17:50.424000Z'
 
@@ -681,6 +729,7 @@ eeth-koth:
   height: '171'
   skin_color: brown
   homeworld: iridonia
+  species: zabrak
   created_at: '2014-12-20T10:26:47.902000Z'
   updated_at: '2014-12-20T21:17:50.427000Z'
 
@@ -693,6 +742,7 @@ adi-gallia:
   mass: '50'
   skin_color: dark
   homeworld: coruscant
+  species: tholothian
   created_at: '2014-12-20T10:29:11.661000Z'
   updated_at: '2014-12-20T21:17:50.432000Z'
 
@@ -704,6 +754,7 @@ saesee-tiin:
   height: '188'
   skin_color: pale
   homeworld: iktotch
+  species: iktotchi
   created_at: '2014-12-20T10:32:11.669000Z'
   updated_at: '2014-12-20T21:17:50.434000Z'
 
@@ -715,6 +766,7 @@ yarael-poof:
   height: '264'
   skin_color: white
   homeworld: quermia
+  species: quermian
   created_at: '2014-12-20T10:34:48.725000Z'
   updated_at: '2014-12-20T21:17:50.437000Z'
 
@@ -730,6 +782,7 @@ plo-koon:
   starships:
   - jedi-starfighter
   homeworld: dorin
+  species: kel-dor
   created_at: '2014-12-20T10:49:19.859000Z'
   updated_at: '2014-12-20T21:17:50.439000Z'
 
@@ -741,6 +794,7 @@ mas-amedda:
   height: '196'
   skin_color: blue
   homeworld: champala
+  species: chagrian
   created_at: '2014-12-20T10:53:26.457000Z'
   updated_at: '2014-12-20T21:17:50.442000Z'
 
@@ -755,6 +809,7 @@ gregar-typho:
   starships:
   - naboo-fighter
   homeworld: naboo
+  species: human
   created_at: '2014-12-20T11:10:10.381000Z'
   updated_at: '2014-12-20T21:17:50.445000Z'
 
@@ -766,6 +821,7 @@ corde:
   height: '157'
   skin_color: light
   homeworld: naboo
+  species: human
   created_at: '2014-12-20T11:11:39.630000Z'
   updated_at: '2014-12-20T21:17:50.449000Z'
 
@@ -778,6 +834,7 @@ cliegg-lars:
   height: '183'
   skin_color: fair
   homeworld: tatooine
+  species: human
   created_at: '2014-12-20T15:59:03.958000Z'
   updated_at: '2014-12-20T21:17:50.451000Z'
 
@@ -790,6 +847,7 @@ poggle-the-lesser:
   mass: '80'
   skin_color: green
   homeworld: geonosis
+  species: geonosian
   created_at: '2014-12-20T16:40:43.977000Z'
   updated_at: '2014-12-20T21:17:50.453000Z'
 
@@ -803,6 +861,7 @@ luminara-unduli:
   mass: '56.2'
   skin_color: yellow
   homeworld: mirial
+  species: mirialan
   created_at: '2014-12-20T16:45:53.668000Z'
   updated_at: '2014-12-20T21:17:50.455000Z'
 
@@ -816,6 +875,7 @@ barriss-offee:
   mass: '50'
   skin_color: yellow
   homeworld: mirial
+  species: mirialan
   created_at: '2014-12-20T16:46:40.440000Z'
   updated_at: '2014-12-20T21:17:50.457000Z'
 
@@ -827,6 +887,7 @@ dorme:
   height: '165'
   skin_color: light
   homeworld: naboo
+  species: human
   created_at: '2014-12-20T16:49:14.640000Z'
   updated_at: '2014-12-20T21:17:50.460000Z'
 
@@ -842,6 +903,7 @@ dooku:
   vehicles:
   - flitknot-speeder
   homeworld: serenno
+  species: human
   created_at: '2014-12-20T16:52:14.726000Z'
   updated_at: '2014-12-20T21:17:50.462000Z'
 
@@ -854,6 +916,7 @@ bail-prestor-organa:
   height: '191'
   skin_color: tan
   homeworld: alderaan
+  species: human
   created_at: '2014-12-20T16:53:08.575000Z'
   updated_at: '2014-12-20T21:17:50.463000Z'
 
@@ -867,6 +930,7 @@ jango-fett:
   mass: '79'
   skin_color: tan
   homeworld: concord-dawn
+  species: human
   created_at: '2014-12-20T16:54:41.620000Z'
   updated_at: '2014-12-20T21:17:50.465000Z'
 
@@ -881,6 +945,7 @@ zam-wesell:
   vehicles:
   - koro-2-exodrive-airspeeder
   homeworld: zolan
+  species: clawdite
   created_at: '2014-12-20T16:57:44.471000Z'
   updated_at: '2014-12-20T21:17:50.468000Z'
 
@@ -893,6 +958,7 @@ dexter-jettster:
   mass: '102'
   skin_color: brown
   homeworld: ojom
+  species: besalisk
   created_at: '2014-12-20T17:28:27.248000Z'
   updated_at: '2014-12-20T21:17:50.470000Z'
 
@@ -905,6 +971,7 @@ lama-su:
   mass: '88'
   skin_color: grey
   homeworld: kamino
+  species: kaminoan
   created_at: '2014-12-20T17:30:50.416000Z'
   updated_at: '2014-12-20T21:17:50.473000Z'
 
@@ -916,6 +983,7 @@ taun-we:
   height: '213'
   skin_color: grey
   homeworld: kamino
+  species: kaminoan
   created_at: '2014-12-20T17:31:21.195000Z'
   updated_at: '2014-12-20T21:17:50.474000Z'
 
@@ -927,6 +995,7 @@ jocasta-nu:
   height: '167'
   skin_color: fair
   homeworld: coruscant
+  species: human
   created_at: '2014-12-20T17:32:51.996000Z'
   updated_at: '2014-12-20T21:17:50.476000Z'
 
@@ -938,6 +1007,7 @@ ratts-tyerell:
   mass: '15'
   skin_color: grey, blue
   homeworld: aleen-minor
+  species: aleena
   created_at: '2014-12-20T09:53:15.086000Z'
   updated_at: '2016-06-30T12:52:19.604868Z'
 
@@ -959,6 +1029,7 @@ wat-tambor:
   mass: '48'
   skin_color: green, grey
   homeworld: skako
+  species: skakoan
   created_at: '2014-12-20T17:53:52.607000Z'
   updated_at: '2014-12-20T21:17:50.481000Z'
 
@@ -970,6 +1041,7 @@ san-hill:
   height: '191'
   skin_color: grey
   homeworld: muunilinst
+  species: muun
   created_at: '2014-12-20T17:58:17.049000Z'
   updated_at: '2014-12-20T21:17:50.484000Z'
 
@@ -982,6 +1054,7 @@ shaak-ti:
   mass: '57'
   skin_color: red, blue, white
   homeworld: shili
+  species: togruta
   created_at: '2014-12-20T18:44:01.103000Z'
   updated_at: '2014-12-20T21:17:50.486000Z'
 
@@ -998,6 +1071,7 @@ grievous:
   vehicles:
   - tsmeu-6-personal-wheel-bike
   homeworld: kalee
+  species: kaleesh
   created_at: '2014-12-20T19:43:53.348000Z'
   updated_at: '2014-12-20T21:17:50.488000Z'
 
@@ -1010,6 +1084,7 @@ tarfful:
   mass: '136'
   skin_color: brown
   homeworld: kashyyyk
+  species: wookiee
   created_at: '2014-12-20T19:46:34.209000Z'
   updated_at: '2014-12-20T21:17:50.491000Z'
 
@@ -1022,6 +1097,7 @@ raymus-antilles:
   mass: '79'
   skin_color: light
   homeworld: alderaan
+  species: human
   created_at: '2014-12-20T19:49:35.583000Z'
   updated_at: '2014-12-20T21:17:50.493000Z'
 
@@ -1046,6 +1122,7 @@ tion-medon:
   mass: '80'
   skin_color: grey
   homeworld: utapau
+  species: pau-an
   created_at: '2014-12-20T20:35:04.260000Z'
   updated_at: '2014-12-20T21:17:50.498000Z'
 
@@ -1055,6 +1132,7 @@ finn:
   gender: male
   hair_color: black
   skin_color: dark
+  species: human
   created_at: '2015-04-17T06:52:40.793621Z'
   updated_at: '2015-04-17T06:52:40.793674Z'
 
@@ -1064,6 +1142,7 @@ rey:
   gender: female
   hair_color: brown
   skin_color: light
+  species: human
   created_at: '2015-04-17T06:54:01.495077Z'
   updated_at: '2015-04-17T06:54:01.495128Z'
 
@@ -1075,6 +1154,7 @@ poe-dameron:
   skin_color: light
   starships:
   - t-70-x-wing-fighter
+  species: human
   created_at: '2015-04-17T06:55:21.622786Z'
   updated_at: '2015-04-17T06:55:21.622835Z'
 
@@ -1084,6 +1164,7 @@ bb8:
   gender: none
   hair_color: none
   skin_color: none
+  species: droid
   created_at: '2015-04-17T06:57:38.061346Z'
   updated_at: '2015-04-17T06:57:38.061453Z'
 
@@ -1107,5 +1188,6 @@ padme-amidala:
   - naboo-star-skiff
   - naboo-fighter
   homeworld: naboo
+  species: human
   created_at: '2014-12-19T17:28:26.926000Z'
   updated_at: '2016-04-20T17:06:31.502555Z'

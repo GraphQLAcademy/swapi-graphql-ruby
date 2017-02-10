@@ -1,0 +1,483 @@
+hutt:
+  name: Hutt
+  classification: gastropod
+  designation: sentient
+  average_height: '300'
+  average_lifespan: '1000'
+  eye_colors: yellow, red
+  hair_colors: n/a
+  skin_colors: green, brown, tan
+  language: Huttese
+  homeworld: nal-hutta
+  created_at: '2014-12-10T17:12:50.410000Z'
+  updated_at: '2014-12-20T21:36:42.146000Z'
+
+yoda-s-species:
+  name: Yoda's species
+  classification: mammal
+  designation: sentient
+  average_height: '66'
+  average_lifespan: '900'
+  eye_colors: brown, green, yellow
+  hair_colors: brown, white
+  skin_colors: green, yellow
+  language: Galactic basic
+  created_at: '2014-12-15T12:27:22.877000Z'
+  updated_at: '2014-12-20T21:36:42.148000Z'
+
+trandoshan:
+  name: Trandoshan
+  classification: reptile
+  designation: sentient
+  average_height: '200'
+  eye_colors: yellow, orange
+  hair_colors: none
+  skin_colors: brown, green
+  language: Dosh
+  homeworld: trandosha
+  created_at: '2014-12-15T13:07:47.704000Z'
+  updated_at: '2014-12-20T21:36:42.151000Z'
+
+mon-calamari:
+  name: Mon Calamari
+  classification: amphibian
+  designation: sentient
+  average_height: '160'
+  eye_colors: yellow
+  hair_colors: none
+  skin_colors: red, blue, brown, magenta
+  language: Mon Calamarian
+  homeworld: mon-cala
+  created_at: '2014-12-18T11:09:52.263000Z'
+  updated_at: '2014-12-20T21:36:42.153000Z'
+
+ewok:
+  name: Ewok
+  classification: mammal
+  designation: sentient
+  average_height: '100'
+  eye_colors: orange, brown
+  hair_colors: white, brown, black
+  skin_colors: brown
+  language: Ewokese
+  homeworld: endor
+  created_at: '2014-12-18T11:22:00.285000Z'
+  updated_at: '2014-12-20T21:36:42.155000Z'
+
+sullustan:
+  name: Sullustan
+  classification: mammal
+  designation: sentient
+  average_height: '180'
+  eye_colors: black
+  hair_colors: none
+  skin_colors: pale
+  language: Sullutese
+  homeworld: sullust
+  created_at: '2014-12-18T11:26:20.103000Z'
+  updated_at: '2014-12-20T21:36:42.157000Z'
+
+neimodian:
+  name: Neimodian
+  designation: sentient
+  average_height: '180'
+  eye_colors: red, pink
+  hair_colors: none
+  skin_colors: grey, green
+  language: Neimoidia
+  homeworld: cato-neimoidia
+  created_at: '2014-12-19T17:07:31.319000Z'
+  updated_at: '2014-12-20T21:36:42.160000Z'
+
+gungan:
+  name: Gungan
+  classification: amphibian
+  designation: sentient
+  average_height: '190'
+  eye_colors: orange
+  hair_colors: none
+  skin_colors: brown, green
+  language: Gungan basic
+  homeworld: naboo
+  created_at: '2014-12-19T17:30:37.341000Z'
+  updated_at: '2014-12-20T21:36:42.163000Z'
+
+toydarian:
+  name: Toydarian
+  classification: mammal
+  designation: sentient
+  average_height: '120'
+  average_lifespan: '91'
+  eye_colors: yellow
+  hair_colors: none
+  skin_colors: blue, green, grey
+  language: Toydarian
+  homeworld: toydaria
+  created_at: '2014-12-19T17:48:56.893000Z'
+  updated_at: '2014-12-20T21:36:42.165000Z'
+
+dug:
+  name: Dug
+  classification: mammal
+  designation: sentient
+  average_height: '100'
+  eye_colors: yellow, blue
+  hair_colors: none
+  skin_colors: brown, purple, grey, red
+  language: Dugese
+  homeworld: malastare
+  created_at: '2014-12-19T17:53:11.214000Z'
+  updated_at: '2014-12-20T21:36:42.167000Z'
+
+twi-lek:
+  name: Twi'lek
+  classification: mammals
+  designation: sentient
+  average_height: '200'
+  eye_colors: blue, brown, orange, pink
+  hair_colors: none
+  skin_colors: orange, yellow, blue, green, pink, purple, tan
+  language: Twi'leki
+  homeworld: ryloth
+  created_at: '2014-12-20T09:48:02.406000Z'
+  updated_at: '2014-12-20T21:36:42.169000Z'
+
+aleena:
+  name: Aleena
+  classification: reptile
+  designation: sentient
+  average_height: '80'
+  average_lifespan: '79'
+  hair_colors: none
+  skin_colors: blue, gray
+  language: Aleena
+  homeworld: aleen-minor
+  created_at: '2014-12-20T09:53:16.481000Z'
+  updated_at: '2014-12-20T21:36:42.171000Z'
+
+vulptereen:
+  name: Vulptereen
+  designation: sentient
+  average_height: '100'
+  eye_colors: yellow
+  hair_colors: none
+  skin_colors: grey
+  language: vulpterish
+  homeworld: vulpter
+  created_at: '2014-12-20T09:57:33.128000Z'
+  updated_at: '2014-12-20T21:36:42.173000Z'
+
+xexto:
+  name: Xexto
+  designation: sentient
+  average_height: '125'
+  eye_colors: black
+  hair_colors: none
+  skin_colors: grey, yellow, purple
+  language: Xextese
+  homeworld: troiken
+  created_at: '2014-12-20T10:02:13.915000Z'
+  updated_at: '2014-12-20T21:36:42.175000Z'
+
+toong:
+  name: Toong
+  designation: sentient
+  average_height: '200'
+  eye_colors: orange
+  hair_colors: none
+  skin_colors: grey, green, yellow
+  language: Tundan
+  homeworld: tund
+  created_at: '2014-12-20T10:08:36.795000Z'
+  updated_at: '2014-12-20T21:36:42.177000Z'
+
+cerean:
+  name: Cerean
+  classification: mammal
+  designation: sentient
+  average_height: '200'
+  eye_colors: hazel
+  hair_colors: red, blond, black, white
+  skin_colors: pale pink
+  language: Cerean
+  homeworld: cerea
+  created_at: '2014-12-20T10:15:33.765000Z'
+  updated_at: '2014-12-20T21:36:42.179000Z'
+
+nautolan:
+  name: Nautolan
+  classification: amphibian
+  designation: sentient
+  average_height: '180'
+  average_lifespan: '70'
+  eye_colors: black
+  hair_colors: none
+  skin_colors: green, blue, brown, red
+  language: Nautila
+  homeworld: glee-anselm
+  created_at: '2014-12-20T10:18:58.610000Z'
+  updated_at: '2014-12-20T21:36:42.181000Z'
+
+zabrak:
+  name: Zabrak
+  classification: mammal
+  designation: sentient
+  average_height: '180'
+  eye_colors: brown, orange
+  hair_colors: black
+  skin_colors: pale, brown, red, orange, yellow
+  language: Zabraki
+  homeworld: iridonia
+  created_at: '2014-12-20T10:26:59.894000Z'
+  updated_at: '2014-12-20T21:36:42.183000Z'
+
+tholothian:
+  name: Tholothian
+  classification: mammal
+  designation: sentient
+  eye_colors: blue, indigo
+  skin_colors: dark
+  homeworld: tholoth
+  created_at: '2014-12-20T10:29:13.798000Z'
+  updated_at: '2014-12-20T21:36:42.186000Z'
+
+iktotchi:
+  name: Iktotchi
+  designation: sentient
+  average_height: '180'
+  eye_colors: orange
+  hair_colors: none
+  skin_colors: pink
+  language: Iktotchese
+  homeworld: iktotch
+  created_at: '2014-12-20T10:32:13.046000Z'
+  updated_at: '2014-12-20T21:36:42.188000Z'
+
+quermian:
+  name: Quermian
+  classification: mammal
+  designation: sentient
+  average_height: '240'
+  average_lifespan: '86'
+  eye_colors: yellow
+  hair_colors: none
+  skin_colors: white
+  language: Quermian
+  homeworld: quermia
+  created_at: '2014-12-20T10:34:50.827000Z'
+  updated_at: '2014-12-20T21:36:42.189000Z'
+
+kel-dor:
+  name: Kel Dor
+  designation: sentient
+  average_height: '180'
+  average_lifespan: '70'
+  eye_colors: black, silver
+  hair_colors: none
+  skin_colors: peach, orange, red
+  language: Kel Dor
+  homeworld: dorin
+  created_at: '2014-12-20T10:49:21.692000Z'
+  updated_at: '2014-12-20T21:36:42.191000Z'
+
+chagrian:
+  name: Chagrian
+  classification: amphibian
+  designation: sentient
+  average_height: '190'
+  eye_colors: blue
+  hair_colors: none
+  skin_colors: blue
+  language: Chagria
+  homeworld: champala
+  created_at: '2014-12-20T10:53:28.795000Z'
+  updated_at: '2014-12-20T21:36:42.193000Z'
+
+geonosian:
+  name: Geonosian
+  classification: insectoid
+  designation: sentient
+  average_height: '178'
+  eye_colors: green, hazel
+  hair_colors: none
+  skin_colors: green, brown
+  language: Geonosian
+  homeworld: geonosis
+  created_at: '2014-12-20T16:40:45.618000Z'
+  updated_at: '2014-12-20T21:36:42.195000Z'
+
+mirialan:
+  name: Mirialan
+  classification: mammal
+  designation: sentient
+  average_height: '180'
+  eye_colors: blue, green, red, yellow, brown, orange
+  hair_colors: black, brown
+  skin_colors: yellow, green
+  language: Mirialan
+  homeworld: mirial
+  created_at: '2014-12-20T16:46:48.290000Z'
+  updated_at: '2014-12-20T21:36:42.197000Z'
+
+clawdite:
+  name: Clawdite
+  classification: reptilian
+  designation: sentient
+  average_height: '180'
+  average_lifespan: '70'
+  eye_colors: yellow
+  hair_colors: none
+  skin_colors: green, yellow
+  language: Clawdite
+  homeworld: zolan
+  created_at: '2014-12-20T16:57:46.171000Z'
+  updated_at: '2014-12-20T21:36:42.199000Z'
+
+besalisk:
+  name: Besalisk
+  classification: amphibian
+  designation: sentient
+  average_height: '178'
+  average_lifespan: '75'
+  eye_colors: yellow
+  hair_colors: none
+  skin_colors: brown
+  language: besalisk
+  homeworld: ojom
+  created_at: '2014-12-20T17:28:28.821000Z'
+  updated_at: '2014-12-20T21:36:42.200000Z'
+
+kaminoan:
+  name: Kaminoan
+  classification: amphibian
+  designation: sentient
+  average_height: '220'
+  average_lifespan: '80'
+  eye_colors: black
+  hair_colors: none
+  skin_colors: grey, blue
+  language: Kaminoan
+  homeworld: kamino
+  created_at: '2014-12-20T17:31:24.838000Z'
+  updated_at: '2014-12-20T21:36:42.202000Z'
+
+skakoan:
+  name: Skakoan
+  classification: mammal
+  designation: sentient
+  hair_colors: none
+  skin_colors: grey, green
+  language: Skakoan
+  homeworld: skako
+  created_at: '2014-12-20T17:53:54.515000Z'
+  updated_at: '2014-12-20T21:36:42.204000Z'
+
+muun:
+  name: Muun
+  classification: mammal
+  designation: sentient
+  average_height: '190'
+  average_lifespan: '100'
+  eye_colors: black
+  hair_colors: none
+  skin_colors: grey, white
+  language: Muun
+  homeworld: muunilinst
+  created_at: '2014-12-20T17:58:19.088000Z'
+  updated_at: '2014-12-20T21:36:42.207000Z'
+
+togruta:
+  name: Togruta
+  classification: mammal
+  designation: sentient
+  average_height: '180'
+  average_lifespan: '94'
+  eye_colors: red, orange, yellow, green, blue, black
+  hair_colors: none
+  skin_colors: red, white, orange, yellow, green, blue
+  language: Togruti
+  homeworld: shili
+  created_at: '2014-12-20T18:44:03.246000Z'
+  updated_at: '2014-12-20T21:36:42.209000Z'
+
+kaleesh:
+  name: Kaleesh
+  classification: reptile
+  designation: sentient
+  average_height: '170'
+  average_lifespan: '80'
+  eye_colors: yellow
+  hair_colors: none
+  skin_colors: brown, orange, tan
+  language: Kaleesh
+  homeworld: kalee
+  created_at: '2014-12-20T19:45:42.537000Z'
+  updated_at: '2014-12-20T21:36:42.210000Z'
+
+pau-an:
+  name: Pau'an
+  classification: mammal
+  designation: sentient
+  average_height: '190'
+  average_lifespan: '700'
+  eye_colors: black
+  hair_colors: none
+  skin_colors: grey
+  language: Utapese
+  homeworld: utapau
+  created_at: '2014-12-20T20:35:06.777000Z'
+  updated_at: '2014-12-20T21:36:42.212000Z'
+
+wookiee:
+  name: Wookiee
+  classification: mammal
+  designation: sentient
+  average_height: '210'
+  average_lifespan: '400'
+  eye_colors: blue, green, yellow, brown, golden, red
+  hair_colors: black, brown
+  skin_colors: gray
+  language: Shyriiwook
+  homeworld: kashyyyk
+  created_at: '2014-12-10T16:44:31.486000Z'
+  updated_at: '2015-01-30T21:23:03.074598Z'
+
+droid:
+  name: Droid
+  classification: artificial
+  designation: sentient
+  average_height: n/a
+  average_lifespan: indefinite
+  eye_colors: n/a
+  hair_colors: n/a
+  skin_colors: n/a
+  language: n/a
+  created_at: '2014-12-10T15:16:16.259000Z'
+  updated_at: '2015-04-17T06:59:43.869528Z'
+
+human:
+  name: Human
+  classification: mammal
+  designation: sentient
+  average_height: '180'
+  average_lifespan: '120'
+  eye_colors: brown, blue, green, hazel, grey, amber
+  hair_colors: blonde, brown, black, red
+  skin_colors: caucasian, black, asian, hispanic
+  language: Galactic Basic
+  homeworld: coruscant
+  created_at: '2014-12-10T13:52:11.567000Z'
+  updated_at: '2015-04-17T06:59:55.850671Z'
+
+rodian:
+  name: Rodian
+  classification: sentient
+  designation: reptilian
+  average_height: '170'
+  eye_colors: black
+  hair_colors: n/a
+  skin_colors: green, blue
+  language: Galactic Basic
+  homeworld: rodia
+  created_at: '2014-12-10T17:05:26.471000Z'
+  updated_at: '2016-07-19T13:27:03.156498Z'
