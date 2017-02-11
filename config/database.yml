@@ -22,6 +22,10 @@ test:
 
 production:
   adapter: postgresql
-  database: swapi_graphql_ruby_production
-  pool: 5
-  timeout: 5000
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: swapi-graphql-ruby_production
+  username: swapi-graphql-ruby
+  password: <%= ENV['SWAPI_GRAPHQL_RUBY_DATABASE_PASSWORD'] %>
