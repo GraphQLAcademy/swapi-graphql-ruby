@@ -1,5 +1,5 @@
 class GraphQLControllerTest < ActionDispatch::IntegrationTest
-  test "should execute graphql queries" do
+  test "#execute executes graphql queries" do
     post graphql_url, params: { query: full_graphql_query, variables: default_variables }
 
     expected = {
