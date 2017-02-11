@@ -13,7 +13,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "homeworld" => {
             "name" => "Tatooine"
           },
-          "id" => "242320449",
+          "id" => "gid://swapi/Person/242320449",
           "mass" => 77,
           "name" => "Luke Skywalker",
           "skinColor" => "fair",
@@ -21,7 +21,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
         "film" => {
           "director" => "George Lucas",
           "episodeID" => 4,
-          "id" => "846649883",
+          "id" => "gid://swapi/Film/846649883",
           "producers" => ["Gary Kurtz", "Rick McCallum"],
           "releaseDate" => "1977-05-25",
           "title" => "A New Hope"
@@ -30,7 +30,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "climate" => "temperate",
           "diameter" => 12500,
           "gravity" => "1 standard",
-          "id" => "688730903",
+          "id" => "gid://swapi/Planet/688730903",
           "name" => "Alderaan",
           "orbitalPeriod" => 364,
           "population" => 2000.0,
@@ -46,13 +46,13 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "eyeColors" => ["yellow", "red"],
           "hairColors" => ["n/a"],
           "homeworld" => { "name" => "Nal Hutta" },
-          "id" => "299344798",
+          "id" => "gid://swapi/Species/299344798",
           "language" => "Huttese",
           "name" => "Hutt",
           "skinColors" => ["green", "brown", "tan"],
         },
         "starship" => {
-          "id" => "113504200",
+          "id" => "gid://swapi/Starship/113504200",
           "name" => "Millennium Falcon",
           "model" => "YT-1300 light freighter",
           "MGLT" => 75,
@@ -79,7 +79,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "starshipClass" => "Light freighter"
         },
         "vehicle" => {
-          "id" => "82948950",
+          "id" => "gid://swapi/Vehicle/82948950",
           "name" => "Snowspeeder",
           "model" => "t-47 airspeeder",
           "cargoCapacity" => 10.0,
@@ -101,6 +101,26 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
         }
       }
     }
+
+    assert_equal expected, JSON.parse(response.body)
+  end
+
+  test '#execute can execute node queries' do
+    starship = starships(:"millennium-falcon")
+
+    query = "
+      query {
+        node(id: \"#{starship.to_global_id.to_s}\") {
+           ... on Starship {
+             name
+           }
+        }
+      }
+    "
+
+    expected = { "data" => { "node" => { "name" => "Millennium Falcon" } } }
+
+    post graphql_url, params: { query: query }
 
     assert_equal expected, JSON.parse(response.body)
   end

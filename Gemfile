@@ -12,7 +12,7 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use GraphQL!
-gem 'graphql', '~> 1.4.2'
+gem 'graphql', '~> 1.4.3'
 # GraphiQL Interface
 gem 'graphiql-rails', '~> 1.4.1'
 

@@ -4,7 +4,9 @@ module Graph
       name "Person"
       description "An individual person or character within the Star Wars universe."
 
-      field :id, types.ID, "The ID of the person."
+      interfaces [GraphQL::Relay::Node.interface]
+
+      global_id_field :id
 
       field :birthYear, types.String,
         "The birth year of the person, using the in-universe standard of BBY or ABY"\
