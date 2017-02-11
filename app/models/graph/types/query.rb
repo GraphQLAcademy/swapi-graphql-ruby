@@ -48,15 +48,6 @@ module Graph
       field :starships, types[Graph::Types::Starship] do
         resolve ->(_, _, _) { ::Starship.all }
       end
-
-      field :vehicle, Graph::Types::Vehicle do
-        argument :id, types.ID
-        resolve ->(_, args, _) { ::Vehicle.find(args['id']) }
-      end
-
-      field :vehicles, types[Graph::Types::Vehicle] do
-        resolve ->(_, _, _) { ::Vehicle.all }
-      end
     end
   end
 end
