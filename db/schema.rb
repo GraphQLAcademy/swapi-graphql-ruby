@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170210220945) do
+ActiveRecord::Schema.define(version: 20170211182808) do
 
   create_table "films", force: :cascade do |t|
     t.string   "title"
@@ -21,6 +21,41 @@ ActiveRecord::Schema.define(version: 20170210220945) do
     t.date     "release_date"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+  end
+
+  create_table "films_people", id: false, force: :cascade do |t|
+    t.integer "film_id",   null: false
+    t.integer "person_id", null: false
+    t.index ["film_id"], name: "index_films_people_on_film_id"
+    t.index ["person_id"], name: "index_films_people_on_person_id"
+  end
+
+  create_table "films_planets", id: false, force: :cascade do |t|
+    t.integer "film_id",   null: false
+    t.integer "planet_id", null: false
+    t.index ["film_id"], name: "index_films_planets_on_film_id"
+    t.index ["planet_id"], name: "index_films_planets_on_planet_id"
+  end
+
+  create_table "films_species", id: false, force: :cascade do |t|
+    t.integer "film_id",    null: false
+    t.integer "species_id", null: false
+    t.index ["film_id"], name: "index_films_species_on_film_id"
+    t.index ["species_id"], name: "index_films_species_on_species_id"
+  end
+
+  create_table "films_starships", id: false, force: :cascade do |t|
+    t.integer "film_id",     null: false
+    t.integer "starship_id", null: false
+    t.index ["film_id"], name: "index_films_starships_on_film_id"
+    t.index ["starship_id"], name: "index_films_starships_on_starship_id"
+  end
+
+  create_table "films_vehicles", id: false, force: :cascade do |t|
+    t.integer "film_id",    null: false
+    t.integer "vehicle_id", null: false
+    t.index ["film_id"], name: "index_films_vehicles_on_film_id"
+    t.index ["vehicle_id"], name: "index_films_vehicles_on_vehicle_id"
   end
 
   create_table "people", force: :cascade do |t|

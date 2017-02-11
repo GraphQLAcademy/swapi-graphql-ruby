@@ -11,6 +11,49 @@ a-new-hope:
   director: George Lucas
   producer: Gary Kurtz, Rick McCallum
   release_date: '1977-05-25'
+  species:
+  - hutt
+  - wookiee
+  - droid
+  - human
+  - rodian
+  starships:
+  - cr90-corvette
+  - star-destroyer
+  - sentinel-class-landing-craft
+  - death-star
+  - millennium-falcon
+  - y-wing
+  - x-wing
+  - tie-advanced-x1
+  planets:
+  - alderaan
+  - yavin-iv
+  - tatooine
+  characters:
+  - luke-skywalker
+  - c-3po
+  - r2-d2
+  - darth-vader
+  - leia-organa
+  - owen-lars
+  - beru-whitesun-lars
+  - r5-d4
+  - biggs-darklighter
+  - obi-wan-kenobi
+  - wilhuff-tarkin
+  - chewbacca
+  - han-solo
+  - greedo
+  - jabba-desilijic-tiure
+  - wedge-antilles
+  - jek-tono-porkins
+  - raymus-antilles
+  vehicles:
+  - sand-crawler
+  - t-16-skyhopper
+  - x-34-landspeeder
+  - tie-ln-starfighter
   created_at: '2014-12-10T14:23:31.880000Z'
   updated_at: '2015-04-11T09:46:52.774897Z'
 
@@ -27,6 +70,90 @@ attack-of-the-clones:
   director: George Lucas
   producer: Rick McCallum
   release_date: '2002-05-16'
+  species:
+  - kaminoan
+  - skakoan
+  - droid
+  - togruta
+  - yoda-s-species
+  - human
+  - gungan
+  - muun
+  - toydarian
+  - twi-lek
+  - geonosian
+  - mirialan
+  - clawdite
+  - besalisk
+  starships:
+  - slave-1
+  - naboo-fighter
+  - j-type-diplomatic-barge
+  - aa-9-coruscant-freighter
+  - jedi-starfighter
+  - h-type-nubian-yacht
+  - droid-control-ship
+  - republic-assault-ship
+  - solar-sailer
+  planets:
+  - naboo
+  - coruscant
+  - kamino
+  - geonosis
+  - tatooine
+  characters:
+  - c-3po
+  - r2-d2
+  - owen-lars
+  - beru-whitesun-lars
+  - obi-wan-kenobi
+  - anakin-skywalker
+  - yoda
+  - palpatine
+  - boba-fett
+  - nute-gunray
+  - jar-jar-binks
+  - watto
+  - shmi-skywalker
+  - ayla-secura
+  - mace-windu
+  - ki-adi-mundi
+  - kit-fisto
+  - plo-koon
+  - mas-amedda
+  - gregar-typho
+  - corde
+  - cliegg-lars
+  - poggle-the-lesser
+  - luminara-unduli
+  - barriss-offee
+  - dorme
+  - dooku
+  - bail-prestor-organa
+  - jango-fett
+  - zam-wesell
+  - dexter-jettster
+  - lama-su
+  - taun-we
+  - jocasta-nu
+  - r4-p17
+  - wat-tambor
+  - san-hill
+  - shaak-ti
+  - sly-moore
+  - padme-amidala
+  vehicles:
+  - sand-crawler
+  - zephyr-g-swoop-bike
+  - koro-2-exodrive-airspeeder
+  - xj-6-airspeeder
+  - laat-i
+  - laat-c
+  - at-te
+  - spha
+  - flitknot-speeder
+  - neimoidian-shuttle
+  - geonosian-starfighter
   created_at: '2014-12-20T10:57:57.886000Z'
   updated_at: '2015-04-11T09:45:01.623982Z'
 
@@ -43,6 +170,80 @@ the-phantom-menace:
   director: George Lucas
   producer: Rick McCallum
   release_date: '1999-05-19'
+  species:
+  - human
+  - droid
+  - yoda-s-species
+  - neimodian
+  - gungan
+  - toydarian
+  - dug
+  - twi-lek
+  - aleena
+  - vulptereen
+  - xexto
+  - toong
+  - cerean
+  - nautolan
+  - zabrak
+  - tholothian
+  - iktotchi
+  - quermian
+  - kel-dor
+  - chagrian
+  starships:
+  - naboo-royal-starship
+  - scimitar
+  - republic-cruiser
+  - droid-control-ship
+  - naboo-fighter
+  planets:
+  - naboo
+  - coruscant
+  - tatooine
+  characters:
+  - c-3po
+  - r2-d2
+  - obi-wan-kenobi
+  - anakin-skywalker
+  - jabba-desilijic-tiure
+  - yoda
+  - palpatine
+  - qui-gon-jinn
+  - nute-gunray
+  - finis-valorum
+  - jar-jar-binks
+  - roos-tarpals
+  - rugor-nass
+  - ric-olie
+  - watto
+  - sebulba
+  - quarsh-panaka
+  - shmi-skywalker
+  - darth-maul
+  - ayla-secura
+  - dud-bolt
+  - gasgano
+  - ben-quadinaros
+  - mace-windu
+  - ki-adi-mundi
+  - kit-fisto
+  - eeth-koth
+  - adi-gallia
+  - saesee-tiin
+  - yarael-poof
+  - plo-koon
+  - mas-amedda
+  - ratts-tyerell
+  - padme-amidala
+  vehicles:
+  - vulture-droid
+  - multi-troop-transport
+  - armored-assault-tank
+  - single-trooper-aerial-platform
+  - c-9979-landing-craft
+  - tribubble-bongo
+  - sith-speeder
   created_at: '2014-12-19T16:52:55.740000Z'
   updated_at: '2015-04-11T09:45:18.689301Z'
 
@@ -59,6 +260,103 @@ revenge-of-the-sith:
   director: George Lucas
   producer: Rick McCallum
   release_date: '2005-05-19'
+  species:
+  - toong
+  - skakoan
+  - droid
+  - wookiee
+  - kaleesh
+  - pau-an
+  - yoda-s-species
+  - human
+  - muun
+  - twi-lek
+  - togruta
+  - cerean
+  - tholothian
+  - iktotchi
+  - quermian
+  - kel-dor
+  - chagrian
+  - geonosian
+  - mirialan
+  - clawdite
+  starships:
+  - jedi-starfighter
+  - trade-federation-cruiser
+  - theta-class-t-2c-shuttle
+  - droid-control-ship
+  - republic-attack-cruiser
+  - naboo-star-skiff
+  - jedi-interceptor
+  - arc-170
+  - banking-clan-frigte
+  - belbullab-22-starfighter
+  - v-wing
+  - cr90-corvette
+  planets:
+  - alderaan
+  - dagobah
+  - naboo
+  - coruscant
+  - utapau
+  - mustafar
+  - kashyyyk
+  - polis-massa
+  - mygeeto
+  - felucia
+  - cato-neimoidia
+  - saleucami
+  - tatooine
+  characters:
+  - luke-skywalker
+  - c-3po
+  - r2-d2
+  - darth-vader
+  - leia-organa
+  - owen-lars
+  - beru-whitesun-lars
+  - obi-wan-kenobi
+  - anakin-skywalker
+  - wilhuff-tarkin
+  - chewbacca
+  - yoda
+  - palpatine
+  - nute-gunray
+  - ayla-secura
+  - mace-windu
+  - ki-adi-mundi
+  - kit-fisto
+  - eeth-koth
+  - adi-gallia
+  - saesee-tiin
+  - plo-koon
+  - poggle-the-lesser
+  - luminara-unduli
+  - dooku
+  - bail-prestor-organa
+  - r4-p17
+  - shaak-ti
+  - grievous
+  - tarfful
+  - raymus-antilles
+  - sly-moore
+  - tion-medon
+  - padme-amidala
+  vehicles:
+  - vulture-droid
+  - laat-i
+  - tsmeu-6-personal-wheel-bike
+  - emergency-firespeeder
+  - droid-tri-fighter
+  - oevvaor-jet-catamaran
+  - raddaugh-gnasp-fluttercraft
+  - clone-turbo-tank
+  - corporate-alliance-tank-droid
+  - droid-gunship
+  - at-rt
+  - at-te
+  - neimoidian-shuttle
   created_at: '2014-12-20T18:49:38.403000Z'
   updated_at: '2015-04-11T09:45:44.862122Z'
 
@@ -75,6 +373,65 @@ return-of-the-jedi:
   director: Richard Marquand
   producer: Howard G. Kazanjian, George Lucas, Rick McCallum
   release_date: '1983-05-25'
+  species:
+  - hutt
+  - yoda-s-species
+  - mon-calamari
+  - ewok
+  - sullustan
+  - twi-lek
+  - wookiee
+  - droid
+  - human
+  starships:
+  - millennium-falcon
+  - y-wing
+  - x-wing
+  - executor
+  - imperial-shuttle
+  - ef76-nebulon-b-escort-frigate
+  - calamari-cruiser
+  - a-wing
+  - b-wing
+  - star-destroyer
+  - rebel-transport
+  - cr90-corvette
+  planets:
+  - dagobah
+  - endor
+  - naboo
+  - coruscant
+  - tatooine
+  characters:
+  - luke-skywalker
+  - c-3po
+  - r2-d2
+  - darth-vader
+  - leia-organa
+  - obi-wan-kenobi
+  - chewbacca
+  - han-solo
+  - jabba-desilijic-tiure
+  - wedge-antilles
+  - yoda
+  - palpatine
+  - boba-fett
+  - lando-calrissian
+  - ackbar
+  - mon-mothma
+  - arvel-crynyd
+  - wicket-systri-warrick
+  - nien-nunb
+  - bib-fortuna
+  vehicles:
+  - tie-ln-starfighter
+  - tie-bomber
+  - at-at
+  - at-st
+  - sail-barge
+  - bantha-ii-cargo-skiff
+  - tie-in-interceptor
+  - imperial-speeder-bike
   created_at: '2014-12-18T10:39:33.255000Z'
   updated_at: '2015-04-11T09:46:05.220365Z'
 
@@ -91,6 +448,51 @@ the-empire-strikes-back:
   director: Irvin Kershner
   producer: Gary Kutz, Rick McCallum
   release_date: '1980-05-17'
+  species:
+  - yoda-s-species
+  - trandoshan
+  - wookiee
+  - droid
+  - human
+  starships:
+  - millennium-falcon
+  - y-wing
+  - x-wing
+  - executor
+  - slave-1
+  - imperial-shuttle
+  - ef76-nebulon-b-escort-frigate
+  - star-destroyer
+  - rebel-transport
+  planets:
+  - hoth
+  - dagobah
+  - bespin
+  - ord-mantell
+  characters:
+  - luke-skywalker
+  - c-3po
+  - r2-d2
+  - darth-vader
+  - leia-organa
+  - obi-wan-kenobi
+  - chewbacca
+  - han-solo
+  - wedge-antilles
+  - yoda
+  - palpatine
+  - boba-fett
+  - ig-88
+  - bossk
+  - lando-calrissian
+  - lobot
+  vehicles:
+  - tie-ln-starfighter
+  - snowspeeder
+  - tie-bomber
+  - at-at
+  - at-st
+  - storm-iv-twin-pod-cloud-car
   created_at: '2014-12-12T11:26:24.656000Z'
   updated_at: '2015-04-11T09:46:31.433607Z'
 
@@ -107,5 +509,26 @@ the-force-awakens:
   director: J. J. Abrams
   producer: Kathleen Kennedy, J. J. Abrams, Bryan Burk
   release_date: '2015-12-11'
+  species:
+  - wookiee
+  - droid
+  - human
+  starships:
+  - t-70-x-wing-fighter
+  - millennium-falcon
+  planets:
+  - jakku
+  characters:
+  - luke-skywalker
+  - r2-d2
+  - leia-organa
+  - chewbacca
+  - han-solo
+  - ackbar
+  - finn
+  - rey
+  - poe-dameron
+  - bb8
+  - captain-phasma
   created_at: '2015-04-17T06:51:30.504780Z'
   updated_at: '2015-12-17T14:31:47.617768Z'
