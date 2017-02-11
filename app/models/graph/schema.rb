@@ -1,5 +1,5 @@
 module Graph
   Schema = GraphQL::Schema.define do
-    query Query
+    query Graph::Types::Query
   end
 end
