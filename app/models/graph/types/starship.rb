@@ -2,6 +2,7 @@ module Graph
   module Types
     Starship = GraphQL::ObjectType.define do
       name "Starship"
+      model ::Starship
       description "A single transport craft that has hyperdrive capability."
 
       interfaces [GraphQL::Relay::Node.interface, Graph::Types::TransportInterface]

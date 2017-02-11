@@ -2,6 +2,7 @@ module Graph
   module Types
     Film = GraphQL::ObjectType.define do
       name "Film"
+      model ::Film
       description "A single film."
 
       interfaces [GraphQL::Relay::Node.interface]

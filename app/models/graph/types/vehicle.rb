@@ -2,6 +2,7 @@ module Graph
   module Types
     Vehicle = GraphQL::ObjectType.define do
       name "Vehicle"
+      model ::Vehicle
       description "A single transport craft that has hyperdrive capability."
 
       interfaces [GraphQL::Relay::Node.interface, Graph::Types::TransportInterface]

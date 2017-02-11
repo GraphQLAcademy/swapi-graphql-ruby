@@ -2,6 +2,7 @@ module Graph
   module Types
     Planet = GraphQL::ObjectType.define do
       name "Planet"
+      model ::Planet
       description "A large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY."
 
       interfaces [GraphQL::Relay::Node.interface]
