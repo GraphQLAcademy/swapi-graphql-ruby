@@ -10,7 +10,7 @@ class CreateSpecies < ActiveRecord::Migration[5.0]
       t.string :hair_colors
       t.string :skin_colors
       t.string :language
-      t.references :homeworld, foreign_key: true
+      t.references :homeworld, foreign_key: { to_table: :planets }
 
       t.timestamps
     end
