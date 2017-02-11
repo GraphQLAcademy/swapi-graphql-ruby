@@ -20,5 +20,14 @@ module Graph
     field :planets, types[Graph::Types::Planet] do
       resolve ->(_, _, _) { Planet.all }
     end
+
+    field :film, Graph::Types::Film do
+      argument :id, types.ID
+      resolve ->(_, args, _) { Film.find(args['id']) }
+    end
+
+    field :films, types[Graph::Types::Film] do
+      resolve ->(_, _, _) { Film.all }
+    end
   end
 end
