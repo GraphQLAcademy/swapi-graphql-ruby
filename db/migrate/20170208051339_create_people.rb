@@ -9,7 +9,7 @@ class CreatePeople < ActiveRecord::Migration[5.0]
       t.integer :height
       t.integer :mass
       t.string :skin_color
-      t.references :homeworld, foreign_key: true
+      t.references :homeworld, foreign_key: { to_table: :planets }
 
       t.timestamps
     end
