@@ -77,6 +77,27 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
             { "name" => "Nien Nunb" }
           ],
           "starshipClass" => "Light freighter"
+        },
+        "vehicle" => {
+          "id" => "82948950",
+          "name" => "Snowspeeder",
+          "model" => "t-47 airspeeder",
+          "cargoCapacity" => 10.0,
+          "consumables" => "none",
+          "costInCredits" => nil,
+          "created_at" => "2014-12-15 12:22:12 UTC",
+          "crew" => "2",
+          "length" => 4.5,
+          "manufacturer" => "Incom corporation",
+          "maxAtmospheringSpeed" => 650,
+          "passengers" => "0",
+          "pilots" => [
+            { "name" => "Luke Skywalker" },
+            { "name" => "Wedge Antilles" },
+            { "name" => "Luke Skywalker" },
+            { "name" => "Wedge Antilles" },
+          ],
+          "vehicleClass"=>"airspeeder"
         }
       }
     }
@@ -88,7 +109,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
 
   def full_graphql_query
     "
-      query Full($personID: ID, $filmID: ID, $planetID: ID, $starshipID: ID, $speciesID: ID) {
+      query Full($personID: ID, $filmID: ID, $planetID: ID, $starshipID: ID, $speciesID: ID, $vehicleID: ID) {
         person(id: $personID) {
           birthYear
           eyeColor
@@ -152,6 +173,22 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           pilots { name }
           starshipClass
         }
+        vehicle(id: $vehicleID) {
+          id
+          name
+          model
+          cargoCapacity
+          consumables
+          costInCredits
+          created_at
+          crew
+          length
+          manufacturer
+          maxAtmospheringSpeed
+          passengers
+          pilots { name }
+          vehicleClass
+        }
       }
     "
   end
@@ -162,13 +199,15 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
     film = films(:"a-new-hope")
     planet = planets(:alderaan)
     species = species(:hutt)
+    vehicle = vehicles(:snowspeeder)
 
     {
       "starshipID" => starship.id,
       "personID" => person.id,
       "filmID" => film.id,
       "planetID" => planet.id,
-      "speciesID" => species.id
+      "speciesID" => species.id,
+      "vehicleID" => vehicle.id
     }
   end
 end
