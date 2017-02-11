@@ -31,7 +31,7 @@ trandoshan:
   designation: sentient
   average_height: '200'
   eye_colors: yellow, orange
-  hair_colors: none
+  hair_colors:
   skin_colors: brown, green
   language: Dosh
   homeworld: trandosha
@@ -44,7 +44,7 @@ mon-calamari:
   designation: sentient
   average_height: '160'
   eye_colors: yellow
-  hair_colors: none
+  hair_colors:
   skin_colors: red, blue, brown, magenta
   language: Mon Calamarian
   homeworld: mon-cala
@@ -70,7 +70,7 @@ sullustan:
   designation: sentient
   average_height: '180'
   eye_colors: black
-  hair_colors: none
+  hair_colors:
   skin_colors: pale
   language: Sullutese
   homeworld: sullust
@@ -82,7 +82,7 @@ neimodian:
   designation: sentient
   average_height: '180'
   eye_colors: red, pink
-  hair_colors: none
+  hair_colors:
   skin_colors: grey, green
   language: Neimoidia
   homeworld: cato-neimoidia
@@ -95,7 +95,7 @@ gungan:
   designation: sentient
   average_height: '190'
   eye_colors: orange
-  hair_colors: none
+  hair_colors:
   skin_colors: brown, green
   language: Gungan basic
   homeworld: naboo
@@ -109,7 +109,7 @@ toydarian:
   average_height: '120'
   average_lifespan: '91'
   eye_colors: yellow
-  hair_colors: none
+  hair_colors:
   skin_colors: blue, green, grey
   language: Toydarian
   homeworld: toydaria
@@ -122,7 +122,7 @@ dug:
   designation: sentient
   average_height: '100'
   eye_colors: yellow, blue
-  hair_colors: none
+  hair_colors:
   skin_colors: brown, purple, grey, red
   language: Dugese
   homeworld: malastare
@@ -135,7 +135,7 @@ twi-lek:
   designation: sentient
   average_height: '200'
   eye_colors: blue, brown, orange, pink
-  hair_colors: none
+  hair_colors:
   skin_colors: orange, yellow, blue, green, pink, purple, tan
   language: Twi'leki
   homeworld: ryloth
@@ -148,7 +148,7 @@ aleena:
   designation: sentient
   average_height: '80'
   average_lifespan: '79'
-  hair_colors: none
+  hair_colors:
   skin_colors: blue, gray
   language: Aleena
   homeworld: aleen-minor
@@ -160,7 +160,7 @@ vulptereen:
   designation: sentient
   average_height: '100'
   eye_colors: yellow
-  hair_colors: none
+  hair_colors:
   skin_colors: grey
   language: vulpterish
   homeworld: vulpter
@@ -172,7 +172,7 @@ xexto:
   designation: sentient
   average_height: '125'
   eye_colors: black
-  hair_colors: none
+  hair_colors:
   skin_colors: grey, yellow, purple
   language: Xextese
   homeworld: troiken
@@ -184,7 +184,7 @@ toong:
   designation: sentient
   average_height: '200'
   eye_colors: orange
-  hair_colors: none
+  hair_colors:
   skin_colors: grey, green, yellow
   language: Tundan
   homeworld: tund
@@ -211,7 +211,7 @@ nautolan:
   average_height: '180'
   average_lifespan: '70'
   eye_colors: black
-  hair_colors: none
+  hair_colors:
   skin_colors: green, blue, brown, red
   language: Nautila
   homeworld: glee-anselm
@@ -246,7 +246,7 @@ iktotchi:
   designation: sentient
   average_height: '180'
   eye_colors: orange
-  hair_colors: none
+  hair_colors:
   skin_colors: pink
   language: Iktotchese
   homeworld: iktotch
@@ -260,7 +260,7 @@ quermian:
   average_height: '240'
   average_lifespan: '86'
   eye_colors: yellow
-  hair_colors: none
+  hair_colors:
   skin_colors: white
   language: Quermian
   homeworld: quermia
@@ -273,7 +273,7 @@ kel-dor:
   average_height: '180'
   average_lifespan: '70'
   eye_colors: black, silver
-  hair_colors: none
+  hair_colors:
   skin_colors: peach, orange, red
   language: Kel Dor
   homeworld: dorin
@@ -286,7 +286,7 @@ chagrian:
   designation: sentient
   average_height: '190'
   eye_colors: blue
-  hair_colors: none
+  hair_colors:
   skin_colors: blue
   language: Chagria
   homeworld: champala
@@ -299,7 +299,7 @@ geonosian:
   designation: sentient
   average_height: '178'
   eye_colors: green, hazel
-  hair_colors: none
+  hair_colors:
   skin_colors: green, brown
   language: Geonosian
   homeworld: geonosis
@@ -326,7 +326,7 @@ clawdite:
   average_height: '180'
   average_lifespan: '70'
   eye_colors: yellow
-  hair_colors: none
+  hair_colors:
   skin_colors: green, yellow
   language: Clawdite
   homeworld: zolan
@@ -340,7 +340,7 @@ besalisk:
   average_height: '178'
   average_lifespan: '75'
   eye_colors: yellow
-  hair_colors: none
+  hair_colors:
   skin_colors: brown
   language: besalisk
   homeworld: ojom
@@ -354,7 +354,7 @@ kaminoan:
   average_height: '220'
   average_lifespan: '80'
   eye_colors: black
-  hair_colors: none
+  hair_colors:
   skin_colors: grey, blue
   language: Kaminoan
   homeworld: kamino
@@ -365,7 +365,7 @@ skakoan:
   name: Skakoan
   classification: mammal
   designation: sentient
-  hair_colors: none
+  hair_colors:
   skin_colors: grey, green
   language: Skakoan
   homeworld: skako
@@ -379,7 +379,7 @@ muun:
   average_height: '190'
   average_lifespan: '100'
   eye_colors: black
-  hair_colors: none
+  hair_colors:
   skin_colors: grey, white
   language: Muun
   homeworld: muunilinst
@@ -393,7 +393,7 @@ togruta:
   average_height: '180'
   average_lifespan: '94'
   eye_colors: red, orange, yellow, green, blue, black
-  hair_colors: none
+  hair_colors:
   skin_colors: red, white, orange, yellow, green, blue
   language: Togruti
   homeworld: shili
@@ -407,7 +407,7 @@ kaleesh:
   average_height: '170'
   average_lifespan: '80'
   eye_colors: yellow
-  hair_colors: none
+  hair_colors:
   skin_colors: brown, orange, tan
   language: Kaleesh
   homeworld: kalee
@@ -421,7 +421,7 @@ pau-an:
   average_height: '190'
   average_lifespan: '700'
   eye_colors: black
-  hair_colors: none
+  hair_colors:
   skin_colors: grey
   language: Utapese
   homeworld: utapau

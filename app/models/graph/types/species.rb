@@ -24,8 +24,6 @@ module Graph
         description "Common eye colors for this species, null if this species does not typically have eyes."
         resolve ->(species, _, _) do
           return unless colors = species.eye_colors
-          return if species.eye_colors.include?("none")
-
           colors.split(", ")
         end
       end
@@ -34,8 +32,6 @@ module Graph
         description "Common hair colors for this species, null if this species does not typically have hair."
         resolve ->(species, _, _) do
           return unless colors = species.hair_colors
-          return if species.hair_colors.include?("none")
-
           colors.split(", ")
         end
       end
@@ -44,8 +40,6 @@ module Graph
         description "Common skin colors for this species, null if this species does not typically have skin."
         resolve ->(species, _, _) do
           return unless colors = species.skin_colors
-          return if species.skin_colors.include?("none")
-
           colors.split(", ")
         end
       end
