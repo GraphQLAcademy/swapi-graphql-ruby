@@ -26,6 +26,3 @@ production:
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: swapi-graphql-ruby_production
-  username: swapi-graphql-ruby
-  password: <%= ENV['SWAPI_GRAPHQL_RUBY_DATABASE_PASSWORD'] %>
