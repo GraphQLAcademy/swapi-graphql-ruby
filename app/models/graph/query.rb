@@ -29,5 +29,14 @@ module Graph
     field :films, types[Graph::Types::Film] do
       resolve ->(_, _, _) { Film.all }
     end
+
+    field :species, Graph::Types::Species do
+      argument :id, types.ID
+      resolve ->(_, args, _) { Species.find(args['id']) }
+    end
+
+    field :allSpecies, types[Graph::Types::Species] do
+      resolve ->(_, _, _) { Species.all }
+    end
   end
 end
