@@ -6,7 +6,7 @@ module Graph
 
       field :person, Graph::Types::Person do
         argument :id, types.ID
-        resolve ->(_, args, _) { ::Person.find(args['id']) }
+        resolve ->(_, args, _) { ::Person.find_by(id: args['id']) }
       end
 
       field :people, types[Graph::Types::Person] do
