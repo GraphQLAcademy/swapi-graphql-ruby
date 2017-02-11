@@ -22,7 +22,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "director" => "George Lucas",
           "episodeID" => 4,
           "id" => "846649883",
-          "producers" => ["GaryKurtz", "RickMcCallum"],
+          "producers" => ["Gary Kurtz", "Rick McCallum"],
           "releaseDate" => "1977-05-25",
           "title" => "A New Hope"
         },

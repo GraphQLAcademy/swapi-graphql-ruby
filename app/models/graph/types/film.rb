@@ -14,7 +14,7 @@ module Graph
       field :director, types.String, "The name of the director of this film."
       field :producers, types[types.String] do
         description "The name(s) of the producer(s) of this film."
-        resolve ->(film, _, _) { film.producer.delete(" \t\r\n").split(",") }
+        resolve ->(film, _, _) { film.producer.split(", ") }
       end
 
       field :releaseDate, types.String,

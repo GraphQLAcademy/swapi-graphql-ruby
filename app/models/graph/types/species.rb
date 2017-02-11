@@ -26,7 +26,7 @@ module Graph
           return unless colors = species.eye_colors
           return if species.eye_colors.include?("none")
 
-          colors.delete(" \t\r\n").split(",")
+          colors.split(", ")
         end
       end
 
@@ -36,7 +36,7 @@ module Graph
           return unless colors = species.hair_colors
           return if species.hair_colors.include?("none")
 
-          colors.delete(" \t\r\n").split(",")
+          colors.split(", ")
         end
       end
 
@@ -46,7 +46,7 @@ module Graph
           return unless colors = species.skin_colors
           return if species.skin_colors.include?("none")
 
-          colors.delete(" \t\r\n").split(",")
+          colors.split(", ")
         end
       end
 
