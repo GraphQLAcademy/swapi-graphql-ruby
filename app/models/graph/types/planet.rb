@@ -4,7 +4,9 @@ module Graph
       name "Planet"
       description "A large mass, planet or planetoid in the Star Wars Universe, at the time of 0 ABY."
 
-      field :id, types.ID, "The ID of the person."
+      interfaces [GraphQL::Relay::Node.interface]
+
+      global_id_field :id
 
       field :name, types.String, "The name of this planet."
       field :diameter, types.Int, "The diameter of this planet in kilometers."

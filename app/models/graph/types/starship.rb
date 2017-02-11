@@ -4,9 +4,9 @@ module Graph
       name "Starship"
       description "A single transport craft that has hyperdrive capability."
 
-      interfaces [Graph::Types::TransportInterface]
+      interfaces [GraphQL::Relay::Node.interface, Graph::Types::TransportInterface]
 
-      field :id, types.ID, "The ID of this starship."
+      global_id_field :id
 
       # Starship Specific Fields
 

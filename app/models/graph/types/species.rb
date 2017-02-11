@@ -4,7 +4,9 @@ module Graph
       name "Species"
       description "A type of person or character within the Star Wars Universe."
 
-      field :id, types.ID, "The ID of this species."
+      interfaces [GraphQL::Relay::Node.interface]
+
+      global_id_field :id
 
       field :name, types.String, "The name of this species."
       field :classification, types.String, "The classification of this species, such as \"mammal\" or \"reptile\"."

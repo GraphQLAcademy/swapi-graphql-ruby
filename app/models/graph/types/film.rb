@@ -4,7 +4,9 @@ module Graph
       name "Film"
       description "A single film."
 
-      field :id, types.ID, "The ID of the Film."
+      interfaces [GraphQL::Relay::Node.interface]
+
+      global_id_field :id
 
       field :title, types.String, "The title of this film"
       field :episodeID, types.Int, "The episode number of this film.", property: :episode_id

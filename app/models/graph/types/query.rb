@@ -4,6 +4,10 @@ module Graph
       name "Query"
       description "The query root of this schema"
 
+      # Relay
+      field :node, GraphQL::Relay::Node.field
+      field :nodes, GraphQL::Relay::Node.plural_field
+
       field :person, Graph::Types::Person do
         argument :id, types.ID
         resolve ->(_, args, _) { ::Person.find_by(id: args['id']) }
