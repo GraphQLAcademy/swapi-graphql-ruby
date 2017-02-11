@@ -51,6 +51,9 @@ GEM
     graphiql-rails (1.4.1)
       rails
     graphql (1.4.3)
+    graphql-batch (0.3.1)
+      graphql (>= 0.8, < 2)
+      promise.rb (~> 0.7.2)
     i18n (0.8.0)
     json (2.0.2)
     listen (3.0.8)
@@ -70,6 +73,7 @@ GEM
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     pg (0.19.0)
+    promise.rb (0.7.2)
     puma (3.7.0)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -137,6 +141,7 @@ DEPENDENCIES
   byebug
   graphiql-rails (~> 1.4.1)
   graphql (~> 1.4.3)
+  graphql-batch
   listen (~> 3.0.5)
   pg
   puma (~> 3.0)

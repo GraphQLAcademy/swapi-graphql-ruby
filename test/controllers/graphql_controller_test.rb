@@ -113,7 +113,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
 
   def full_graphql_query
     "
-      query Full($personID: ID, $filmID: ID, $planetID: ID, $starshipID: ID, $speciesID: ID, $vehicleID: ID) {
+      query Full($personID: ID!, $filmID: ID!, $planetID: ID!, $starshipID: ID!, $speciesID: ID!, $vehicleID: ID!) {
         person(id: $personID) {
           birthYear
           eyeColor
@@ -204,12 +204,12 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
     vehicle = vehicles(:snowspeeder)
 
     {
-      "starshipID" => starship.id,
-      "personID" => person.id,
-      "filmID" => film.id,
-      "planetID" => planet.id,
-      "speciesID" => species.id,
-      "vehicleID" => vehicle.id
+      "starshipID" => starship.to_global_id,
+      "personID" => person.to_global_id,
+      "filmID" => film.to_global_id,
+      "planetID" => planet.to_global_id,
+      "speciesID" => species.to_global_id,
+      "vehicleID" => vehicle.to_global_id,
     }
   end
 end
