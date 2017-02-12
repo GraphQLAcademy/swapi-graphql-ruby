@@ -12,10 +12,10 @@ module Graph
       connection :films, Graph::Types::Film.connection_type
 
       field :name, !types.String, "The name of this species."
-      field :classification, !types.String, "The classification of this species, such as \"mammal\" or \"reptile\"."
-      field :designation, !types.String, "The designation of this species, such as \"sentient\"."
+      field :classification, types.String, "The classification of this species, such as \"mammal\" or \"reptile\"."
+      field :designation, types.String, "The designation of this species, such as \"sentient\"."
 
-      field :averageHeight, !types.Float do
+      field :averageHeight, types.Float do
         description "The average height of this species in centimeters."
         property :average_height
       end
@@ -49,8 +49,8 @@ module Graph
         end
       end
 
-      field :language, !types.String, "The language commonly spoken by this species."
-      field :homeworld, !Graph::Types::Planet, "A planet that this species originates from type."
+      field :language, types.String, "The language commonly spoken by this species."
+      field :homeworld, Graph::Types::Planet, "A planet that this species originates from type."
     end
   end
 end
