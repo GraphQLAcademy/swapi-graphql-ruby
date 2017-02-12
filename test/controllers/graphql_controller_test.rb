@@ -109,6 +109,50 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
     assert_equal expected, JSON.parse(response.body)
   end
 
+  test "#execute allows authentication via basic auth" do
+    query = """
+    {
+      viewer {
+        username
+      }
+    }
+"""
+
+    expected = {
+      "data" => {
+        "viewer" => {
+          "username" => "xuorig"
+        }
+      }
+    }
+
+    post graphql_url, params: { query: query }, headers: {
+      "Authorization" => ActionController::HttpAuthentication::Basic.encode_credentials("xuorig", "averysecurepassword"),
+    }
+
+    assert_equal expected, JSON.parse(response.body)
+  end
+
+  test "#execute authentication is not required" do
+    query = """
+    {
+      viewer {
+        username
+      }
+    }
+"""
+
+    expected = {
+      "data" => {
+        "viewer" => nil
+      }
+    }
+
+    post graphql_url, params: { query: query }
+
+    assert_equal expected, JSON.parse(response.body)
+  end
+
   private
 
   def full_graphql_query

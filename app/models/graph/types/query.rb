@@ -46,6 +46,17 @@ module Graph
         }
       end
 
+      field :viewer, Graph::Types::User, 'The currently authenticated user (if any)' do
+        resolve ->(_, _, ctx) {
+          case ctx[:user]
+          when ::User
+            ctx[:user]
+          else
+            nil
+          end
+        }
+      end
+
       # Relay
       field :node, GraphQL::Relay::Node.field
       field :nodes, GraphQL::Relay::Node.plural_field
