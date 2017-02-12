@@ -8,4 +8,7 @@ class Film < ApplicationRecord
     join_table: 'films_people',
     foreign_key: 'film_id',
     association_foreign_key: 'person_id'
+
+  has_many :ratings
+  has_many :critics, through: :ratings, source: :user
 end

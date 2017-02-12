@@ -1,0 +1,4 @@
+good-rating:
+  user: test-user
+  film: a-new-hope
+  rating: 5
