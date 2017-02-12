@@ -28,8 +28,11 @@ module Graph
       field :releaseDate, !types.String,
         "The ISO 8601 date format of film release at original creator country.", property: :release_date
 
-      field :created_at, !types.String, "The ISO 8601 date format of the time that this resource was created."
-      field :updated_at, !types.String, "The ISO 8601 date format of the time that this resource was edited."
+      field :createdAt, !types.String,
+        "The ISO 8601 date format of the time that this resource was created.", property: :created_at
+
+      field :updatedAt, !types.String, "The ISO 8601 date format of the time that this resource was edited.",
+        property: :updated_at
     end
   end
 end

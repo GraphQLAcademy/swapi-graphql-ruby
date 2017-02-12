@@ -59,7 +59,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "cargoCapacity" => 100000.0,
           "consumables" => "2 months",
           "costInCredits" => 100000.0,
-          "created_at" => "2014-12-10 16:59:45 UTC",
+          "createdAt" => "2014-12-10 16:59:45 UTC",
           "crew" => "4",
           "hyperdriveRating" => 0.5,
           "length" => 34.37,
@@ -75,7 +75,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "cargoCapacity" => 10.0,
           "consumables" => "none",
           "costInCredits" => nil,
-          "created_at" => "2014-12-15 12:22:12 UTC",
+          "createdAt" => "2014-12-15 12:22:12 UTC",
           "crew" => "2",
           "length" => 4.5,
           "manufacturer" => "Incom corporation",
@@ -211,7 +211,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           cargoCapacity
           consumables
           costInCredits
-          created_at
+          createdAt
           crew
           hyperdriveRating
           length
@@ -227,7 +227,7 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           cargoCapacity
           consumables
           costInCredits
-          created_at
+          createdAt
           crew
           length
           manufacturer
