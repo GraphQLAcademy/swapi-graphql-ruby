@@ -19,5 +19,8 @@ module Graph
 
       Object.const_get(gid.model_name).find(gid.model_id)
     end
+
+    lazy_resolve(Promise, :sync)
+    instrument(:query, GraphQL::Batch::Setup)
   end
 end
