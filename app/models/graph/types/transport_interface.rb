@@ -14,7 +14,7 @@ module Graph
       field :maxAtmospheringSpeed, types.Int
       field :cargoCapacity, types.Float
       field :consumables, types.String
-      field :pilots, types[Graph::Types::Person]
+      connection :pilots, Graph::Types::Person.connection_type
     end
   end
 end

@@ -8,6 +8,9 @@ module Graph
 
       global_id_field :id
 
+      connection :people, Graph::Types::Person.connection_type
+      connection :films, Graph::Types::Film.connection_type
+
       field :name, types.String, "The name of this species."
       field :classification, types.String, "The classification of this species, such as \"mammal\" or \"reptile\"."
       field :designation, types.String, "The designation of this species, such as \"sentient\"."

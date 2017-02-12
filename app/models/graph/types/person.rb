@@ -8,6 +8,10 @@ module Graph
 
       global_id_field :id
 
+      connection :starships, Graph::Types::Starship.connection_type
+      connection :vehicles, Graph::Types::Vehicle.connection_type
+      connection :films, Graph::Types::Film.connection_type
+
       field :birthYear, types.String,
         "The birth year of the person, using the in-universe standard of BBY or ABY"\
         " - Before the Battle of Yavin or After the Battle of Yavin. The Battle of Yavin"\

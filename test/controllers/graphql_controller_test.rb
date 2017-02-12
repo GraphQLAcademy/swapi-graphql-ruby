@@ -66,16 +66,6 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "manufacturer" => "Corellian Engineering Corporation",
           "maxAtmospheringSpeed" => 1050,
           "passengers" => "6",
-          "pilots" => [
-            { "name" => "Chewbacca" },
-            { "name" => "Han Solo" },
-            { "name" => "Lando Calrissian" },
-            { "name" => "Nien Nunb" },
-            { "name" => "Chewbacca" },
-            { "name" => "Han Solo" },
-            { "name" => "Lando Calrissian" },
-            { "name" => "Nien Nunb" }
-          ],
           "starshipClass" => "Light freighter"
         },
         "vehicle" => {
@@ -91,12 +81,6 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           "manufacturer" => "Incom corporation",
           "maxAtmospheringSpeed" => 650,
           "passengers" => "0",
-          "pilots" => [
-            { "name" => "Luke Skywalker" },
-            { "name" => "Wedge Antilles" },
-            { "name" => "Luke Skywalker" },
-            { "name" => "Wedge Antilles" },
-          ],
           "vehicleClass"=>"airspeeder"
         }
       }
@@ -190,7 +174,6 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           manufacturer
           maxAtmospheringSpeed
           passengers
-          pilots { name }
           starshipClass
         }
         vehicle(id: $vehicleID) {
@@ -206,7 +189,6 @@ class GraphQLControllerTest < ActionDispatch::IntegrationTest
           manufacturer
           maxAtmospheringSpeed
           passengers
-          pilots { name }
           vehicleClass
         }
       }
