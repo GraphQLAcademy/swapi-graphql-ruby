@@ -1,6 +1,7 @@
 module Graph
   Schema = GraphQL::Schema.define do
     query Graph::Types::Query
+    mutation Graph::Mutations::Mutation
 
     resolve_type ->(obj, ctx) do
       Graph::Schema.types.values.find { |type| type.name == obj.class.name }
