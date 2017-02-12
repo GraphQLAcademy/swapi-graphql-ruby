@@ -20,7 +20,7 @@ module Graph
       field :model, !types.String, "The model or official name of this vehicle. Such as \"All-Terrain Attack Transport\"."
 
       field :manufacturer, !types.String, "The manufacturer of this vehicle."
-      field :costInCredits, !types.Float, "The cost of this vehicle new, in galactic credits", property: :cost_in_credits
+      field :costInCredits, types.Float, "The cost of this vehicle new, in galactic credits", property: :cost_in_credits
       field :length, !types.Float, "The length of this vehicle in meters."
       field :crew, !types.String, "The number of personnel needed to run or pilot this vehicle."
       field :passengers, !types.String, "The number of non-essential people this vehicle can transport."

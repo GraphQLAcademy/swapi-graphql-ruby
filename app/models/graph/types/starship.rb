@@ -34,7 +34,7 @@ module Graph
       field :model, !types.String, "The model or official name of this starship. Such as \"T-65 X-wing\" or \"DS-1 Orbital Battle Station\"."
 
       field :manufacturer, !types.String, "The manufacturer of this starship."
-      field :costInCredits, !types.Float, "The cost of this starship new, in galactic credits", property: :cost_in_credits
+      field :costInCredits, types.Float, "The cost of this starship new, in galactic credits", property: :cost_in_credits
       field :length, !types.Float, "The length of this starship in meters."
       field :crew, !types.String, "The number of personnel needed to run or pilot this starship."
       field :passengers, !types.String, "The number of non-essential people this starship can transport."

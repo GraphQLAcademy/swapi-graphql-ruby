@@ -18,12 +18,12 @@ module Graph
         " is a battle that occurs at the end of Star Wars episode IV: A New Hope.",
         property: :birth_year
 
-      field :eyeColor, !types.String,
+      field :eyeColor, types.String,
         "The eye color of this person. Will be \"unknown\" if not known or \"n/a\" if the person does not have an eye.",
         property: :eye_color
 
       field :gender, !GenderEnum, "​The gender of this person."
-      field :hairColor, !types.String,
+      field :hairColor, types.String,
         "The hair color of this person. Will be \"unknown\" if not known or \"n/a\" if the person does not have hair.",
         property: :hair_color
 
