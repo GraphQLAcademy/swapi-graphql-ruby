@@ -4,7 +4,9 @@ class GraphqlController < ApplicationController
   def execute
     query_string = params[:query].to_s
     variables = ensure_hash(params[:variables])
-    context = { user: @user }
+    context = {
+      user: @user
+    }
 
     result = Graph::Schema.execute(query_string, variables: variables, context: context)
     render json: result
