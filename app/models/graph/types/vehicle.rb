@@ -37,7 +37,7 @@ module Graph
       end
 
       field :consumables, types.String, "The maximum length of time that this vehicle can provide consumables for its entire crew without having to resupply."
-      field :pilots, types[Graph::Types::Person], "The pilots on this vehicle."
+      connection :pilots, Graph::Types::Person.connection_type
 
       field :created_at, types.String, "The ISO 8601 date format of the time that this resource was created."
       field :updated_at, types.String, "The ISO 8601 date format of the time that this resource was updated."

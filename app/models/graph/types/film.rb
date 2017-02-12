@@ -8,6 +8,12 @@ module Graph
 
       global_id_field :id
 
+      connection :starships, Graph::Types::Starship.connection_type
+      connection :vehicles, Graph::Types::Vehicle.connection_type
+      connection :species, Graph::Types::Species.connection_type
+      connection :characters, Graph::Types::Person.connection_type
+      connection :planets, Graph::Types::Planet.connection_type
+
       field :title, types.String, "The title of this film"
       field :episodeID, types.Int, "The episode number of this film.", property: :episode_id
       field :openingCrawl, types.String,
@@ -24,12 +30,6 @@ module Graph
 
       field :created_at, types.String, "The ISO 8601 date format of the time that this resource was created."
       field :updated_at, types.String, "The ISO 8601 date format of the time that this resource was edited."
-
-      # TODO field :species
-      # TODO field :starships
-      # TODO field :vehicles
-      # TODO field :characters
-      # TODO field :planets
     end
   end
 end

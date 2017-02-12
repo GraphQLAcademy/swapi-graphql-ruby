@@ -8,6 +8,9 @@ module Graph
 
       global_id_field :id
 
+      connection :films, Graph::Types::Film.connection_type
+      connection :residents, Graph::Types::Person.connection_type
+
       field :name, types.String, "The name of this planet."
       field :diameter, types.Int, "The diameter of this planet in kilometers."
 
