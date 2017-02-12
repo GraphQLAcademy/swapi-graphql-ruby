@@ -4,7 +4,7 @@ module Graph
       name "Transport"
       description "A single transport craft"
 
-      field :name, types.String
+      field :name, !types.String
       field :model, types.String
       field :manufacturer, types.String
       field :costInCredits, types.Float

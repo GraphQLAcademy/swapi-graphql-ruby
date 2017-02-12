@@ -10,13 +10,13 @@ module Graph
 
       # Vehicle Specific Fields
 
-      field :vehicleClass, types.String do
+      field :vehicleClass, !types.String do
         description "The class of this vehicle, such as \"Wheeled\" or \"Repulsorcraft\"."
         property :vehicle_class
       end
 
       # Transport Interface Fields
-      field :name, types.String, "The name of this vehicle. The common name, such as \"Sand Crawler\" or \"Speeder bike\""
+      field :name, !types.String, "The name of this vehicle. The common name, such as \"Sand Crawler\" or \"Speeder bike\""
       field :model, types.String, "The model or official name of this vehicle. Such as \"All-Terrain Attack Transport\"."
 
       field :manufacturer, types.String, "The manufacturer of this vehicle."
@@ -39,8 +39,8 @@ module Graph
       field :consumables, types.String, "The maximum length of time that this vehicle can provide consumables for its entire crew without having to resupply."
       connection :pilots, Graph::Types::Person.connection_type
 
-      field :created_at, types.String, "The ISO 8601 date format of the time that this resource was created."
-      field :updated_at, types.String, "The ISO 8601 date format of the time that this resource was updated."
+      field :created_at, !types.String, "The ISO 8601 date format of the time that this resource was created."
+      field :updated_at, !types.String, "The ISO 8601 date format of the time that this resource was updated."
     end
   end
 end

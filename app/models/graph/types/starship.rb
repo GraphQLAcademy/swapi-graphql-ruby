@@ -10,14 +10,14 @@ module Graph
 
       # Starship Specific Fields
 
-      field :starshipClass, types.String do
+      field :starshipClass, !types.String do
         description "The class of this starship, such as \"Starfighter\" or \"Deep Space Mobile Battlestation\""
         property :starship_class
       end
 
-      field :hyperdriveRating, types.Float, "The class of this starships hyperdrive.", property: :hyperdrive_rating
+      field :hyperdriveRating, !types.Float, "The class of this starships hyperdrive.", property: :hyperdrive_rating
 
-      field :MGLT, types.Int do
+      field :MGLT, !types.Int do
         description "
           The Maximum number of Megalights this starship can travel in a standard hour.
           A \"Megalight\" is a standard unit of distance and has never been
@@ -30,7 +30,7 @@ module Graph
 
       # Transport Interface Fields
 
-      field :name, types.String, "The name of this starship. The common name, such as \"Death Star\"."
+      field :name, !types.String, "The name of this starship. The common name, such as \"Death Star\"."
       field :model, types.String, "The model or official name of this starship. Such as \"T-65 X-wing\" or \"DS-1 Orbital Battle Station\"."
 
       field :manufacturer, types.String, "The manufacturer of this starship."
@@ -53,8 +53,8 @@ module Graph
       field :consumables, types.String, "The maximum length of time that this starship can provide consumables for its entire crew without having to resupply."
       connection :pilots, Graph::Types::Person.connection_type
 
-      field :created_at, types.String, "The ISO 8601 date format of the time that this resource was created."
-      field :updated_at, types.String, "The ISO 8601 date format of the time that this resource was updated."
+      field :created_at, !types.String, "The ISO 8601 date format of the time that this resource was created."
+      field :updated_at, !types.String, "The ISO 8601 date format of the time that this resource was updated."
     end
   end
 end

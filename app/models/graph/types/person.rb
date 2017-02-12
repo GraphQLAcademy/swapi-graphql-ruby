@@ -30,7 +30,7 @@ module Graph
       field :height, types.Int, "The height of the person in centimeters."
       field :homeworld, Planet, "A planet that this person was born on or inhabits."
       field :mass, types.Int, "The mass of the person in kilograms."
-      field :name, types.String, "The name of this person."
+      field :name, !types.String, "The name of this person."
       field :skinColor, types.String, "The skin color of this person.", property: :skin_color
     end
   end

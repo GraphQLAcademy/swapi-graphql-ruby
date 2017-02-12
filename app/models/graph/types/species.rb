@@ -11,7 +11,7 @@ module Graph
       connection :people, Graph::Types::Person.connection_type
       connection :films, Graph::Types::Film.connection_type
 
-      field :name, types.String, "The name of this species."
+      field :name, !types.String, "The name of this species."
       field :classification, types.String, "The classification of this species, such as \"mammal\" or \"reptile\"."
       field :designation, types.String, "The designation of this species, such as \"sentient\"."
 
@@ -41,7 +41,7 @@ module Graph
         end
       end
 
-      field :skinColors, types[types.String] do
+      field :skinColors, types[!types.String] do
         description "Common skin colors for this species, null if this species does not typically have skin."
         resolve ->(species, _, _) do
           return unless colors = species.skin_colors

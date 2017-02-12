@@ -11,7 +11,7 @@ module Graph
       connection :films, Graph::Types::Film.connection_type
       connection :residents, Graph::Types::Person.connection_type
 
-      field :name, types.String, "The name of this planet."
+      field :name, !types.String, "The name of this planet."
       field :diameter, types.Int, "The diameter of this planet in kilometers."
 
       field :rotationPeriod, types.Int,
