@@ -1,6 +1,7 @@
 module Graph
   Schema = GraphQL::Schema.define do
     query Graph::Types::Query
+    mutation Graph::Mutations::Mutation
 
     resolve_type ->(obj, ctx) do
       Graph::Schema.types.values.find { |type| type.name == obj.class.name }
@@ -12,6 +13,8 @@ module Graph
 
     object_from_id ->(id, query_ctx) do
       gid = GlobalID.parse(id)
+      return unless gid
+
       possible_types = query_ctx.warden.possible_types(GraphQL::Relay::Node.interface)
 
       return unless possible_types.map(&:name).include?(gid.model_name)
