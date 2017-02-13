@@ -14,6 +14,9 @@ module Graph
       connection :characters, Graph::Types::Person.connection_type
       connection :planets, Graph::Types::Planet.connection_type
 
+      connection :ratings, Graph::Types::Rating.connection_type
+      connection :critics, Graph::Types::User.connection_type
+
       field :title, !types.String, "The title of this film"
       field :episodeID, !types.Int, "The episode number of this film.", property: :episode_id
       field :openingCrawl, !types.String,
