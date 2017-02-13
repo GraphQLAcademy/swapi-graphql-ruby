@@ -13,6 +13,8 @@ module Graph
 
     object_from_id ->(id, query_ctx) do
       gid = GlobalID.parse(id)
+      return unless gid
+
       possible_types = query_ctx.warden.possible_types(GraphQL::Relay::Node.interface)
 
       return unless possible_types.map(&:name).include?(gid.model_name)

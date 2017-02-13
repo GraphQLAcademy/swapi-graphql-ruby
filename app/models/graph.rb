@@ -5,14 +5,21 @@ module Graph
         type type
         argument :id, !types.ID
         resolve ->(_, args, _) do
-          gid = GlobalID.parse(args[:id])
+          model_id = Graph.parse_id(args[:id], model)
 
-          return unless gid
-          return unless gid.model_name == type.name
-
-          Graph::FindLoader.for(model).load(gid.model_id.to_i)
+          Graph::FindLoader.for(model).load(model_id)
         end
       end
+    end
+
+    def parse_id(gid, model)
+      parsed_gid = GlobalID.parse(gid)
+
+      return unless parsed_gid
+      return unless parsed_gid.app == GlobalID.app
+      return unless parsed_gid.model_name != model.name.downcase
+
+      parsed_gid.model_id.to_i
     end
   end
 end

@@ -2,6 +2,9 @@ class GraphqlController < ApplicationController
   before_action :authenticate
 
   def execute
+    context = {
+      user: @user,
+    }
     query_string = params[:query].to_s
     variables = ensure_hash(params[:variables])
     context = {
