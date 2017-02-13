@@ -22,13 +22,17 @@ module Graph
         "The eye color of this person. Will be \"unknown\" if not known or \"n/a\" if the person does not have an eye.",
         property: :eye_color
 
-      field :gender, GenderEnum, "​The gender of this person."
+      field :gender, GenderEnum, "The gender of this person."
       field :hairColor, types.String,
         "The hair color of this person. Will be \"unknown\" if not known or \"n/a\" if the person does not have hair.",
         property: :hair_color
 
       field :height, types.Int, "The height of the person in centimeters."
-      field :homeworld, Planet, "A planet that this person was born on or inhabits."
+      field :homeworld, Planet, "A planet that this person was born on or inhabits." do
+        resolve -> (person, _, _) do
+          Graph::AssociationLoader.for(::Person, :homeworld).load(person)
+        end
+      end
       field :mass, types.Int, "The mass of the person in kilograms."
       field :name, !types.String, "The name of this person."
       field :skinColor, types.String, "The skin color of this person.", property: :skin_color

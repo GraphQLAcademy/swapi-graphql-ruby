@@ -50,7 +50,11 @@ module Graph
       end
 
       field :language, types.String, "The language commonly spoken by this species."
-      field :homeworld, Graph::Types::Planet, "A planet that this species originates from type."
+      field :homeworld, Planet, "A planet that this species originates from type." do
+        resolve -> (species, _, _) do
+          Graph::AssociationLoader.for(::Species, :homeworld).load(species)
+        end
+      end
     end
   end
 end
