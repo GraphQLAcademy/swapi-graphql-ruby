@@ -8,3 +8,7 @@ module GraphQL
     end
   end
 end
+
+GraphQL::ObjectType.accepts_definitions(
+  model: GraphQL::Define.assign_metadata_key(:model)
+)

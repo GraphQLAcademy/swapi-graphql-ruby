@@ -3,7 +3,7 @@ module Graph
     query Graph::Types::Query
 
     resolve_type ->(obj, ctx) do
-      Graph::Schema.types.values.find { |type| type.name == obj.class.name }
+      Graph::Schema.types.values.find { |type| type.metadata[:model] == obj.class }
     end
 
     id_from_object ->(object, type_definition, query_ctx) do
@@ -12,12 +12,16 @@ module Graph
 
     object_from_id ->(id, query_ctx) do
       gid = GlobalID.parse(id)
-      possible_types = query_ctx.warden.possible_types(GraphQL::Relay::Node.interface)
+      object_class = Object.const_get(gid.model_name)
 
-      return unless possible_types.map(&:name).include?(gid.model_name)
+      possible_types = query_ctx.warden.possible_types(GraphQL::Relay::Node.interface)
+      possible_models = possible_types.map { |type| type.metadata[:model] }
+
+      return unless object_class
+      return unless possible_models.include?(object_class)
       return unless gid.app == GlobalID.app
 
-      Object.const_get(gid.model_name).find(gid.model_id)
+      object_class.find(gid.model_id)
     end
 
     lazy_resolve(Promise, :sync)
