@@ -12,6 +12,11 @@ module Graph
       connection :vehicles, Graph::Types::Vehicle.connection_type
       connection :films, Graph::Types::Film.connection_type
 
+      connection :ratings, Graph::Types::Rating.connection_type
+      connection :ratedFilms, Graph::Types::Film.connection_type do
+        property :rated_films
+      end
+
       field :birthYear, types.String,
         "The birth year of the person, using the in-universe standard of BBY or ABY"\
         " - Before the Battle of Yavin or After the Battle of Yavin. The Battle of Yavin"\
