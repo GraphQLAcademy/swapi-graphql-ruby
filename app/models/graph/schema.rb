@@ -17,7 +17,8 @@ module Graph
       return unless possible_types.map(&:name).include?(gid.model_name)
       return unless gid.app == GlobalID.app
 
-      Object.const_get(gid.model_name).find(gid.model_id)
+      model = Object.const_get(gid.model_name)
+      Graph::FindLoader.for(model).load(gid.model_id.to_i)
     end
 
     lazy_resolve(Promise, :sync)
