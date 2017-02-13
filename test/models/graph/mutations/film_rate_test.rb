@@ -12,6 +12,9 @@ class Graph::Mutations::FilmRateTest < ActiveSupport::TestCase
           film {
             title
           }
+          rating {
+            rating
+          }
           errors {
             field
             message
@@ -67,6 +70,7 @@ class Graph::Mutations::FilmRateTest < ActiveSupport::TestCase
           "film" => {
             "title" => @film.title
           },
+          "rating" => nil,
           "errors" => [
             { "field" => "rating", "message" => "must be less than or equal to 5" }
           ]
@@ -84,6 +88,9 @@ class Graph::Mutations::FilmRateTest < ActiveSupport::TestCase
         "filmRate" => {
           "film" => {
             "title" => @film.title
+          },
+          "rating" => {
+            "rating" => 5
           },
           "errors" => [],
         }
@@ -107,6 +114,9 @@ class Graph::Mutations::FilmRateTest < ActiveSupport::TestCase
         "filmRate" => {
           "film" => {
             "title" => @film.title
+          },
+          "rating" => {
+            "rating" => 5
           },
           "errors" => [],
         }

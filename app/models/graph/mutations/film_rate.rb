@@ -6,7 +6,8 @@ module Graph
       input_field :filmId, !types.ID
       input_field :rating, !types.Int
 
-      return_field :film, Graph::Types::Film
+      return_field :film, !Graph::Types::Film
+      return_field :rating, Graph::Types::Rating
       return_field :errors, !types[!Graph::Types::MutationError]
 
       resolve ->(_, input, ctx) do
@@ -22,11 +23,13 @@ module Graph
         if rating.save
           {
             film: film,
+            rating: rating,
             errors: []
           }
         else
           {
             film: film,
+            rating: nil,
             errors: rating.errors.map { |field, message| MutationError.new(field, message) },
           }
         end
