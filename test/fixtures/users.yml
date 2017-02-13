@@ -1,3 +1,4 @@
-test-user:
-  name: xuorig
+xuorig:
+  name: Marc-André Giroux
+  username: xuorig
   password_digest: <%= BCrypt::Password.create('averysecurepassword', cost: BCrypt::Engine.cost) %>

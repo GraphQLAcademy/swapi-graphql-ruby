@@ -53,8 +53,11 @@ module Graph
       field :consumables, types.String, "The maximum length of time that this starship can provide consumables for its entire crew without having to resupply."
       connection :pilots, Graph::Types::Person.connection_type
 
-      field :created_at, !types.String, "The ISO 8601 date format of the time that this resource was created."
-      field :updated_at, !types.String, "The ISO 8601 date format of the time that this resource was updated."
+      field :createdAt, !types.String,
+        "The ISO 8601 date format of the time that this resource was created.", property: :created_at
+
+      field :updatedAt, !types.String,
+        "The ISO 8601 date format of the time that this resource was updated.", property: :updated_at
     end
   end
 end
