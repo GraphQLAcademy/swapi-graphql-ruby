@@ -48,12 +48,7 @@ module Graph
 
       field :viewer, Graph::Types::User, 'The currently authenticated user (if any)' do
         resolve ->(_, _, ctx) {
-          case ctx[:user]
-          when ::User
-            ctx[:user]
-          else
-            nil
-          end
+          ctx[:user]
         }
       end
 

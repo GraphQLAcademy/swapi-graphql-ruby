@@ -23,8 +23,6 @@ class GraphqlController < ApplicationController
 
       user
     }
-
-    @user ||= GuestUser.new
   end
 
   def ensure_hash(variables)
