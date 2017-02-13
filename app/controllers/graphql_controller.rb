@@ -18,8 +18,8 @@ class GraphqlController < ApplicationController
     @user = authenticate_with_http_basic { |username, password|
       user = User.where(username: username).first
 
-      return render plain: 'Invalid username', status: :unauthorized unless user
-      return render plain: 'Invalid password', status: :authorized unless user.authenticate(password)
+      return unless user
+      return unless user.authenticate(password)
 
       user
     }
