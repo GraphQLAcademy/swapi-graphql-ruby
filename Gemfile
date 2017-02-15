@@ -10,7 +10,7 @@ gem 'rails', '~> 5.0.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use GraphQL!
-gem 'graphql', '~> 1.4.3'
+gem 'graphql', github: 'rmosolgo/graphql-ruby', ref: 'a655714240c59e86c84bb22b82d776be02eddb8f'
 gem 'graphql-batch'
 # GraphiQL Interface
 gem 'graphiql-rails', '~> 1.4.1'
