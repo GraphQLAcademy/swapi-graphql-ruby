@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/rmosolgo/graphql-ruby.git
+  revision: a655714240c59e86c84bb22b82d776be02eddb8f
+  ref: a655714240c59e86c84bb22b82d776be02eddb8f
+  specs:
+    graphql (1.4.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,7 +58,6 @@ GEM
       activesupport (>= 4.1.0)
     graphiql-rails (1.4.1)
       rails
-    graphql (1.4.3)
     graphql-batch (0.3.1)
       graphql (>= 0.8, < 2)
       promise.rb (~> 0.7.2)
@@ -142,7 +148,7 @@ DEPENDENCIES
   bcrypt
   byebug
   graphiql-rails (~> 1.4.1)
-  graphql (~> 1.4.3)
+  graphql!
   graphql-batch
   listen (~> 3.0.5)
   pg
