@@ -24,6 +24,8 @@ module Graph
       Graph::FindLoader.for(model).load(gid.model_id.to_i)
     end
 
+    authorization ->(ctx) { !!ctx[:user] }
+
     lazy_resolve(Promise, :sync)
     instrument(:query, GraphQL::Batch::Setup)
   end

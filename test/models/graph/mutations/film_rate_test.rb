@@ -37,7 +37,7 @@ class Graph::Mutations::FilmRateTest < ActiveSupport::TestCase
     expected = {
       "data" => { "filmRate" => nil},
       "errors" => [{
-        "message" => "Authentication required to rate a film.",
+        "message" => "Authentication required to use: Mutation.filmRate",
         "locations" => [{ "line" => 3, "column" => 9}],
         "path" => ["filmRate"]}
       ]
