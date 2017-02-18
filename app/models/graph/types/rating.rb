@@ -6,8 +6,14 @@ module Graph
 
       interfaces [GraphQL::Relay::Node.interface]
 
-      field :user, !Graph::Types::User, "The critic."
-      field :film, !Graph::Types::Film, "The rated film."
+      field :user, !Graph::Types::User, "The critic." do
+        preloads :user
+      end
+
+      field :film, !Graph::Types::Film, "The rated film." do
+        preloads :film
+      end
+
       field :rating, !types.Int, "A film rating from 0 to 5."
       field :createdAt, !types.String,
         "The ISO 8601 date format of the time that this resource was created.", property: :created_at
