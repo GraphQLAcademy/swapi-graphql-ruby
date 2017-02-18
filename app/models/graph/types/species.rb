@@ -3,6 +3,7 @@ module Graph
     Species = GraphQL::ObjectType.define do
       name "Species"
       description "A type of person or character within the Star Wars Universe."
+      model ::Species
 
       interfaces [GraphQL::Relay::Node.interface]
 

@@ -3,6 +3,7 @@ module Graph
     Person = GraphQL::ObjectType.define do
       name "Person"
       description "An individual person or character within the Star Wars universe."
+      model ::Person
 
       interfaces [GraphQL::Relay::Node.interface]
 

@@ -3,6 +3,7 @@ module Graph
     Rating = GraphQL::ObjectType.define do
       name "Rating"
       description "A rating made by a user on a film."
+      model ::Rating
 
       interfaces [GraphQL::Relay::Node.interface]
 
