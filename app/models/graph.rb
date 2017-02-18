@@ -1,5 +1,13 @@
+require 'timeout'
+
 module Graph
   class << self
+    def query(query_string, variables: {}, context: {}, timeout: nil)
+      Timeout.timeout(timeout) do
+        Graph::Schema.execute(query_string, variables: variables, context: context)
+      end
+    end
+
     def find_by_id_field(type, model)
       GraphQL::Field.define do
         type type

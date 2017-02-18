@@ -1,14 +1,20 @@
 class GraphqlController < ApplicationController
+  GRAPHQL_TIMEOUT = 10
+
   before_action :authenticate
 
   def execute
     query_string = params[:query].to_s
     variables = ensure_hash(params[:variables])
-    context = {
-      user: @user
-    }
+    context = { user: @user }
 
-    result = Graph::Schema.execute(query_string, variables: variables, context: context)
+    result = Graph.query(
+      query_string,
+      variables: variables,
+      context: context,
+      timeout: GRAPHQL_TIMEOUT
+    )
+
     render json: result
   end
 
