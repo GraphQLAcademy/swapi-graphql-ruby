@@ -284,6 +284,9 @@ type Person implements Node {
   # A planet that this person was born on or inhabits.
   homeworld: Planet
 
+  # The species of this person.
+  species: Species
+
   # The mass of the person in kilograms.
   mass: Int
 

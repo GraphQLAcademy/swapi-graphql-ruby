@@ -1,5 +1,7 @@
 module Graph
   Schema = GraphQL::Schema.define do
+    enable_active_record_batching
+
     query Graph::Types::Query
     mutation Graph::Mutations::Mutation
 
@@ -23,8 +25,5 @@ module Graph
       model = Object.const_get(gid.model_name)
       Graph::FindLoader.for(model).load(gid.model_id.to_i)
     end
-
-    lazy_resolve(Promise, :sync)
-    instrument(:query, GraphQL::Batch::Setup)
   end
 end

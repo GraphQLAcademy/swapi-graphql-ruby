@@ -3,6 +3,7 @@ module Graph
     Person = GraphQL::ObjectType.define do
       name "Person"
       description "An individual person or character within the Star Wars universe."
+      model ::Person
 
       interfaces [GraphQL::Relay::Node.interface]
 
@@ -33,11 +34,15 @@ module Graph
         property: :hair_color
 
       field :height, types.Int, "The height of the person in centimeters."
+
       field :homeworld, Planet, "A planet that this person was born on or inhabits." do
-        resolve -> (person, _, _) do
-          Graph::AssociationLoader.for(::Person, :homeworld).load(person)
-        end
+        preloads :homeworld
       end
+
+      field :species, Species, "The species of this person." do
+        preloads :species
+      end
+
       field :mass, types.Int, "The mass of the person in kilograms."
       field :name, !types.String, "The name of this person."
       field :skinColor, types.String, "The skin color of this person.", property: :skin_color
